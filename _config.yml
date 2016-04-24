@@ -1,0 +1,33 @@
+---
+title: 2016.marcusrelacion.com-v2
+url: http://mr-test.siteleaf.net
+timezone: America/New_York
+collections:
+  journal:
+    title: Journal
+    output: true
+  photos:
+    title: Photos
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
