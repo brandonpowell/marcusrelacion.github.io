@@ -2,9 +2,6 @@
 title: 2016.marcusrelacion.com-v2
 timezone: America/New_York
 collections:
-  journal:
-    title: Journal
-    output: true
   photos:
     title: Photos
     output: true
@@ -13,9 +10,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  work:
-    title: Work
     output: true
 defaults:
 - scope:
