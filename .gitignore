@@ -1,0 +1,12 @@
+# ignore site builds
+_site
+
+# ignore design inspiration txt file
+DesignInsperation.txt
+
+# ignore network storage files
+.DS_Store
+
+node_modules
+
+.jekyll-metadata
