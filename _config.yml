@@ -20,6 +20,7 @@ defaults:
     type: pages
   values:
     layout: page
+logo-image: "/uploads/mr-white-logo.svg"
 permalink: pretty
 sass:
   sass_dir: _sass
