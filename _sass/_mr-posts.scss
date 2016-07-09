@@ -1,8 +1,23 @@
 @import "_mr-typography";
 
-h1 {
-  font-size: 3rem;
-  font-family: $heading;
-  font-weight: 700;
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+h1 {
+  font-size: $text-xx-large;
+  font-family: $serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: $text-large;
+  font-family: $serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: $text-x-small;
+  text-transform: uppercase;
+  font-family: $sans;
 }

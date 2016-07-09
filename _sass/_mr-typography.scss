@@ -1,8 +1,8 @@
 // Variables
 
 // font families
-$heading: 'Lora', serif;
-$copy: 'Roboto', sans-serif;
+$serif: 'Lora', serif;
+$sans: 'Roboto', sans-serif;
 
 // font sizes
 $text-xx-small: 0.5em;
@@ -21,8 +21,8 @@ $uppercase: uppercase;
 $lowercase: lowercase;
 
 /* Typography */
-.heading { font-family: $heading; }
-.copy { font-family: $copy; }
+.serif { font-family: $serif; }
+.sans { font-family: $sans; }
 
 .text-xx-small { font-size: $text-xx-small; }
 .text-x-small { font-size: $text-x-small; }
