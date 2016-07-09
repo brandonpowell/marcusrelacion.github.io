@@ -1,5 +1,18 @@
+body {
+  height: 100vh;
+}
+
+/* sets the max width for the container of the site */
 .container {
   width: 100%;
-  max-width: 60em;
+  max-width: 48em;
   margin: 0 auto;
 }
+
+/* sets the max width of the logo */
+.logo-wrapper {
+  max-width: 75px;
+  width: 100%;
+}
+
+.bg-no-repeat { background-repeat: no-repeat; }
