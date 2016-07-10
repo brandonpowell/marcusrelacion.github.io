@@ -1,0 +1,29 @@
+$primary: #9CD7F6;
+$primary-dark: #49A5D1;
+$primary-light: #CEEEFD;
+
+$secondary: #A6AEF8;
+$secondary-dark: #5B67D9;
+$secondary-light: #D4D9FF;
+
+$gray-dark: rgba(74,88,96,1);
+$gray-light: rgba(250,251,252,1);
+
+$pure-white: rgba(255,255,255,1);
+$pure-black: rgba(0,0,0,1);
+
+
+/* Colors */
+.primary { color: $primary; }
+.primary-dark { color: $primary-dark; }
+.primary-light { color: $primary-light; }
+
+.secondary { color: $secondary; }
+.secondary-dark { color: $secondary-dark; }
+.secondary-light { color: $secondary-light; }
+
+.gray-dark { color: $gray-dark; }
+.gray-light { color: $gray-light; }
+
+.white { color: $pure-white; }
+.black { color: $pure-black; }
