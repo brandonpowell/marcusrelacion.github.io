@@ -37,64 +37,64 @@ $pure-black: rgba(0,0,0,1);
 ///////////////////////////////////////////////////////////
 
 /* columbia */
-.primary-one { color: var($primary-one); }
-.primary-two { color: var($primary-two); }
-.primary-three { color: var($primary-three); }
-.primary-four { color: var($primary-four); }
+.primary-one { color: $primary-one; }
+.primary-two { color: $primary-two; }
+.primary-three { color: $primary-three; }
+.primary-four { color: $primary-four; }
 /* perano */
-.secondary-one { color: var($secondary-one); }
-.secondary-two { color: var($secondary-two); }
-.secondary-three { color: var($secondary-three); }
-.secondary-four { color: var($secondary-four); }
+.secondary-one { color: $secondary-one; }
+.secondary-two { color: $secondary-two; }
+.secondary-three { color: $secondary-three; }
+.secondary-four { color: $secondary-four; }
 /* cream brulee */
-.tertiary-one { color: var($tertiary-one); }
-.tertiary-two { color: var($tertiary-two); }
-.tertiary-three { color: var($tertiary-three); }
-.tertiary-four { color: var($tertiary-four); }
+.tertiary-one { color: $tertiary-one; }
+.tertiary-two { color: $tertiary-two; }
+.tertiary-three { color: $tertiary-three; }
+.tertiary-four { color: $tertiary-four; }
 /* caramel */
-.complementary-one { color: var($complementary-one); }
-.complementary-two { color: var($complementary-two); }
-.complementary-three { color: var($complementary-three); }
-.complementary-four { color: var($complementary-four); }
+.complementary-one { color: $complementary-one; }
+.complementary-two { color: $complementary-two; }
+.complementary-three { color: $complementary-three; }
+.complementary-four { color: $complementary-four; }
 /* grays */
-.gray-dark { color: var($gray-dark); }
-.gray-light { color: var($gray-light); }
+.gray-dark { color: $gray-dark; }
+.gray-light { color: $gray-light; }
 /* pure */
-.pure-white { color: var($pure-white); }
-.pure-black { color: var($pure-black); }
+.pure-white { color: $pure-white; }
+.pure-black { color: $pure-black; }
 
 /*===
 Background Colors
 ===*/
 
 /* columbia */
-.bg-primary-one { background-color: var($primary-one); }
-.bg-primary-two { background-color: var($primary-two); }
-.bg-primary-three { background-color: var($primary-three); }
-.bg-primary-four { background-color: var($primary-four); }
+.bg-primary-one { background-color: $primary-one; }
+.bg-primary-two { background-color: $primary-two; }
+.bg-primary-three { background-color: $primary-three; }
+.bg-primary-four { background-color: $primary-four; }
 
 /* perano */
-.bg-secondary-one { background-color: var($secondary-one); }
-.bg-secondary-two { background-color: var($secondary-two); }
-.bg-secondary-three { background-color: var($secondary-three); }
-.bg-secondary-four { background-color: var($secondary-four); }
+.bg-secondary-one { background-color: $secondary-one; }
+.bg-secondary-two { background-color: $secondary-two; }
+.bg-secondary-three { background-color: $secondary-three; }
+.bg-secondary-four { background-color: $secondary-four; }
 
 /* cream brulee */
-.bg-tertiary-one { background-color: var($tertiary-one); }
-.bg-tertiary-two { background-color: var($tertiary-two); }
-.bg-tertiary-three { background-color: var($tertiary-three); }
-.bg-tertiary-four { background-color: var($tertiary-four); }
+.bg-tertiary-one { background-color: $tertiary-one; }
+.bg-tertiary-two { background-color: $tertiary-two; }
+.bg-tertiary-three { background-color: $tertiary-three; }
+.bg-tertiary-four { background-color: $tertiary-four; }
 
 /* caramel */
-.bg-complementary-one { background-color: var($complementary-one); }
-.bg-complementary-two { background-color: var($complementary-two); }
-.bg-complementary-three { background-color: var($complementary-three); }
-.bg-complementary-four { background-color: var($complementary-four); }
+.bg-complementary-one { background-color: $complementary-one; }
+.bg-complementary-two { background-color: $complementary-two; }
+.bg-complementary-three { background-color: $complementary-three; }
+.bg-complementary-four { background-color: $complementary-four; }
 
 /* grays */
-.bg-gray-dark { background-color: var($gray-dark); }
-.bg-gray-light { background-color: var($gray-light); }
+.bg-gray-dark { background-color: $gray-dark; }
+.bg-gray-light { background-color: $gray-light; }
 
 /* pure background */
-.bg-pure-white { background-color: var($pure-white); }
-.bg-pure-black { background-color: var($pure-black); }
+.bg-pure-white { background-color: $pure-white; }
+.bg-pure-black { background-color: $pure-black; }
