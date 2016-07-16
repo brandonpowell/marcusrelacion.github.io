@@ -1,0 +1,100 @@
+/*===
+Colors
+===*/
+
+/* primary: columbia */
+$primary-one: rgba(158,216,244,1);
+$primary-two: rgba(207,238,252,1);
+$primary-three: rgba(115,193,230,1);
+$primary-four: rgba( 78,165,207,1);
+
+/* secondary: perano */
+$secondary-one: rgba(167,176,246,1);
+$secondary-two: rgba(212,217,253,1);
+$secondary-three: rgba(128,140,234,1);
+$secondary-four: rgba( 92,106,214,1);
+
+/* tertiary: cream brulee */
+$tertiary-one: rgba(255,229,160,1);
+$tertiary-two: rgba(255,242,207,1);
+$tertiary-three: rgba(255,218,121,1);
+$tertiary-four: rgba(255,209, 88,1);
+
+/* complementary: caramel */
+$complementary-one: rgba(255,211,160,1);
+$complementary-two: rgba(255,233,207,1);
+$complementary-three: rgba(255,193,121,1);
+$complementary-four: rgba(255,177, 88,1);
+
+/* grays */
+$gray-dark: rgba(74,88,96,1);
+$gray-light: rgba(250,251,252,1);
+
+/* pure */
+$pure-white: rgba(255,255,255,1);
+$pure-black: rgba(0,0,0,1);
+
+///////////////////////////////////////////////////////////
+
+/* columbia */
+.primary-one { color: var($primary-one); }
+.primary-two { color: var($primary-two); }
+.primary-three { color: var($primary-three); }
+.primary-four { color: var($primary-four); }
+/* perano */
+.secondary-one { color: var($secondary-one); }
+.secondary-two { color: var($secondary-two); }
+.secondary-three { color: var($secondary-three); }
+.secondary-four { color: var($secondary-four); }
+/* cream brulee */
+.tertiary-one { color: var($tertiary-one); }
+.tertiary-two { color: var($tertiary-two); }
+.tertiary-three { color: var($tertiary-three); }
+.tertiary-four { color: var($tertiary-four); }
+/* caramel */
+.complementary-one { color: var($complementary-one); }
+.complementary-two { color: var($complementary-two); }
+.complementary-three { color: var($complementary-three); }
+.complementary-four { color: var($complementary-four); }
+/* grays */
+.gray-dark { color: var($gray-dark); }
+.gray-light { color: var($gray-light); }
+/* pure */
+.pure-white { color: var($pure-white); }
+.pure-black { color: var($pure-black); }
+
+/*===
+Background Colors
+===*/
+
+/* columbia */
+.bg-primary-one { background-color: var($primary-one); }
+.bg-primary-two { background-color: var($primary-two); }
+.bg-primary-three { background-color: var($primary-three); }
+.bg-primary-four { background-color: var($primary-four); }
+
+/* perano */
+.bg-secondary-one { background-color: var($secondary-one); }
+.bg-secondary-two { background-color: var($secondary-two); }
+.bg-secondary-three { background-color: var($secondary-three); }
+.bg-secondary-four { background-color: var($secondary-four); }
+
+/* cream brulee */
+.bg-tertiary-one { background-color: var($tertiary-one); }
+.bg-tertiary-two { background-color: var($tertiary-two); }
+.bg-tertiary-three { background-color: var($tertiary-three); }
+.bg-tertiary-four { background-color: var($tertiary-four); }
+
+/* caramel */
+.bg-complementary-one { background-color: var($complementary-one); }
+.bg-complementary-two { background-color: var($complementary-two); }
+.bg-complementary-three { background-color: var($complementary-three); }
+.bg-complementary-four { background-color: var($complementary-four); }
+
+/* grays */
+.bg-gray-dark { background-color: var($gray-dark); }
+.bg-gray-light { background-color: var($gray-light); }
+
+/* pure background */
+.bg-pure-white { background-color: var($pure-white); }
+.bg-pure-black { background-color: var($pure-black); }
