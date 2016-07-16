@@ -30,16 +30,16 @@ p {
 }
 
 a {
-  color: $secondary-three;
+  color: $tertiary-one;
   text-decoration: none;
   font-family: $sans;
-  font-weight: 700;
+  font-weight: $text-medium;
   cursor: pointer;
-  transition: color 150ms ease-in;
+  transition: color 150ms ease-in-out;
 }
 
 a:hover {
-  color: $secondary-four;
+  color: $tertiary-four;
 }
 
 img  {
