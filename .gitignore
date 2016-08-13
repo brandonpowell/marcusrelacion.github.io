@@ -1,0 +1,14 @@
+# ignore site builds
+_site
+
+# ignore network storage files
+.DS_Store
+
+# ignore node
+node_modules
+
+# ignore jekyll metadata
+.jekyll-metadata
+
+# ignore sass-cache
+.sass-cache
