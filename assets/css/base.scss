@@ -15,26 +15,27 @@
 
 
 /* Basscss Modules */
-@import "basscss-basic";
-@import "basscss-align";
-@import "basscss-background-images";
-@import "basscss-border";
-@import "basscss-btn";
-@import "basscss-flexbox";
-@import "basscss-forms";
-@import "basscss-grid";
-@import "basscss-layout";
-@import "basscss-margin";
-@import "basscss-padding";
-@import "basscss-position";
-@import "basscss-type-scale";
-@import "basscss-typography";
+@import "basscss/basscss-basic";
+@import "basscss/basscss-align";
+@import "basscss/basscss-background-images";
+@import "basscss/basscss-border";
+@import "basscss/basscss-btn";
+@import "basscss/basscss-flexbox";
+@import "basscss/basscss-forms";
+@import "basscss/basscss-grid";
+@import "basscss/basscss-layout";
+@import "basscss/basscss-margin";
+@import "basscss/basscss-padding";
+@import "basscss/basscss-position";
+@import "basscss/basscss-type-scale";
+@import "basscss/basscss-typography";
 
 /* MR Modules */
-@import "mr-colors";
-@import "mr-globals";
-@import "mr-posts";
-@import "mr-typography";
+@import "mr-globals/colors";
+@import "mr-globals/globals";
+@import "mr-globals/typography";
+
+@import "mr-pages/posts";
 
 /*===
 Media Queries

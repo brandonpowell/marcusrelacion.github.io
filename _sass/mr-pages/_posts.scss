@@ -1,4 +1,4 @@
-@import "_mr-typography";
+@import "mr-globals/typography";
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -8,6 +8,7 @@ h1 {
   font-size: $text-xx-large;
   font-family: $serif;
   font-weight: $text-black;
+  color: $secondary;
 }
 
 h2 {
@@ -27,14 +28,11 @@ p {
   font-size: $text-default;
   font-family: $sans;
   font-weight: $text-light;
+  color: $pure-white;
 }
 
 a {
-<<<<<<< HEAD
-  color: #4DA4CE;
-=======
-  color: $tertiary-one;
->>>>>>> b7c16f4b97033752cc93b560a3b27f87934e88a7
+  color: $secondary;
   text-decoration: none;
   font-family: $sans;
   font-weight: $text-medium;
@@ -42,10 +40,11 @@ a {
   transition: color 150ms ease-in-out;
 }
 
+/*
 a:hover {
   color: $tertiary-four;
 }
-
+*/
 img  {
   width: 100%;
 }
