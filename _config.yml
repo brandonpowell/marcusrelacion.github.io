@@ -23,6 +23,11 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: Projects
+  values:
+    layout: singles/single-project
 permalink: pretty
 sass:
   sass_dir: _sass
