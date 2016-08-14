@@ -122,17 +122,22 @@
             </h4>
           </div>
 
-          <div class="py3">
-            <span class="sans text-xx-small secondary-dark">
-              May '16 - Present
-            </span>
-            <h4 class="m0 serif text-black text-x-large pure-white">
-              Clarabridge
-            </h4>
-            <p class="m0 serif text-light text-x-small gray">
-              Junior UI Designer
-            </p>
-          </div>
+          {% for posts in site.jobs limit:1 %}
+            <!-- Event Link to Single Page -->
+              {% if posts.is-current == true %}
+              <div class="py3">
+                <span class="sans text-xx-small secondary-dark">
+                  May '16 - Present
+                </span>
+                <h4 class="m0 serif text-black text-x-large pure-white">
+                  Clarabridge
+                </h4>
+                <p class="m0 serif text-light text-x-small gray">
+                  Junior UI Designer
+                </p>
+              </div>
+              {% endif %}
+          {% endfor %}
 
           <div class="sub-title-block">
             <h4 class="m0 serif text-black secondary-light text-x-small">
