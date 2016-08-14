@@ -29,6 +29,15 @@ defaults:
   values:
     layout: singles/single-project
 permalink: pretty
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
 sass:
   sass_dir: _sass
   style: compressed
