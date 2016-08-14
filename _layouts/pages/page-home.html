@@ -14,8 +14,6 @@
       </div>
     </section>
 
-    <hr>
-
     <section class="projects">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 px1">
@@ -55,8 +53,6 @@
         </div>
       </div>
     </section>
-
-    <hr>
 
     <section class="projects">
       <div class="container clearfix p3">
@@ -101,24 +97,31 @@
       </div>
     </section>
 
-    <hr>
-
     <section class="experience">
       <div class="container clearfix p3 bg">
         <div class="sm-col sm-col-12">
           <div class="sub-title-block">
-            <h4 class="m0 mb3 serif text-black primary text-default">
+            <h4 class="m0 serif text-black primary text-default">
               About:
             </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="container clearfix px3 bg">
+        <div class="sm-col sm-col-12 md-col-8 p3 rounded-top-left bg-secondary-light">
+          <div class="sub-title-block">
             <p class="m0 serif text-light text-x-small gray">
               {{ page.about-text | markdownify }}
             </p>
           </div>
         </div>
+        <div class="sm-col sm-col-12 md-col-4 p3 rounded-top-right bg-secondary-light">
+        </div>
       </div>
 
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 bg-secondary p3 rounded bg-cover bg-center" style="background-image: url('{{ page.work-experience-bg-image }}')">
+      <div class="container clearfix px3">
+        <div class="sm-col sm-col-12 bg-secondary p3 rounded-bottom bg-cover bg-center" style="background-image: url('{{ page.work-experience-bg-image }}')">
           <div class="sub-title-block center">
             <h4 class="m0 serif text-black secondary-light text-x-small">
               Currently:

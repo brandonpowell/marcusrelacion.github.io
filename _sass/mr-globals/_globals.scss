@@ -17,6 +17,21 @@
   border-radius: 4px;
 }
 
+.rounded-top-left {
+  border-radius: 4px 0 0 0;
+}
+
+.rounded-top-right {
+  border-radius: 0 4px 0 0;
+}
+.rounded-top {
+  border-radius: 4px 4px 0 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 4px 4px;
+}
+
 @media screen and (max-width: 640px) {
   .previous-job {
     width: 100%;
