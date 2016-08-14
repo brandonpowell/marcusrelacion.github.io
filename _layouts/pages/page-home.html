@@ -117,27 +117,26 @@
       <div class="container clearfix p3 bg">
         <div class="sm-col sm-col-12 bg-secondary p3 rounded">
           <div class="sub-title-block">
-            <h4 class="m0 serif text-black secondary-light text-x-small">
+            <h4 class="m0 mb3 serif text-black secondary-light text-x-small">
               Currently:
             </h4>
-          </div>
-
-          {% for posts in site.jobs limit:1 %}
-            <!-- Event Link to Single Page -->
+            {% for posts in site.jobs %}
+              <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
-              <div class="py3">
-                <span class="sans text-xx-small secondary-dark">
-                  May '16 - Present
-                </span>
-                <h4 class="m0 serif text-black text-x-large pure-white">
-                  Clarabridge
-                </h4>
-                <p class="m0 serif text-light text-x-small gray">
-                  Junior UI Designer
-                </p>
-              </div>
+                <div class="py3">
+                  <span class="sans text-xx-small secondary-dark">
+                    May '16 - Present
+                  </span>
+                  <h4 class="m0 serif text-black text-x-large pure-white">
+                    {{ posts.title }}
+                  </h4>
+                  <p class="m0 serif text-light text-x-small gray">
+                    Junior UI Designer
+                  </p>
+                </div>
               {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </div>
 
           <div class="sub-title-block">
             <h4 class="m0 serif text-black secondary-light text-x-small">
