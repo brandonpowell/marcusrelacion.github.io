@@ -33,7 +33,7 @@ defaults:
     layout: singles/single-project
 - scope:
     path: ''
-    type: Jobs
+    type: jobs
   values:
     is-current:
     is-previous:
