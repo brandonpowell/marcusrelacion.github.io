@@ -6,7 +6,9 @@ $secondary: #A6AEF8;
 $secondary-dark: #5B67D9;
 $secondary-light: #D4D9FF;
 
-$gray-dark: rgba(74,88,96,1);
+
+$gray: rgba(74,88,96,1);
+$gray-dark: RGBA(33, 33, 33, 1);
 $gray-light: rgba(250,251,252,1);
 
 $pure-white: rgba(255,255,255,1);
@@ -22,6 +24,7 @@ $pure-black: rgba(0,0,0,1);
 .secondary-dark { color: $secondary-dark; }
 .secondary-light { color: $secondary-light; }
 
+.gray { color: $gray; }
 .gray-dark { color: $gray-dark; }
 .gray-light { color: $gray-light; }
 
@@ -37,6 +40,7 @@ $pure-black: rgba(0,0,0,1);
 .bg-secondary-dark { background-color: $secondary-dark; }
 .bg-secondary-light { background-color: $secondary-light; }
 
+.bg-gray { background-color: $gray; }
 .bg-gray-dark { background-color: $gray-dark; }
 .bg-gray-light { background-color: $gray-light; }
 
