@@ -7,6 +7,7 @@ home-bg-color: "#4a5860"
 recent-projects: Recent Projects
 latest-photoset: 'Latest Photoset:'
 latest-journal: 'Latest Journal:'
+about: 'About:'
 layout: pages/page-home
 ---
 
