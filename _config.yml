@@ -28,6 +28,12 @@ defaults:
     type: Projects
   values:
     layout: singles/single-project
+- scope:
+    path: ''
+    type: Jobs
+  values:
+    is-current:
+    is-previous:
 permalink: pretty
 exclude:
 - package.json
