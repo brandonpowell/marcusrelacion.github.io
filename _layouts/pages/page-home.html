@@ -125,13 +125,13 @@
               {% if posts.is-current == true %}
                 <div class="py3">
                   <span class="sans text-xx-small secondary-dark">
-                    May '16 - Present
+                    {{ posts.job-duration }}
                   </span>
                   <h4 class="m0 serif text-black text-x-large pure-white">
                     {{ posts.title }}
                   </h4>
                   <p class="m0 serif text-light text-x-small gray">
-                    Junior UI Designer
+                    {{ posts.job-title }}
                   </p>
                 </div>
               {% endif %}
@@ -144,52 +144,21 @@
             </h4>
             {% for posts in site.jobs %}
               <!-- Event Link to Single Page -->
-              {% if posts.is-true == false %}
-                <div class="py3">
-                  <span class="sans text-xx-small secondary-dark">
-                    May '16 - Present
-                  </span>
-                  <h4 class="m0 serif text-black text-x-large pure-white">
-                    {{ posts.title }}
-                  </h4>
-                  <p class="m0 serif text-light text-x-small gray">
-                    Junior UI Designer
-                  </p>
-                </div>
+              {% if posts.is-current == true %}
+              {% else %}
+              <div class="py3">
+                <span class="sans text-xx-small secondary-dark">
+                  {{ posts.job-duration }}
+                </span>
+                <h4 class="m0 serif text-black text-x-large pure-white">
+                  {{ posts.title }}
+                </h4>
+                <p class="m0 serif text-light text-x-small gray">
+                  {{ posts.job-title }}
+                </p>
+              </div>
               {% endif %}
             {% endfor %}
-          </div>
-
-          <div class="py3" style="opacity: 0.5;">
-            <span class="sans text-xx-small secondary-dark">
-              Jan '15 - Apr '16
-            </span>
-            <h4 class="m0 serif text-black text-x-medium pure-white">
-              TrackMaven
-            </h4>
-            <p class="m0 mb3 serif text-light text-x-small gray">
-              Junior Design Maven
-            </p>
-
-            <span class="sans text-xx-small secondary-dark">
-              Sep '12 - Jan '15
-            </span>
-            <h4 class="m0 serif text-black text-x-medium pure-white">
-              Center for Art Design and Visual Culture
-            </h4>
-            <p class="m0 mb3 serif text-light text-x-small gray">
-              Junior Exhibition Designer
-            </p>
-
-            <span class="sans text-xx-small secondary-dark">
-              Summer '13
-            </span>
-            <h4 class="m0 serif text-black text-x-medium pure-white">
-              Smithsonian National Air &amp; Space Museum
-            </h4>
-            <p class="m0 serif text-light text-x-small gray">
-              Junior Design Maven
-            </p>
           </div>
 
           <div class="sub-title-block">
