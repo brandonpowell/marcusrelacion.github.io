@@ -12,7 +12,7 @@ about-text: |-
   My name is Marcus Relacion and I am a designer based in Washington, DC.
 
   When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
-work-experience-bg-image: "/uploads/bg-work-experience.jpg"
+work-experience-bg-image: "/uploads/bg-work-experience-058742.jpg"
 layout: pages/page-home
 ---
 
