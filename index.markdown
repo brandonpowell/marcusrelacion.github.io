@@ -7,6 +7,11 @@ home-bg-color: "#4a5860"
 recent-projects: Recent Projects
 latest-photoset: 'Latest Photoset:'
 latest-journal: 'Latest Journal:'
+about: 'About:'
+about-text: |-
+  My name is Marcus Relacion and I am a designer based in Washington, DC.
+
+  When I’m not perfecting pixels or writing code, I can often be found shooting photographs in the city, spending time with my family, attending local meet ups, or playing video games with my friends.
 layout: pages/page-home
 ---
 
