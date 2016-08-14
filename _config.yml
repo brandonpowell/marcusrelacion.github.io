@@ -35,9 +35,9 @@ defaults:
     path: ''
     type: jobs
   values:
-    is-current:
-    duration:
-    job-title:
+    is-current: 
+    duration: 
+    job-title: 
 permalink: pretty
 exclude:
 - package.json
