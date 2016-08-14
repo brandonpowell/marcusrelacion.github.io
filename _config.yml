@@ -38,6 +38,7 @@ exclude:
 - Gemfile.lock
 - ".jekyll-metadata"
 - ".sass-cache"
+- "CNAME"
 sass:
   sass_dir: _sass
   style: compressed
