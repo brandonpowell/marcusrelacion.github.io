@@ -116,7 +116,7 @@
 
       <div class="container clearfix p3 bg">
         <div class="sm-col sm-col-12 bg-secondary p3 rounded">
-          <div class="sub-title-block">
+          <div class="sub-title-block center">
             <h4 class="m0 serif text-black secondary-light text-x-small">
               Currently:
             </h4>
@@ -127,7 +127,7 @@
                   <span class="sans text-xx-small secondary-dark">
                     {{ posts.job-duration }}
                   </span>
-                  <h4 class="m0 serif text-black text-x-large pure-white">
+                  <h4 class="m0 serif text-black text-x-medium pure-white">
                     {{ posts.title }}
                   </h4>
                   <p class="m0 serif text-light text-x-small gray">
@@ -139,18 +139,18 @@
           </div>
 
           <div class="sub-title-block">
-            <h4 class="m0 serif text-black secondary-light text-x-small">
+            <h4 class="m0 serif text-black secondary-light text-x-small center">
               Previously:
             </h4>
             {% for posts in site.jobs %}
               <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
               {% else %}
-              <div class="py3">
+              <div class="py1 inline-block sm-col sm-col-4 px2 center" style="opacity: 0.5;">
                 <span class="sans text-xx-small secondary-dark">
                   {{ posts.job-duration }}
                 </span>
-                <h4 class="m0 serif text-black text-x-large pure-white">
+                <h4 class="m0 serif text-black text-x-small pure-white">
                   {{ posts.title }}
                 </h4>
                 <p class="m0 serif text-light text-x-small gray">
