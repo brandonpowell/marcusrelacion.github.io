@@ -130,13 +130,13 @@
               <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
                 <div class="py3">
-                  <span class="sans text-xx-small secondary-dark">
+                  <h6 class="m0 text-uppercase sans text-xx-small secondary-dark">
                     {{ posts.job-duration }}
                   </span>
-                  <h4 class="m0 serif text-black text-x-medium pure-white">
+                  <h4 class="m0 py1 serif text-black text-x-medium pure-white">
                     {{ posts.title }}
                   </h4>
-                  <p class="m0 serif text-light text-x-small gray">
+                  <p class="m0 serif text-light text-x-small gray-dark">
                     {{ posts.job-title }}
                   </p>
                 </div>
@@ -145,21 +145,22 @@
           </div>
 
           <div class="sub-title-block">
-            <h4 class="m0 serif text-black secondary-light text-x-small center">
+            <h4 class="m0 mb3 serif text-black secondary-light text-x-small center">
               Previously:
             </h4>
-            {% for posts in site.jobs %}
+            {% assign sorted_jobs = site.jobs | sort:"position" %}
+            {% for posts in sorted_jobs %}
               <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
               {% else %}
-              <div class="py1 inline-block sm-col sm-col-4 px2 center" style="opacity: 0.5;">
-                <span class="sans text-xx-small secondary-dark">
+              <div class="previous-job py1 inline-block sm-col sm-col-4 px2 center">
+                <h6 class="m0 text-uppercase sans text-xx-small secondary-dark">
                   {{ posts.job-duration }}
-                </span>
-                <h4 class="m0 serif text-black text-x-small pure-white">
+                </h6>
+                <h4 class="m0 py1 serif text-black text-small pure-white">
                   {{ posts.title }}
                 </h4>
-                <p class="m0 serif text-light text-x-small gray">
+                <p class="m0 serif text-light text-x-small gray-dark">
                   {{ posts.job-title }}
                 </p>
               </div>
