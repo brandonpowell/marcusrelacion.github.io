@@ -35,8 +35,8 @@ defaults:
     path: ''
     type: jobs
   values:
-    is-current:
-    is-previous:
+    is-current: 
+    is-previous: 
 permalink: pretty
 exclude:
 - package.json
@@ -47,7 +47,7 @@ exclude:
 - Gemfile.lock
 - ".jekyll-metadata"
 - ".sass-cache"
-- "CNAME"
+- CNAME
 sass:
   sass_dir: _sass
   style: compressed
