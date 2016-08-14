@@ -9,7 +9,7 @@ latest-photoset: 'Latest Photoset:'
 latest-journal: 'Latest Journal:'
 about: 'About:'
 about-text: |-
-  My name is Marcus Relacion and I am a designer based in Washington, DC.
+  ![about-image.jpg](/uploads/about-image.jpg)
 
   When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
 about-image: "/uploads/about-image.jpg"
