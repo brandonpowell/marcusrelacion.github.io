@@ -11,7 +11,7 @@ about: 'About:'
 about-text: |-
   My name is Marcus Relacion and I am a designer based in Washington, DC.
 
-  When I’m not perfecting pixels or writing code, I can often be found shooting photographs in the city, spending time with my family, attending local meet ups, or playing video games with my friends.
+  When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
 layout: pages/page-home
 ---
 
