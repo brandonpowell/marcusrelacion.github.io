@@ -1,7 +1,7 @@
 /* sets the max width for the container of the site */
 .container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -30,6 +30,10 @@
 
 .rounded-bottom {
   border-radius: 0 0 4px 4px;
+}
+
+.project-image-block {
+  min-height: 10px;
 }
 
 @media screen and (max-width: 640px) {

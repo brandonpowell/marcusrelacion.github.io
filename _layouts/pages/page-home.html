@@ -6,7 +6,7 @@
 
     <section>
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 md-col-6 px1">
+        <div class="sm-col sm-col-12 px1">
           <article class="pure-white">
             {{ page.content | markdownify }}
           </article>
@@ -14,7 +14,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="recent-projects">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 px1">
           <div class="sub-title-block">
@@ -23,14 +23,16 @@
             </h4>
           </div>
         </div>
-          {% for posts in site.projects limit: 2 %}
+        <!--
+        More info coming soon.
+        -->
+        {% for posts in site.projects limit: 2 %}
           <div class="sm-col sm-col-12 md-col-6 px1">
-            <!-- Event Link to Single Page -->
-            {% if posts.is-featured == true %}
-            <div class="project-image-block bg-cover bg-center rounded" style="min-height: 75px; background-image: url('{{ posts.project-header-image }}')"></div>
+          {% if posts.is-featured == true %}
+            <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
             <div class="project-detail-block p1">
               <span class="sans text-xx-small secondary">
-                2016
+                {{ posts.project-year }}
               </span>
               <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
                 {{ posts.title }}
@@ -39,14 +41,14 @@
                 {{ posts.project-excerpt-text }}
               </p>
             </div>
-            {% else %}
-            {% endif %}
-            </div>
-          {% endfor %}
+          {% else %}
+          {% endif %}
+          </div>
+        {% endfor %}
       </div>
     </section>
 
-    <section class="projects">
+    <section class="latest-photoset-&-journal">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-6 px1">
           <div class="sub-title-block">
@@ -59,7 +61,7 @@
             <span class="sans text-xx-small secondary">
               2016
             </span>
-            <h4 class="m0 mb3 serif text-black text-large pure-white">
+            <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
               Big K.R.I.T
             </h4>
             <p class="m0 mb3 sans text-light text-x-small pure-white">
@@ -78,7 +80,7 @@
             <span class="sans text-xx-small secondary">
               2015
             </span>
-            <h4 class="m0 mb3 serif text-black text-large pure-white">
+            <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
               1 Month as a TrackMaven Intern
             </h4>
             <p class="m0 mb3 sans text-light text-x-small pure-white">
@@ -98,7 +100,7 @@
             </h4>
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-8 px1">
+        <div class="sm-col sm-col-12 px1">
           <p class="m0 serif text-light text-x-small gray">
             {{ page.about-text | markdownify }}
           </p>
