@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-6 px1">
-          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 100px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
+          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
               2016
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-6 px1">
-          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 100px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
+          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
               2016
@@ -62,7 +62,7 @@
               {{ page.latest-photoset }}
             </h4>
           </div>
-          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 100px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
+          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
               2016
@@ -81,7 +81,7 @@
               {{ page.latest-journal }}
             </h4>
           </div>
-          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 100px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
+          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
               2015
@@ -106,7 +106,7 @@
             </h4>
           </div>
         </div>
-        <div class="sm-col sm-col-12 px1">
+        <div class="sm-col sm-col-12 md-col-8 px1">
           <p class="m0 serif text-light text-x-small gray">
             {{ page.about-text | markdownify }}
           </p>
@@ -146,7 +146,7 @@
               <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
               {% else %}
-              <div class="previous-job py1 inline-block sm-col sm-col-4 px2 center">
+              <div class="previous-job py1 inline-block sm-col sm-col-4 px2 center" style="opacity: 0.5;">
                 <h6 class="m0 text-uppercase sans text-xx-small secondary-dark">
                   {{ posts.job-duration }}
                 </h6>
