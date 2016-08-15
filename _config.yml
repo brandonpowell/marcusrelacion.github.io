@@ -7,7 +7,7 @@ collections:
     output: false
   journal:
     title: Journal
-    output: true
+    output: false
   photos:
     title: Photos
     output: false
