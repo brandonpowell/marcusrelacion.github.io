@@ -4,6 +4,16 @@
 
   {% include header.html %}
 
+    <section>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 px1">
+          <article class="pure-white">
+            {{ page.content | markdownify }}
+          </article>
+        </div>
+      </div>
+    </section>
+
   {% include footer.html %}
 
 </main>
