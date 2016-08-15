@@ -89,17 +89,17 @@
         </div>
         <div class="sm-col sm-col-12 md-col-6 px1">
           <div class="journal-image-block bg-cover bg-center rounded" style="background-image: url('{{ page.work-experience-bg-image }}')"></div>
-          {% assign sorted_journals = site.journals | sort:"position" %}
-          {% for posts in sorted_journals %}
+          {% assign sorted_notes = site.notes %}
+          {% for posts in sorted_notes %}
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
               2015
             </span>
-            <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
-              {{ page.title }}
+            <h4 class="m0 mb1 serif text-black text-x-medium pure-white">
+              {{ posts.title }}
             </h4>
             <p class="m0 mb3 sans text-light text-x-small pure-white">
-              Project Description
+              {{ posts.notes-excerpt | markdownify }}
             </p>
           </div>
           {% endfor %}
