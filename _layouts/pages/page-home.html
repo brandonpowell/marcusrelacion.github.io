@@ -63,17 +63,17 @@
             {% for posts in site.photos limit: 1 %}
               <a href="{{ posts.url }}" class="">
                 <div class="photoset-image-block mb3 bg-cover bg-center rounded" style="background-image: url('{{ posts.photoset-header-image }}')">
-                  <div class="photoset-detail-block px3 py4">
-                    <span class="sans text-xx-small secondary">
-                      {{ posts.photoset-year }} | {{ posts.photoset-location }}
-                    </span>
-                    <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
-                      {{ posts.title }}
-                    </h4>
-                    <p class="m0 sans text-light text-x-small pure-white">
-                      {{ posts.photoset-excerpt-text }}
-                    </p>
-                  </div>
+                </div>
+                <div class="photoset-detail-block p1">
+                  <span class="sans text-xx-small secondary">
+                    {{ posts.photoset-year }} | {{ posts.photoset-location }}
+                  </span>
+                  <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
+                    {{ posts.title }}
+                  </h4>
+                  <p class="m0 sans text-light text-x-small pure-white">
+                    {{ posts.photoset-excerpt-text }}
+                  </p>
                 </div>
               </a>
             {% endfor %}
@@ -82,7 +82,7 @@
 
         <div class="sm-col sm-col-12 px1">
           <div class="sub-title-block">
-            <h4 class="m0 mb3 serif text-black primary text-default">
+            <h4 class="m0 mt4 mb3 serif text-black primary text-default">
               {{ page.latest-journal }}
             </h4>
           </div>
@@ -133,15 +133,50 @@
         <div class="sm-col sm-col-12 md-col-4 p1">
           <div class="sub-title-block">
             <h4 class="m0 mb3 serif text-black primary text-default">
-              {{ page.about }}
+              Experience:
             </h4>
           </div>
-          <p class="m0 serif text-light text-x-small gray">
-            {{ page.about-text | markdownify }}
-          </p>
+          <div class="project-detail-block p1">
+            <!--
+
+            More info coming
+
+            -->
+            {% assign sorted_jobs = site.jobs | sort:"position" %}
+            {% for posts in sorted_jobs %}
+              <!-- Event Link to Single Page -->
+              {% if posts.is-current == true %}
+              <div class="current-job" style="">
+                <h6 class="m0 text-uppercase sans text-xx-small secondary">
+                  {{ posts.job-duration }}
+                </h6>
+                <h4 class="m0 py1 serif text-black text-small pure-white">
+                  {{ posts.title }}
+                </h4>
+                <p class="m0 sans text-light text-x-small pure-white">
+                  {{ posts.job-title }}
+                </p>
+              </div>
+
+              <hr>
+
+              {% else %}
+              <div class="previous-job py2" style="opacity: 0.5;">
+                <h6 class="m0 text-uppercase sans text-xx-small secondary">
+                  {{ posts.job-duration }}
+                </h6>
+                <h4 class="m0 py1 serif text-black text-small pure-white">
+                  {{ posts.title }}
+                </h4>
+                <p class="m0 sans text-light text-x-small pure-white">
+                  {{ posts.job-title }}
+                </p>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
-
     </section>
 
   {% include footer.html %}
