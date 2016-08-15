@@ -5,8 +5,8 @@ collections:
   jobs:
     title: Jobs
     output: false
-  journal:
-    title: Journal
+  notes:
+    title: Notes
     output: false
   photos:
     title: Photos
