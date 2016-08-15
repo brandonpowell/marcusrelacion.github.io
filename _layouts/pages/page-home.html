@@ -57,18 +57,30 @@
             <h4 class="m0 mb3 serif text-black primary text-default">
               {{ page.latest-photoset }}
             </h4>
-          </div>
-          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
-          <div class="project-detail-block p1">
-            <span class="sans text-xx-small secondary">
-              2016
-            </span>
-            <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
-              Big K.R.I.T
-            </h4>
-            <p class="m0 mb3 sans text-light text-x-small pure-white">
-              Project Description
-            </p>
+            <!--
+            More info coming soon.
+            -->
+            {% for posts in site.photos limit: 1 %}
+              <a href="{{ posts.url }}" class="">
+              <div class="">
+              {% if posts.is-featured == true %}
+                <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.photoset-header-image }}')"></div>
+                <div class="project-detail-block p1">
+                  <span class="sans text-xx-small secondary">
+                    {{ posts.photoset-year }}
+                  </span>
+                  <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
+                    {{ posts.title }}
+                  </h4>
+                  <p class="m0 mb3 sans text-light text-x-small pure-white">
+                    {{ posts.photoset-excerpt-text }}
+                  </p>
+                </div>
+              {% else %}
+              {% endif %}
+              </div>
+              </a>
+            {% endfor %}
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-6 px1">
