@@ -27,6 +27,7 @@
         More info coming soon.
         -->
         {% for posts in site.projects limit: 2 %}
+          <a href="{{ posts.url }}" class="">
           <div class="sm-col sm-col-12 md-col-6 px1">
           {% if posts.is-featured == true %}
             <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
@@ -44,6 +45,7 @@
           {% else %}
           {% endif %}
           </div>
+          </a>
         {% endfor %}
       </div>
     </section>
