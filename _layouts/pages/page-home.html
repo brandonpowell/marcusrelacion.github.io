@@ -52,7 +52,7 @@
 
     <section class="latest-photoset-&-journal">
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 md-col-6 px1">
+        <div class="sm-col sm-col-12 px1">
           <div class="sub-title-block">
             <h4 class="m0 mb3 serif text-black primary text-default">
               {{ page.latest-photoset }}
@@ -62,12 +62,10 @@
             -->
             {% for posts in site.photos limit: 1 %}
               <a href="{{ posts.url }}" class="">
-              <div class="">
-              {% if posts.is-featured == true %}
-                <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.photoset-header-image }}')"></div>
-                <div class="project-detail-block p1">
+                <div class="photoset-image-block bg-cover bg-center rounded" style="min-height: 300px; background-image: url('{{ posts.photoset-header-image }}')"></div>
+                <div class="photoset-detail-block p1">
                   <span class="sans text-xx-small secondary">
-                    {{ posts.photoset-year }}
+                    {{ posts.photoset-year }} | {{ posts.photoset-location }}
                   </span>
                   <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
                     {{ posts.title }}
@@ -76,19 +74,33 @@
                     {{ posts.photoset-excerpt-text }}
                   </p>
                 </div>
-              {% else %}
-              {% endif %}
-              </div>
               </a>
             {% endfor %}
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-6 px1">
+
+        <div class="sm-col sm-col-12 px1">
           <div class="sub-title-block">
             <h4 class="m0 mb3 serif text-black primary text-default">
               {{ page.latest-journal }}
             </h4>
           </div>
+        </div>
+        <div class="sm-col sm-col-12 md-col-6 px1">
+          <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
+          <div class="project-detail-block p1">
+            <span class="sans text-xx-small secondary">
+              2015
+            </span>
+            <h4 class="m0 mb3 serif text-black text-x-medium pure-white">
+              1 Month as a TrackMaven Intern
+            </h4>
+            <p class="m0 mb3 sans text-light text-x-small pure-white">
+              Project Description
+            </p>
+          </div>
+        </div>
+        <div class="sm-col sm-col-12 md-col-6 px1">
           <div class="project-image-block bg-cover bg-center rounded" style="min-height: 50px; background-image: url('{{ page.work-experience-bg-image }}')"></div>
           <div class="project-detail-block p1">
             <span class="sans text-xx-small secondary">
