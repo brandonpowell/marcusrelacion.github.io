@@ -1,6 +1,7 @@
 ---
 title: index
 date: 2016-08-14 22:12:00 -04:00
+layout: pages/page-landing
 ---
 
 # Hello!
