@@ -1,6 +1,8 @@
 ---
 title: 1 Month as an Intern at TrackMaven
-date: 2016-08-15 16:02:00 -04:00
+date: 2004-10-27 13:00:00 -04:00
+journal-excerpt-text: I have been working as a design intern at [TrackMaven](http://www.trackmaven.com),
+  a rapidly growing startup located in Washington, DC, for a little over a month.
 ---
 
 # I have been working as a design intern at [TrackMaven](http://www.trackmaven.com), a rapidly growing startup located in Washington, DC, for a little over a month.
