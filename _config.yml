@@ -51,7 +51,7 @@ defaults:
     project-excerpt-text:
 - scope:
     path: ''
-    type: projects
+    type: photos
   values:
     is-featured:
     photoset-year:
