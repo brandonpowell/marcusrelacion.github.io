@@ -60,4 +60,4 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-logo-file: "/uploads/mr-white-logo.svg"
+logo-image: "/uploads/mr-white-logo.svg"
