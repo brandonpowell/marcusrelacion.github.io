@@ -5,6 +5,9 @@ collections:
   jobs:
     title: Jobs
     output: false
+  photos:
+    title: Photos
+    output: true
   posts:
     title: Posts
     output: true
