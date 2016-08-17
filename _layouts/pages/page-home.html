@@ -158,7 +158,7 @@
             -->
             {% assign sorted_jobs = site.jobs | sort:"position" %}
             {% for posts in sorted_jobs %}
-            <div class="project-detail-block sm-col sm-col-6 md-col-6 lg-col-3">
+            <div class="sm-col sm-col-6 md-col-6 lg-col-3 py1">
               <!-- Event Link to Single Page -->
               {% if posts.is-current == true %}
               <div class="current-job" style="">
@@ -193,6 +193,7 @@
       </div>
     </section>
 
+  {% include cta.html %}
   {% include footer.html %}
 
 </main>
