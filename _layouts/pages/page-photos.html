@@ -12,14 +12,14 @@
 
     <section class="photos">
       <div class="clearfix">
-      <!--
-      More info coming soon.
-      -->
-      {% for posts in site.photos %}
-      <div class="sm-col sm-col-12 md-col-6">
-        <a href="{{ posts.url }}">
-          <div class="bg-cover bg-center py4" style="background-image: url('{{ posts.photoset-header-image }}')">
-            <div class="container clearfix px3 py4">
+        <!--
+        More info coming soon.
+        -->
+        {% for posts in site.photos %}
+        <div class="sm-col sm-col-12 md-col-6">
+          <a href="{{ posts.url }}">
+            <div class="bg-cover bg-center py4" style="background-image: url('{{ posts.photoset-header-image }}')">
+              <div class="container clearfix px3 py4">
                 <div class="sub-title-block">
                   <h2 class="mb3 text-small text-uppercase pure-white relative">
                     <svg id="i-camera" class="m0 absolute pure-white" style="top: 0; left: -50px;" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
@@ -43,16 +43,12 @@
                     View Photoset
                   </a>
                 </div>
-                <a class="m0 mt3 text-small pure-white inline-block">
-                  View More Photosets
-                </a>
               </div>
-          </div>
-
-        </a>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
       </div>
-      </div>
-      {% endfor %}
     </section>
 
 {% include global/body-closed.html %}

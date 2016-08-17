@@ -50,11 +50,11 @@ a.photoset-button {
   padding: 1em 2em;
   border: solid 1px $pure-white;
   border-radius: 4px;
-  background: transparent;
+  background: $pure-white;
   transition: all 100ms ease-in-out;
+  color: $gray;
 }
 
 a.photoset-button:hover {
-  background: $pure-white;
-  color: $gray;
+  color: $primary;
 }
