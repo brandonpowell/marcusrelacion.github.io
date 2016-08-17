@@ -1,9 +1,5 @@
 {% include global/body-open.html %}
 
-<main class="">
-
-  {% include header.html %}
-
     <section>
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 px1">
@@ -14,8 +10,33 @@
       </div>
     </section>
 
-  {% include footer.html %}
-
-</main>
+    <section class="projects">
+      <div class="container clearfix p3">
+        <!--
+        More info coming soon.
+        -->
+        {% for posts in site.projects %}
+          <a href="{{ posts.url }}">
+          <div class="sm-col sm-col-12 md-col-6 p1">
+          {% if posts.is-featured == true %}
+            <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
+            <div class="project-detail-block">
+              <small class="text-semibold">
+                {{ posts.project-year }}
+              </small>
+              <h2 class="m0 py2 text-medium">
+                {{ posts.title }}
+              </h2>
+              <p class="m0 text-small">
+                {{ posts.project-excerpt-text }}
+              </p>
+            </div>
+          {% else %}
+          {% endif %}
+          </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
 
 {% include global/body-closed.html %}
