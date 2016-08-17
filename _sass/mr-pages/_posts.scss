@@ -1,53 +1,5 @@
 @import "mr-globals/typography";
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-h1 {
-  font-size: $text-xx-large;
-  font-family: $serif;
-  font-weight: $text-black;
+article h1 {
   color: $primary;
-}
-
-h2 {
-  font-size: $text-large;
-  font-family: $serif;
-  font-weight: $text-regular;
-}
-
-h3 {
-  font-size: $text-x-small;
-  text-transform: uppercase;
-  font-family: $sans;
-  margin: 1em 0;
-}
-
-p {
-  font-size: $text-default;
-  font-family: $sans;
-  font-weight: $text-light;
-  color: $pure-white;
-}
-
-a {
-  color: $primary;
-  text-decoration: none;
-  font-family: $sans;
-  font-weight: $text-medium;
-  cursor: pointer;
-  transition: color 150ms ease-in-out;
-}
-
-img  {
-  width: 100%;
-  vertical-align: middle;
-}
-
-blockquote p {
-  font-size: 3em !important;
-  font-style: normal;
-  margin: 1.5em 0;
-  font-family: $serif;
 }

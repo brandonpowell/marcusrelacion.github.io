@@ -1,10 +1,7 @@
 ---
-title: index
-date: 2016-07-03 02:45:00 -04:00
-mr-logo-image: "/uploads/mr-white-logo.svg"
-home-bg-image: "/uploads/home-header.jpg"
-home-bg-color: "#4a5860"
-layout: pages/page-home
+title: Landing Page
+date: 2016-08-14 22:12:00 -04:00
+layout: pages/page-landing
 ---
 
 # Hello!

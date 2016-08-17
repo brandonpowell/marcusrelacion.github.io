@@ -1,50 +1,101 @@
 // Variables
 
 // font families
+
 $serif: 'Merriweather', serif;
 $sans: 'Work Sans', sans-serif;
+$system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
 
 // font sizes
-$text-xx-small: 0.5em;
-$text-x-small: 1em;
-$text-small: 1.25em;
-$text-default: 1.5em;
-$text-medium: 1.75em;
+$text-x-small: 0.6em;
+$text-small: 1em;
+$text-default: 1.4em;
+$text-medium: 1.6em;
 $text-x-medium: 2em;
-$text-xx-medium: 2.25em;
-$text-large: 2.5em;
-$text-x-large: 2.75em;
-$text-xx-large: 3em;
+$text-large: 2.4em;
+$text-x-large: 2.8em;
 
 // font weights
-$text-light: 300; // work sans
-$text-regular: 400; // merriweather
-$text-medium: 500; // work sans
-$text-black: 900; // merriweather
-
-// text transforms
-$uppercase: uppercase;
-$lowercase: lowercase;
+$text-light: 300; // body copy
+$text-semibold: 600; // sub-headers
+$text-black: 900; // headers
 
 /* Typography */
-.serif { font-family: $serif; }
-.sans { font-family: $sans; }
+//.serif { font-family: $serif; }
+//.sans { font-family: $sans; }
+.system { font-family: $system; }
 
-.text-xx-small { font-size: $text-xx-small; }
 .text-x-small { font-size: $text-x-small; }
 .text-small { font-size: $text-small; }
 .text-default { font-size: $text-default; }
 .text-medium { font-size: $text-medium; }
 .text-x-medium { font-size: $text-x-medium; }
-.text-xx-medium { font-size: $text-xx-medium; }
 .text-large { font-size: $text-large; }
 .text-x-large { font-size: $text-x-large; }
-.text-xx-large { font-size: $text-xx-large; }
 
 .text-light { font-weight: $text-light; }
-.text-regular { font-weight: $text-regular; }
-.text-medium { font-weight: $text-medium; }
+.text-semibold { font-weight: $text-semibold; }
 .text-black { font-weight: $text-black; }
 
-.text-uppercase { text-transform: $uppercase; }
-.text-lowercase { text-transform: $lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-lowercase { text-transform: lowercase; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: $text-black;
+}
+
+h1 {
+  font-size: $text-x-large;
+  font-weight: $text-black;
+}
+
+h2 {
+  font-size: $text-large;
+
+}
+
+h3 {
+  font-size: $text-x-medium;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: $text-medium;
+  text-transform: uppercase;
+}
+
+small {
+  font-size: $text-x-small;
+}
+
+p {
+  font-size: $text-default;
+  font-weight: $text-light;
+  color: $gray;
+}
+
+a {
+  text-decoration: none;
+  font-weight: $text-semibold;
+  cursor: pointer;
+  transition: color 150ms ease-in-out;
+  color: $gray;
+}
+
+a:hover {
+  color: $primary;
+}
+
+img  {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+blockquote p {
+  font-size: $text-x-medium !important;
+  font-style: normal;
+  margin: 1.5em 0;
+}

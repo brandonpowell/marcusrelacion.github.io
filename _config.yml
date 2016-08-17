@@ -2,6 +2,15 @@
 title: Marcus Relacion, Designer
 timezone: America/New_York
 collections:
+  jobs:
+    title: Jobs
+    output: false
+  notes:
+    title: Notes
+    output: false
+  photos:
+    title: Photos
+    output: false
   posts:
     title: Posts
     output: true
@@ -28,7 +37,42 @@ defaults:
     type: Projects
   values:
     layout: singles/single-project
+- scope:
+    path: ''
+    type: jobs
+  values:
+    is-current: 
+    job-duration: 
+    job-title: 
+- scope:
+    path: ''
+    type: projects
+  values:
+    is-featured: 
+    project-year: 
+    project-header-image: 
+    project-excerpt-text: 
+- scope:
+    path: ''
+    type: photos
+  values:
+    is-featured: 
+    photoset-year: 
+    photoset-header-image: 
+    photoset-excerpt-text: 
+    photoset-location: 
 permalink: pretty
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
+- CNAME
 sass:
   sass_dir: _sass
   style: compressed
+logo-image: "/uploads/mr-white-logo.svg"
