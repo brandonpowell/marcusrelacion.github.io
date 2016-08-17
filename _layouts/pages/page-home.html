@@ -29,9 +29,9 @@
         <!--
         More info coming soon.
         -->
-        {% for posts in site.projects limit: 2 %}
+        {% for posts in site.projects limit: 4 %}
           <a href="{{ posts.url }}">
-          <div class="sm-col sm-col-12 md-col-6 p1">
+          <div class="sm-col sm-col-12 md-col-6 px1 py2">
           {% if posts.is-featured == true %}
             <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
             <div class="project-detail-block">
