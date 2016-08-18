@@ -34,33 +34,29 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: Projects
-  values:
-    layout: singles/single-project
-- scope:
-    path: ''
     type: jobs
   values:
-    is-current: 
-    job-duration: 
-    job-title: 
+    is-current:
+    job-duration:
+    job-title:
 - scope:
     path: ''
     type: projects
   values:
-    is-featured: 
-    project-year: 
-    project-header-image: 
-    project-excerpt-text: 
+    layout: singles/single-project
+    is-featured:
+    project-year:
+    project-header-image:
+    project-excerpt-text:
 - scope:
     path: ''
     type: photos
   values:
-    is-featured: 
-    photoset-year: 
-    photoset-header-image: 
-    photoset-excerpt-text: 
-    photoset-location: 
+    is-featured:
+    photoset-year:
+    photoset-header-image:
+    photoset-excerpt-text:
+    photoset-location:
 permalink: pretty
 exclude:
 - package.json
