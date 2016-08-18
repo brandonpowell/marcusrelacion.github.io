@@ -5,6 +5,7 @@ is-featured: true
 project-year: 2015-2016
 project-header-image: "/uploads/trackmaven-website-header.jpg"
 project-excerpt-text: Wordpress? Whats that?
+layout: singles/single-project
 ---
 
 Over the course of the last 11 months, I was fortunate enough to have the opportunity to design and develop for the [TrackMaven](http://trackmaven.com/) marketing site.
