@@ -5,6 +5,7 @@ is-featured: true
 project-year: 2016
 project-header-image: "/uploads/uncorked-header.jpg"
 project-excerpt-text: Uncorked
+layout: singles/single-project
 ---
 
 # Uncorked: A CMO Wine Tasting is TrackMaven's exclusive annual event held the day before SXSW officially begins in Austin, TX.
