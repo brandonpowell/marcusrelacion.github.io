@@ -5,6 +5,7 @@ is-featured: true
 project-year: 2014
 project-header-image: "/uploads/umbc-see-header.png"
 project-excerpt-text: UMBC
+layout: singles/single-project
 ---
 
 The UMBC Senior Exit Exhibition is the annual exhibition that showcases and highlights the work of graduating seniors from the Visual Arts Program at UMBC.
