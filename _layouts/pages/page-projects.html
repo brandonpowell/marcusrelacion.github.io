@@ -39,4 +39,24 @@
       </div>
     </section>
 
+    <section class="projects bg-primary">
+      <div class="container clearfix p3">
+        <small class="center block">Project Archive</small>
+        <!--
+        More info coming soon.
+        -->
+        {% for posts in site.projects %}
+          <ul>
+            <a href="{{ posts.url}}">
+              <li class="project-archive-link m0 text-small pure-white">
+                <small>{{ posts.project-year }}</small>
+                <h3 class="text-default">{{ posts.title }}</h3>
+              </li>
+            </a>
+          </ul>
+        {% endfor %}
+      </div>
+    </section>
+
+
 {% include global/body-closed.html %}
