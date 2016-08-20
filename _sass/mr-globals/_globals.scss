@@ -1,3 +1,5 @@
+@import "mr-globals/typography";
+
 /* sets the max width for the container of the site */
 .container {
   width: 100%;
@@ -11,6 +13,42 @@
   width: 100%;
 }
 
+/*
+img  {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+*/
+
+img {
+  font-family: $system;
+  font-weight: 400;
+  background: #f1f1f1;
+  border-radius: 4px;
+  color: $gray;
+  text-align: center;
+  font-size: $text-x-small;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  padding: 1.5em;
+}
+
+img:before {
+  content: "I apologize, but this image appears to be broken. Shoot me an email at hello@marcusrelacion.com and I'll get this fixed as soon as possible.";
+  display: block;
+  margin-bottom: 1em;
+}
+
+img:after {
+  content: "(url: " attr(src) ")";
+  display: block;
+  margin-top: 1em;
+}
 .bg-no-repeat { background-repeat: no-repeat; }
 
 .rounded {
