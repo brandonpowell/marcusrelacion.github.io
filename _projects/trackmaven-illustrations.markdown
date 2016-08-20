@@ -12,44 +12,30 @@ During my internship with TrackMaven in the Winter/Spring of 2015 I was tasked w
  
 The following sets of illustrations I created were for use on both the marketing site and blog:
 
----
-
 ## TM-Talks
 
-![TrackMaven TM-Talks](/assets/TrackMaven TM-Talks.jpg)  
+![trackmaven-illustrations-tm-talks.jpg](/uploads/trackmaven-illustrations-tm-talks.jpg)
 
-![TrackMaven TM-Talks Blog Post](/assets/TrackMaven TM-Talks Blog Post.jpg) 
-
----
+![trackmaven-illustrations-tm-talks-blog.jpg](/uploads/trackmaven-illustrations-tm-talks-blog.jpg)
 
 ## Projector 
 
-![TrackMaven Movies](/assets/TrackMaven Movies.jpg) 
+![trackmaven-illustrations-movie.jpg](/uploads/trackmaven-illustrations-movie.jpg)
 
-![TrackMaven Movies Blog Post](/assets/TrackMaven Movies Blog Post.jpg)
-
-___
+![trackmaven-illustrations-movie-blog.jpg](/uploads/trackmaven-illustrations-movie-blog.jpg)
 
 ## Resources Page Icons
 
-<div class="owl-carousel">
-  <div><img src="/assets/TrackMaven Resources Page - Downloads.jpg"></div>
-  <div><img src="/assets/TrackMaven Resources Page - Events.jpg"></div>
-  <div><img src="/assets/TrackMaven Resources Page - Marketing Dictionary.jpg"></div>
-</div>
-
-![TrackMaven Resources Page](/assets/TrackMaven Resources Page.jpg) 
-
----
+![trackmaven-illustrations-downloads.jpg](/uploads/trackmaven-illustrations-downloads.jpg)
+![trackmaven-illustrations-dictionary.jpg](/uploads/trackmaven-illustrations-dictionary.jpg)
+![trackmaven-illustrations-events.jpg](/uploads/trackmaven-illustrations-events.jpg)
+![trackmaven-illustrations-resources-page.jpg](/uploads/trackmaven-illustrations-resources-page.jpg)
 
 ## Careers Page
 
-<div class="owl-carousel">
-  <div><img src="/assets/TrackMaven Careers Page - Education.jpg"></div>
-  <div><img src="/assets/TrackMaven Careers Page - Engine Room.jpg"></div>
-  <div><img src="/assets/TrackMaven Careers Page - Lunch & Learn.jpg"></div>
-  <div><img src="/assets/TrackMaven Careers Page - Ruff Concepts.jpg"></div>
-  <div><img src="/assets/TrackMaven Careers Page - Team Offsites.jpg"></div>
-</div>
-
-![TrackMaven Careers Page](/assets/TrackMaven Careers Page.jpg)
+![trackmaven-illustrations-education-budget.jpg](/uploads/trackmaven-illustrations-education-budget.jpg)
+![trackmaven-illustrations-engine-room.jpg](/uploads/trackmaven-illustrations-engine-room.jpg)
+![trackmaven-illustrations-lunch-and-learn.jpg](/uploads/trackmaven-illustrations-lunch-and-learn.jpg)
+![trackmaven-illustrations-ruff-concepts.jpg](/uploads/trackmaven-illustrations-ruff-concepts.jpg)
+![trackmaven-illustrations-team-offsites.jpg](/uploads/trackmaven-illustrations-team-offsites.jpg)
+![trackmaven-illustrations-careers-page.jpg](/uploads/trackmaven-illustrations-careers-page.jpg)
