@@ -27,15 +27,23 @@ The following sets of illustrations I created were for use on both the marketing
 ## Resources Page Icons
 
 ![trackmaven-illustrations-downloads.jpg](/uploads/trackmaven-illustrations-downloads.jpg)
+
 ![trackmaven-illustrations-dictionary.jpg](/uploads/trackmaven-illustrations-dictionary.jpg)
+
 ![trackmaven-illustrations-events.jpg](/uploads/trackmaven-illustrations-events.jpg)
+
 ![trackmaven-illustrations-resources-page.jpg](/uploads/trackmaven-illustrations-resources-page.jpg)
 
 ## Careers Page
 
 ![trackmaven-illustrations-education-budget.jpg](/uploads/trackmaven-illustrations-education-budget.jpg)
+
 ![trackmaven-illustrations-engine-room.jpg](/uploads/trackmaven-illustrations-engine-room.jpg)
+
 ![trackmaven-illustrations-lunch-and-learn.jpg](/uploads/trackmaven-illustrations-lunch-and-learn.jpg)
+
 ![trackmaven-illustrations-ruff-concepts.jpg](/uploads/trackmaven-illustrations-ruff-concepts.jpg)
+
 ![trackmaven-illustrations-team-offsites.jpg](/uploads/trackmaven-illustrations-team-offsites.jpg)
+
 ![trackmaven-illustrations-careers-page.jpg](/uploads/trackmaven-illustrations-careers-page.jpg)
