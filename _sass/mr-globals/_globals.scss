@@ -81,18 +81,30 @@ img:after {
 }
 
 .project-detail-block {
-  min-height: 175px;
+  min-height: 200px;
 }
 
-a.photoset-button {
+a.white-button,
+button.white-button {
   padding: 1em 2em;
-  border: solid 1px $pure-white;
-  border-radius: 4px;
+  border-radius: 2.5px;
   background: $pure-white;
   transition: all 100ms ease-in-out;
   color: $gray;
+  text-decoration: none;
+  border: none !important;
 }
 
-a.photoset-button:hover {
+a.white-button:hover,
+button.white-button:hover {
   color: $primary;
+}
+
+a.white-button:focus,
+button.white-button:focus {
+  outline: $primary auto 10px !important;
+}
+
+ul.tags {
+  -webkit-padding-start: 0 !important;
 }
