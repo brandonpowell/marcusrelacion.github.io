@@ -6,5 +6,6 @@ photoset-year: 2015
 photoset-header-image: "/uploads/geto-boys-header.jpg"
 photoset-excerpt-text: The Geto Boys
 photoset-location: Howard Theater
+layout: singles/single-photos
 ---
 
