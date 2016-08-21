@@ -15,48 +15,38 @@
         <!--
         More info coming soon.
         -->
-        {% for posts in site.projects %}
-          <a href="{{ posts.url }}">
+        {% for posts in site.projects limit: 4 %}
           <div class="sm-col sm-col-12 md-col-6 p1">
-          {% if posts.is-featured == true %}
-            <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-            <div class="project-detail-block">
-              <small class="text-semibold">
-                {{ posts.project-year }}
-              </small>
-              <h2 class="m0 py2 text-medium">
-                {{ posts.title }}
-              </h2>
-              <p class="m0 text-small">
-                {{ posts.project-excerpt-text }}
-              </p>
-            </div>
-          {% else %}
-          {% endif %}
+            {% if posts.is-featured == true %}
+              <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
+              <div class="mt2 mb2 project-detail-block relative">
+                <small class="m0 gray">
+                  {{ posts.project-year }}
+                </small>
+                <a class="project-link primary" href="{{ posts.url }}">
+                  <h2 class="m0 text-default">
+                    {{ posts.title }}
+                  </h2>
+                </a>
+                <p class="m0 text-small py3">
+                  {{ posts.project-excerpt-text }}
+                </p>
+                <ul class="tags absolute bottom-0 left-0 right-0">
+                  <a class="tag-link mr1" href="{{ posts.url }}">
+                    <li class="inline-block">Branding</li>
+                  </a>
+                  <a class="tag-link mr1" href="{{ posts.url }}">
+                    <li class="inline-block">Development</li>
+                  </a>
+                  <a class="tag-link" href="{{ posts.url }}">
+                    <li class="inline-block">Illustration</li>
+                  </a>
+                </ul>
+              </div>
+            {% endif %}
           </div>
-          </a>
         {% endfor %}
       </div>
     </section>
-
-    <section class="projects bg-primary">
-      <div class="container clearfix p3">
-        <small class="center block">Project Archive</small>
-        <!--
-        More info coming soon.
-        -->
-        {% for posts in site.projects %}
-          <ul>
-            <a href="{{ posts.url}}">
-              <li class="project-archive-link m0 text-small pure-white">
-                <small>{{ posts.project-year }}</small>
-                <h3 class="text-default">{{ posts.title }}</h3>
-              </li>
-            </a>
-          </ul>
-        {% endfor %}
-      </div>
-    </section>
-
 
 {% include global/body-closed.html %}

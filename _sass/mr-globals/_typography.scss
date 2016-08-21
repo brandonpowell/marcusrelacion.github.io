@@ -76,6 +76,7 @@ p {
   color: $gray;
 }
 
+article a,
 a {
   text-decoration: none;
   font-weight: $text-semibold;
@@ -84,12 +85,19 @@ a {
   text-decoration: underline;
 }
 
+article a:hover,
 a:hover {
   color: $primary;
 }
 
+article a:focus,
 a:focus {
   outline: $primary auto 10px !important;
+}
+
+article a:visited,
+a:visited {
+  outline: $secondary;
 }
 
 blockquote p {
