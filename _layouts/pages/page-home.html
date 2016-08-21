@@ -2,7 +2,7 @@
 
     <section>
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12">
+        <div class="sm-col sm-col-12 p1">
           <article>
             {{ page.content | markdownify }}
           </article>
@@ -13,50 +13,48 @@
     <section class="recent-projects">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12">
-          <div class="sub-title-block">
-            <h2 class="m0 py2 text-small text-uppercase relative primary">
-              <svg id="i-portfolio" class="m0 absolute primary" style="top: 15px; left: -50px;" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+          <div class="sub-title-block mb3 p1">
+            <h2 class="m0 text-default relative gray">
+              <svg id="i-portfolio" class="m0 absolute gray" style="top: 3px; left: -50px;" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
                 <path d="M29 17 L29 28 3 28 3 17 M2 8 L30 8 30 16 C30 16 24 20 16 20 8 20 2 16 2 16 L2 8 Z M16 22 L16 18 M20 8 C20 8 20 4 16 4 12 4 12 8 12 8" />
               </svg>
               {{ page.recent-projects }}
             </h2>
           </div>
         </div>
+
         <!--
         More info coming soon.
         -->
         {% for posts in site.projects limit: 4 %}
-          <div class="sm-col sm-col-12 md-col-6 p1">
-          {% if posts.is-featured == true %}
-            <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-            <div class="mt2 project-detail-block">
-              <small class="m0 text-semibold">
-                {{ posts.project-year }}
-              </small>
-              <a class="project-link gray" href="{{ posts.url }}">
-                <h2 class="m0 mb3 text-medium">
-                  {{ posts.title }}
-                </h2>
-              </a>
-              <p class="m0 text-small">
-                {{ posts.project-excerpt-text }}
-              </p>
-              <ul class="tags">
-                <a class="project-link" href="{{ posts.url }}">
-                  <li class="inline-block mr1 text-small">Branding</li>
+          <div class="sm-col sm-col-12 md-col-6 p1 py2">
+            {% if posts.is-featured == true %}
+              <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
+              <div class="mt2 project-detail-block relative">
+                <small class="m0 gray">
+                  {{ posts.project-year }}
+                </small>
+                <a class="project-link primary" href="{{ posts.url }}">
+                  <h2 class="m0 text-default">
+                    {{ posts.title }}
+                  </h2>
                 </a>
-
-                <a class="project-link" href="{{ posts.url }}">
-                  <li class="inline-block mr1 text-small">Development</li>
-                </a>
-
-                <a class="project-link" href="{{ posts.url }}">
-                  <li class="inline-block text-small">Illustration</li>
-                </a>
-              </ul>
-            </div>
-          {% else %}
-          {% endif %}
+                <p class="m0 text-small py3">
+                  {{ posts.project-excerpt-text }}
+                </p>
+                <ul class="tags absolute bottom-0 left-0 right-0">
+                  <a class="tag-link mr1" href="{{ posts.url }}">
+                    <li class="inline-block">Branding</li>
+                  </a>
+                  <a class="tag-link mr1" href="{{ posts.url }}">
+                    <li class="inline-block">Development</li>
+                  </a>
+                  <a class="tag-link" href="{{ posts.url }}">
+                    <li class="inline-block">Illustration</li>
+                  </a>
+                </ul>
+              </div>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
@@ -80,18 +78,18 @@
                 </h2>
               </div>
               <div class="photoset-detail-block">
-                <small class="text-semibold pure-white">
+                <small class="m0 pure-white">
                   {{ posts.photoset-year }} | {{ posts.photoset-location }}
                 </small>
                 <a class="project-link pure-white" href="{{ posts.url }}">
-                  <h2 class="m0 mb1 text-large">
+                  <h2 class="m0 text-default">
                     {{ posts.title }}
                   </h2>
                 </a>
-                <p class="m0 mb4 text-default pure-white">
+                <p class="m0 text-small pure-white py3">
                   {{ posts.photoset-excerpt-text }}
                 </p>
-                <button class="white-button m0 text-small inline-block">
+                <button class="white-button m0 text-x-small text-semibold inline-block">
                   View Photoset
                 </button>
               </div>
@@ -143,7 +141,7 @@
               {{ page.about }}
             </h2>
           </div>
-          <p class="m0">
+          <p class="m0 ">
             {{ page.about-text | markdownify }}
           </p>
         </div>
@@ -162,11 +160,11 @@
           -->
           {% assign sorted_jobs = site.jobs | sort:"position" %}
           {% for posts in sorted_jobs %}
-          <div class="sm-col sm-col-6 md-col-6 lg-col-3 py1">
+          <div class="sm-col sm-col-6 md-col-6 lg-col-3 p1">
             <!-- Event Link to Single Page -->
             {% if posts.is-current == true %}
             <div class="current-job gray" style="">
-              <small class="text-semibold">
+              <small class="">
                 {{ posts.job-duration }}
               </small>
               <h2 class="m0 mb1 text-default">
@@ -180,7 +178,7 @@
             {% else %}
 
             <div class="previous-job" style="opacity: 0.25;">
-              <small class="text-semibold">
+              <small class="">
                 {{ posts.job-duration }}
               </small>
               <h2 class="m0 mb1 text-default">
