@@ -1,9 +1,10 @@
-// Variables
+/*=============================================>>>>>
+= Type Variables =
+===============================================>>>>>*/
 
 // font families
-
-$serif: 'Merriweather', serif;
-$sans: 'Work Sans', sans-serif;
+$serif: 'Merriweather', serif; // should remove
+$sans: 'Work Sans', sans-serif; // should remove
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
 
 // font sizes
@@ -20,7 +21,13 @@ $text-light: 300; // body copy
 $text-semibold: 600; // sub-headers
 $text-black: 900; // headers
 
-/* Typography */
+/*= End of Type Variables =*/
+/*=============================================<<<<<*/
+
+/*=============================================>>>>>
+= Type Styles =
+===============================================>>>>>*/
+
 //.serif { font-family: $serif; }
 //.sans { font-family: $sans; }
 .system { font-family: $system; }
@@ -52,16 +59,10 @@ h1 {
 
 h2 {
   font-size: $text-large;
-
 }
 
 h3 {
   font-size: $text-x-medium;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: $text-medium;
   text-transform: uppercase;
 }
 
@@ -80,18 +81,15 @@ a {
   font-weight: $text-semibold;
   cursor: pointer;
   transition: color 150ms ease-in-out;
-  color: $gray;
+  text-decoration: underline;
 }
 
 a:hover {
   color: $primary;
 }
 
-img  {
-  width: 100%;
-  max-width: 100%;
-  vertical-align: middle;
-  border-radius: 4px;
+a:focus {
+  outline: $primary auto 10px !important;
 }
 
 blockquote p {
@@ -99,3 +97,6 @@ blockquote p {
   font-style: normal;
   margin: 1.5em 0;
 }
+
+/*= End of Type Styles =*/
+/*=============================================<<<<<*/

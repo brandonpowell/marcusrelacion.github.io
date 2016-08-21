@@ -7,3 +7,5 @@ layout: pages/page-landing
 # Hello!
 
 My name is Marcus Relacion. Currently I'm designing & building interfaces as a Junior UI Designer at [Clarabridge](http://www.clarabridge.com/) in Reston, VA.
+
+Tip: Try adding /home to the end of the url.

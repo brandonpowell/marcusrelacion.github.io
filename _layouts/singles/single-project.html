@@ -1,21 +1,27 @@
 {% include global/body-open.html %}
 
-<main>
-
-  {% include header.html %}
-
     <section>
+      <div class="container clearfix px3 py4 rounded bg-cover bg-center" style="background-image: url('{{ page.project-header-image }}');">
+      </div>
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-8">
-          <article class="pure-white">
-            {{ page.about-text | markdownify }}
+          <article>
+            {{ page.content }}
           </article>
+        </div>
+        <div class="sm-col sm-col-12 md-col-4 p1">
+          <aside class="border p2 rounded">
+            <h3 class="primary m0 center text-small">Details</h3>
+            <h3 class="gray m0 center text-small">Project Year</h3>
+            <ul>
+              <li>Branding</li>
+              <li>Development</li>
+              <li>Illustration</li>
+              <li>Development</li>
+            </ul>
+          </aside>
         </div>
       </div>
     </section>
-
-  {% include footer.html %}
-
-</main>
 
 {% include global/body-closed.html %}

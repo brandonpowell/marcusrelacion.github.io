@@ -34,11 +34,6 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: Projects
-  values:
-    layout: singles/single-project
-- scope:
-    path: ''
     type: jobs
   values:
     is-current: 
@@ -48,6 +43,7 @@ defaults:
     path: ''
     type: projects
   values:
+    layout: singles/single-project
     is-featured: 
     project-year: 
     project-header-image: 

@@ -1,3 +1,5 @@
+@import "mr-globals/typography";
+
 /* sets the max width for the container of the site */
 .container {
   width: 100%;
@@ -11,6 +13,42 @@
   width: 100%;
 }
 
+/*
+img  {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+*/
+
+img {
+  font-family: $system;
+  font-weight: 400;
+  background: #f1f1f1;
+  border-radius: 4px;
+  color: $gray;
+  text-align: center;
+  font-size: $text-x-small;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  padding: 1.5em;
+}
+
+img:before {
+  content: "I apologize, but this image appears to be broken. Shoot me an email at hello@marcusrelacion.com and I'll get this fixed as soon as possible.";
+  display: block;
+  margin-bottom: 1em;
+}
+
+img:after {
+  content: "(url: " attr(src) ")";
+  display: block;
+  margin-top: 1em;
+}
 .bg-no-repeat { background-repeat: no-repeat; }
 
 .rounded {
@@ -43,18 +81,30 @@
 }
 
 .project-detail-block {
-  min-height: 175px;
+  min-height: 200px;
 }
 
-a.photoset-button {
+a.white-button,
+button.white-button {
   padding: 1em 2em;
-  border: solid 1px $pure-white;
-  border-radius: 4px;
-  background: transparent;
+  border-radius: 2.5px;
+  background: $pure-white;
   transition: all 100ms ease-in-out;
+  color: $gray;
+  text-decoration: none;
+  border: none !important;
 }
 
-a.photoset-button:hover {
-  background: $pure-white;
-  color: $gray;
+a.white-button:hover,
+button.white-button:hover {
+  color: $primary;
+}
+
+a.white-button:focus,
+button.white-button:focus {
+  outline: $primary auto 10px !important;
+}
+
+ul.tags {
+  -webkit-padding-start: 0 !important;
 }
