@@ -10,7 +10,7 @@ collections:
     output: false
   photos:
     title: Photos
-    output: false
+    output: true
   posts:
     title: Posts
     output: true
