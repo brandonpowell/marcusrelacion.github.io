@@ -6,5 +6,6 @@ photoset-year: 2015
 photoset-header-image: "/uploads/big-krit-header.jpg"
 photoset-excerpt-text: Cadillactica
 photoset-location: Howard Theater
+layout: singles/single-photos
 ---
 
