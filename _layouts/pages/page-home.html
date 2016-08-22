@@ -1,6 +1,6 @@
 {% include global/body-open.html %}
 
-    <section>
+    <section class="home-introduction">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 p1">
           <article>
@@ -15,48 +15,11 @@
         <div class="sm-col sm-col-12">
           <div class="sub-title-block p1">
             <h2 class="m0 mb2 text-default relative gray">
-              <svg id="i-portfolio" class="m0 absolute gray" style="top: 3px; left: -50px;" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-                <path d="M29 17 L29 28 3 28 3 17 M2 8 L30 8 30 16 C30 16 24 20 16 20 8 20 2 16 2 16 L2 8 Z M16 22 L16 18 M20 8 C20 8 20 4 16 4 12 4 12 8 12 8" />
-              </svg>
               {{ page.recent-projects }}
             </h2>
           </div>
         </div>
-
-        <!--
-        More info coming soon.
-        -->
-        {% for posts in site.projects limit: 4 %}
-          <div class="sm-col sm-col-12 md-col-6 p1">
-            {% if posts.is-featured == true %}
-              <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-              <div class="mt2 mb2 project-detail-block relative">
-                <small class="m0 gray">
-                  {{ posts.project-year }}
-                </small>
-                <a class="project-link primary" href="{{ posts.url }}">
-                  <h2 class="m0 text-default">
-                    {{ posts.title }}
-                  </h2>
-                </a>
-                <p class="m0 text-small py3">
-                  {{ posts.project-excerpt-text }}
-                </p>
-                <ul class="tags absolute bottom-0 left-0 right-0">
-                  <a class="tag-link mr1" href="{{ posts.url }}">
-                    <li class="inline-block">Branding</li>
-                  </a>
-                  <a class="tag-link mr1" href="{{ posts.url }}">
-                    <li class="inline-block">Development</li>
-                  </a>
-                  <a class="tag-link" href="{{ posts.url }}">
-                    <li class="inline-block">Illustration</li>
-                  </a>
-                </ul>
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
+        {% include partials/projects.html %}
       </div>
     </section>
 
@@ -69,11 +32,7 @@
           <div class="container clearfix px3 py4">
             <div class="sm-col sm-col-12 md-col-6">
               <div class="sub-title-block p1">
-                <h2 class="m0 mb2 text-small text-uppercase pure-white relative">
-                  <svg id="i-camera" class="m0 absolute pure-white" style="top: 0; left: -50px;" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-                    <path d="M2 8 L 9 8 12 4 20 4 23 8 30 8 30 26 2 26 Z" />
-                    <circle cx="16" cy="16" r="5" />
-                  </svg>
+                <h2 class="m0 mb2 text-small text-uppercase pure-white">
                   {{ page.latest-photoset }}
                 </h2>
               </div>
@@ -135,9 +94,6 @@
         <div class="sm-col sm-col-12 py3">
           <div class="sub-title-block p1">
             <h2 class="m0 mb2 text-small text-uppercase relative primary">
-              <svg id="i-user" class="m0 absolute primary" style="top: 0; left: -50px;" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-                <path d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z" />
-              </svg>
               {{ page.about }}
             </h2>
           </div>
@@ -150,10 +106,6 @@
         <div class="sm-col sm-col-12">
           <div class="sub-title-block p1">
             <h2 class="m0 mb2 text-small text-uppercase relative primary">
-              <svg id="i-info" class="m0 absolute primary" style="top: 0; left: -50px;" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-                <path d="M16 14 L16 23 M16 8 L16 10" />
-                <circle cx="16" cy="16" r="14" />
-              </svg>
               Experience:
             </h2>
           </div>
