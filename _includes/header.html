@@ -1,7 +1,18 @@
 <header>
   <div class="container clearfix p3">
-    <div class="logo-wrapper">
+    <div class="logo-wrapper relative left">
       <img src="{{ site.logo-image }}">
     </div>
+    <nav class="main-nav relative right">
+      <ul>
+        <!-- instructing the navigation to print every page of the site as list items -->
+        {% assign sorted_pages = site.pages | sort:"position" %}
+        {% for page in sorted_pages %}
+         <li class="inline-block m0">
+           <a href="{{ page.permalink }}" class="m0 mr2 text-x-small text-black text-uppercase gray">{{ page.title }}</a>
+         </li>
+        {% endfor %}
+       </ul>
+    </nav>
   </div>
 </header>
