@@ -6,4 +6,4 @@ layout: pages/page-photos
 
 # Photos
 
-Take a look at the world through my lens.
+Below is an archive of photosets that I have taken over the years. 
