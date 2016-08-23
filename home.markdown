@@ -15,4 +15,5 @@ layout: pages/page-home
 
 # Hello!
 
-My name is Marcus Relacion. Currently I'm designing & building interfaces as a Junior UI Designer at [Clarabridge](http://www.clarabridge.com/) in Reston, VA.
+My name is Marcus Relacion. I'm currently a Junior UI Designer at [Clarabridge](http://www.clarabridge.com), where I am designing and building interfaces in Reston, VA.
+
