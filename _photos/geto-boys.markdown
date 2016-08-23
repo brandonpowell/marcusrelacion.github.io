@@ -1,6 +1,6 @@
 ---
 title: Geto Boys
-date: 2015-10-25 17:28:00 -04:00
+date: 2015-06-07 17:28:00 -04:00
 is-featured: false
 photoset-year: 2015
 photoset-header-image: "/uploads/geto-boys-header.jpg"
