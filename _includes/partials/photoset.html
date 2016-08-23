@@ -1,4 +1,4 @@
-<div class="container clearfix p3">
+<div class="clearfix">
   <div class="sub-title-block">
     <h2 class="m0 text-small text-uppercase gray">
       {{ page.latest-photoset-section-title }}
@@ -12,7 +12,7 @@ More info coming soon.
 {% for posts in sorted_photos %}
 <div class="sm-col sm-col-12 md-col-6">
   <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
-    <div class="container clearfix p3">
+    <div class="clearfix p3">
       <div class="photoset-detail-block p1">
         <small class="m0 pure-white">
           {{ posts.photoset-year }} | {{ posts.photoset-location }}

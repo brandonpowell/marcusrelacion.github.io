@@ -1,5 +1,5 @@
 <div class="sm-col sm-col-12">
-  <div class="sub-title-block p1">
+  <div class="sub-title-block">
     <h2 class="m0 text-small text-uppercase gray">
       {{ page.latest-projects-section-title }}
     </h2>
@@ -10,7 +10,7 @@ More info coming soon.
 -->
 {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
 {% for posts in sorted_projects %}
-  <div class="sm-col sm-col-12 md-col-6 p1">
+  <div class="sm-col sm-col-12 md-col-6 border p3">
     {% if posts.is-featured == true %}
       <div class="project-header-image bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
       <div class="mt2 mb2 project-detail-block relative">
