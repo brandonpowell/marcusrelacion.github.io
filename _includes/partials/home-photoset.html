@@ -9,7 +9,7 @@
 More info coming soon.
 -->
 {% assign sorted_photos = site.photos | sort: 'date') | reverse %}
-{% for posts in sorted_photos %}
+{% for posts in sorted_photos limit: 2 %}
 <div class="sm-col sm-col-12 md-col-6">
   <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
     <div class="container clearfix p3">
