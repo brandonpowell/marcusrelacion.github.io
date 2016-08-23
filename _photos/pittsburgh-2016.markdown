@@ -6,5 +6,6 @@ photoset-year: 2016
 photoset-header-image: "/uploads/2016-08-16%2009.10.17%202.jpg"
 photoset-excerpt-text: New Set Coming.
 photoset-location: Pittsburgh
+layout: singles/single-photos
 ---
 
