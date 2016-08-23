@@ -1,10 +1,17 @@
+<div class="sm-col sm-col-12">
+  <div class="sub-title-block p1">
+    <h2 class="m0 text-small text-uppercase gray">
+      {{ page.recent-projects }}
+    </h2>
+  </div>
+</div>
 <!--
 More info coming soon.
 -->
 {% for posts in site.projects limit: 4 %}
   <div class="sm-col sm-col-12 md-col-6 p1">
     {% if posts.is-featured == true %}
-      <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
+      <div class="project-header-image bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
       <div class="mt2 mb2 project-detail-block relative">
         <small class="m0 gray">
           {{ posts.project-year }}

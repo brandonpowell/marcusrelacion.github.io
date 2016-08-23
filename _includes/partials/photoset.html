@@ -1,0 +1,34 @@
+<div class="container clearfix p3">
+  <div class="sub-title-block">
+    <h2 class="m0 text-small text-uppercase gray">
+      {{ page.latest-photoset }}
+    </h2>
+  </div>
+</div>
+<!--
+More info coming soon.
+-->
+{% for posts in site.photos %}
+<div class="sm-col sm-col-12 md-col-6">
+  <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
+    <div class="container clearfix p3">
+      <div class="photoset-detail-block p1">
+        <small class="m0 pure-white">
+          {{ posts.photoset-year }} | {{ posts.photoset-location }}
+        </small>
+        <a class="project-link pure-white" href="{{ posts.url }}">
+          <h2 class="m0 text-default">
+            {{ posts.title }}
+          </h2>
+        </a>
+        <p class="m0 text-small pure-white py3">
+          {{ posts.photoset-excerpt-text }}
+        </p>
+        <button onclick="location.href='{{ posts.url }}'" class="white-button m0 text-x-small text-semibold inline-block">
+          View Photoset
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

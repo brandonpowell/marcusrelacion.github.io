@@ -1,152 +1,26 @@
 {% include global/body-open.html %}
-
-    <section class="home-introduction">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 p1">
-          <article>
-            {{ page.content | markdownify }}
-          </article>
-        </div>
-      </div>
+    <section class="introduction container clearfix p3">
+      <!-- Contains the structure of the project cards. -->
+      {% include partials/introduction.html %}
     </section>
 
-    <section class="recent-projects">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12">
-          <div class="sub-title-block p1">
-            <h2 class="m0 mb2 text-default relative gray">
-              {{ page.recent-projects }}
-            </h2>
-          </div>
-        </div>
-        {% include partials/projects.html %}
-      </div>
+    <section class="projects container clearfix p3">
+      <!-- Contains the structure of the project cards. -->
+      {% include partials/projects.html %}
     </section>
 
-    <section class="latest-photoset">
-      <!--
-      More info coming soon.
-      -->
-      {% for posts in site.photos limit: 1 %}
-        <div class="photoset-image-block  bg-cover bg-center py4" style="background-image: url('{{ posts.photoset-header-image }}')">
-          <div class="container clearfix px3 py4">
-            <div class="sm-col sm-col-12 md-col-6">
-              <div class="sub-title-block p1">
-                <h2 class="m0 mb2 text-small text-uppercase pure-white">
-                  {{ page.latest-photoset }}
-                </h2>
-              </div>
-              <div class="photoset-detail-block p1">
-                <small class="m0 pure-white">
-                  {{ posts.photoset-year }} | {{ posts.photoset-location }}
-                </small>
-                <a class="project-link pure-white" href="{{ posts.url }}">
-                  <h2 class="m0 text-default">
-                    {{ posts.title }}
-                  </h2>
-                </a>
-                <p class="m0 text-small pure-white py3">
-                  {{ posts.photoset-excerpt-text }}
-                </p>
-                <button class="white-button m0 text-x-small text-semibold inline-block">
-                  View Photoset
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
+    <section class="photoset clearfix">
+      <!-- Contains the structure of the featured photoset -->
+      {% include partials/photoset.html %}
     </section>
 
-    <!--
-    <section class="latest-notes">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 px1">
-          <div class="sub-title-block">
-            <h2 class="m0 py2 text-medium  ">
-              {{ page.latest-journal }}
-            </h2>
-          </div>
-        </div>
-        <div class="sm-col sm-col-12 md-col-6 px1">
-          <div class="journal-image-block bg-cover bg-center rounded" style="background-image: url('{{ page.work-experience-bg-image }}')"></div>
-          {% assign sorted_notes = site.notes %}
-          {% for posts in sorted_notes %}
-          <div class="project-detail-block">
-            <small class="  ">
-              2015
-            </small>
-            <h2 class="m0 py2 text-medium    ">
-              {{ posts.title }}
-            </h2>
-            <p class="     ">
-              {{ posts.notes-excerpt | markdownify }}
-            </p>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-    -->
-
-    <section class="experience">
-      <div class="container clearfix p3 bg">
-        <div class="sm-col sm-col-12 py3">
-          <div class="sub-title-block p1">
-            <h2 class="m0 mb2 text-small text-uppercase relative primary">
-              {{ page.about }}
-            </h2>
-          </div>
-          <div class="about-detail-block p1">
-            <p class="m0">
-              {{ page.about-text | markdownify }}
-            </p>
-          </div>
-        </div>
-        <div class="sm-col sm-col-12">
-          <div class="sub-title-block p1">
-            <h2 class="m0 mb2 text-small text-uppercase relative primary">
-              Experience:
-            </h2>
-          </div>
-          <!--
-          More info coming
-          -->
-          {% assign sorted_jobs = site.jobs | sort:"position" %}
-          {% for posts in sorted_jobs %}
-          <div class="sm-col sm-col-6 md-col-6 lg-col-3 p1">
-            <!-- Event Link to Single Page -->
-            {% if posts.is-current == true %}
-            <div class="current-job gray" style="">
-              <small class="">
-                {{ posts.job-duration }}
-              </small>
-              <h2 class="m0 mb1 text-default">
-                {{ posts.title }}
-              </h2>
-              <p class="m0 text-small">
-                {{ posts.job-title }}
-              </p>
-            </div>
-
-            {% else %}
-
-            <div class="previous-job" style="opacity: 0.25;">
-              <small class="">
-                {{ posts.job-duration }}
-              </small>
-              <h2 class="m0 mb1 text-default">
-                {{ posts.title }}
-              </h2>
-              <p class="m0 text-small">
-                {{ posts.job-title }}
-              </p>
-            </div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
+    <section class="about container clearfix p3">
+      <!-- Contains the structure of the featured photoset -->
+      {% include partials/about.html %}
     </section>
 
+    <section class="experience clearfix bg-primary">
+      <!-- Contains the structure of the featured photoset -->
+      {% include partials/experience.html %}
+    </section>
 {% include global/body-closed.html %}

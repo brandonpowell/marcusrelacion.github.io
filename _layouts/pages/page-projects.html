@@ -1,52 +1,11 @@
 {% include global/body-open.html %}
-
-    <section>
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 px1">
-          <article class="pure-white">
-            {{ page.content | markdownify }}
-          </article>
-        </div>
-      </div>
+    <section class="introduction container clearfix p3">
+      <!-- Contains the structure of the project cards. -->
+      {% include partials/introduction.html %}
     </section>
 
-    <section class="projects">
-      <div class="container clearfix p3">
-        <!--
-        More info coming soon.
-        -->
-        {% for posts in site.projects limit: 4 %}
-          <div class="sm-col sm-col-12 md-col-6 p1">
-            {% if posts.is-featured == true %}
-              <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-              <div class="mt2 mb2 project-detail-block relative">
-                <small class="m0 gray">
-                  {{ posts.project-year }}
-                </small>
-                <a class="project-link primary" href="{{ posts.url }}">
-                  <h2 class="m0 text-default">
-                    {{ posts.title }}
-                  </h2>
-                </a>
-                <p class="m0 text-small py3">
-                  {{ posts.project-excerpt-text }}
-                </p>
-                <ul class="tags absolute bottom-0 left-0 right-0">
-                  <a class="tag-link mr1" href="{{ posts.url }}">
-                    <li class="inline-block">Branding</li>
-                  </a>
-                  <a class="tag-link mr1" href="{{ posts.url }}">
-                    <li class="inline-block">Development</li>
-                  </a>
-                  <a class="tag-link" href="{{ posts.url }}">
-                    <li class="inline-block">Illustration</li>
-                  </a>
-                </ul>
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+    <section class="projects container clearfix p3">
+      <!-- Contains the structure of the project cards. -->
+      {% include partials/projects.html %}
     </section>
-
 {% include global/body-closed.html %}
