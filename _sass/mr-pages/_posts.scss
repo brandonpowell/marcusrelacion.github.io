@@ -2,9 +2,12 @@
 
 article h1 {
  color: $primary;
+ margin-bottom: 0.25em;
 }
 
 article h2 {
   color: $gray;
-  margin: 1.5em 0 0 0;
+  font-size: $text-x-medium;
+  font-weight: $text-semibold;
+  margin: 0;
 }

@@ -83,11 +83,12 @@ a {
   cursor: pointer;
   transition: color 150ms ease-in-out;
   text-decoration: underline;
+  color: $primary;
 }
 
 article a:hover,
 a:hover {
-  color: $primary;
+  color: $primary-light;
 }
 
 article a:focus,

@@ -85,16 +85,17 @@ a.white-button,
 button.white-button {
   padding: 1em 2em;
   border-radius: 2.5px;
-  background: $pure-white;
+  background: $primary-light;
   transition: all 100ms ease-in-out;
-  color: $gray;
+  color: $primary;
   text-decoration: none;
   border: none !important;
+  cursor: pointer;
 }
 
 a.white-button:hover,
 button.white-button:hover {
-  color: $primary;
+  background: $secondary;
 }
 
 a.white-button:focus,
