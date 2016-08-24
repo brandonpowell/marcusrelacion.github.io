@@ -1,4 +1,7 @@
 {% include global/body-open.html %}
+  <header class="clearcis">
+    {% include header.html %}
+  </header>
     <section class="introduction clearfix">
       <!-- Contains the structure of the project cards. -->
       {% include partials/introduction.html %}
@@ -19,8 +22,11 @@
       {% include partials/about.html %}
     </section>
 
-    <section class="experience clearfix bg-primary">
-      <!-- Contains the structure of the featured photoset -->
-      {% include partials/experience.html %}
+    <section class="bg-primary rounded clearfix">
+      <!-- Contains the structure of the project cards. -->
+      {% include partials/contact-cta.html %}
     </section>
+  <footer class="clearfix">
+    {% include footer.html %}
+  </footer>
 {% include global/body-closed.html %}

@@ -1,35 +1,34 @@
-<div class="clearfix">
-  <div class="sub-title-block">
-    <h2 class="m0 text-small text-uppercase gray">
-      {{ page.latest-photoset-section-title }}
-    </h2>
-  </div>
-</div>
-<!--
-More info coming soon.
--->
-{% assign sorted_photos = site.photos | sort: 'date') | reverse %}
-{% for posts in sorted_photos limit:2 %}
-<div class="sm-col sm-col-12 md-col-6">
-  <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
-    <div class="clearfix p3">
-      <div class="photoset-detail-block p1">
-        <small class="m0 pure-white">
-          {{ posts.photoset-year }} | {{ posts.photoset-location }}
-        </small>
-        <a class="project-link pure-white" href="{{ posts.url }}">
-          <h2 class="m0 text-default">
-            {{ posts.title }}
-          </h2>
-        </a>
-        <p class="m0 text-small pure-white py3">
-          {{ posts.photoset-excerpt-text }}
-        </p>
-        <button onclick="location.href='{{ posts.url }}'" class="white-button m0 text-x-small text-semibold inline-block">
-          View Photoset
-        </button>
+<div class="clearfix py3">
+  <h2 class="m0 text-small text-black text-uppercase gray">
+    {{ page.latest-photoset-section-title }}
+  </h2>
+
+  <!--
+  More info coming soon.
+  -->
+  {% assign sorted_photos = site.photos | sort: 'date') | reverse %}
+  {% for posts in sorted_photos limit:2 %}
+  <div class="sm-col sm-col-12 md-col-6 p1">
+    <div class="bg-cover bg-center py4 bg-primary rounded" style="background-image: url('{{ posts.photoset-header-image }}')">
+      <div class="clearfix p3">
+        <div class="photoset-detail-block p1">
+          <small class="m0 pure-white">
+            {{ posts.photoset-year }} | {{ posts.photoset-location }}
+          </small>
+          <a class="project-link pure-white" href="{{ posts.url }}">
+            <h2 class="m0 text-default">
+              {{ posts.title }}
+            </h2>
+          </a>
+          <p class="m0 text-small pure-white py3">
+            {{ posts.photoset-excerpt-text }}
+          </p>
+          <button onclick="location.href='{{ posts.url }}'" class="white-button m0 text-x-small text-semibold inline-block">
+            View Photoset
+          </button>
+        </div>
       </div>
     </div>
   </div>
+  {% endfor %}
 </div>
-{% endfor %}
