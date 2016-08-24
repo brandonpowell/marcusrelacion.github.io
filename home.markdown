@@ -13,8 +13,6 @@ experience-section-title: 'Experience:'
 layout: pages/page-home
 ---
 
-![about-image-63fbea.jpg](/uploads/about-image-63fbea.jpg)
-
 # Hello!
 
 ## I'm Marcus Relacion, a designer and front-end developer based in Washington, DC.
