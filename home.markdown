@@ -13,7 +13,13 @@ experience-section-title: 'Experience:'
 layout: pages/page-home
 ---
 
+![about-image-63fbea.jpg](/uploads/about-image-63fbea.jpg)
+
 # Hello!
 
-My name is Marcus Relacion. I'm currently a Junior UI Designer at [Clarabridge](http://www.clarabridge.com), where I am designing and building interfaces in Reston, VA.
+## I'm Marcus Relacion, a designer and front-end developer based in Washington, DC.
+
+---
+ 
+Currently designing and building interfaces at [Clarabridge](http://www.clarabridge.com) in Reston, VA.
 
