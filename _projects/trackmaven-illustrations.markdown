@@ -3,7 +3,7 @@ title: TrackMaven Illustrations
 date: 2016-08-14 21:00:00 -04:00
 is-featured: true
 project-year: 2015
-project-header-image: "/uploads/trackmaven-illustrations-header-a57251.jpg"
+project-header-image: "/uploads/trackmaven-illustrations-header-f66030.jpg"
 project-excerpt-text: During my internship with TrackMaven in the Winter/Spring of
   2015 I was tasked with creating several illustrations that aligned with the visual
   style that the design team had established.
