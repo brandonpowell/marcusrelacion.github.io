@@ -3,7 +3,7 @@ title: 'Uncorked: A CMO Wine Tasting'
 date: 2016-08-17 08:59:00 -04:00
 is-featured: true
 project-year: 2016
-project-header-image: "/uploads/uncorked-header-700fae.jpg"
+project-header-image: "/uploads/uncorked-header-88d4ae.jpg"
 project-excerpt-text: 'For Uncorked: A CMO Wine Tasting, I was tasked with creating
   the identity, promotional materials, custom printed invitations, illustrations and
   landing page. '
