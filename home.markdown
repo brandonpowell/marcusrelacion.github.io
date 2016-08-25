@@ -16,7 +16,9 @@ layout: pages/page-home
 # Hello!
 
 ## I'm Marcus Relacion, a designer and front-end developer based in Washington, DC.
- 
+
+---
+
 Currently designing and building interfaces at [Clarabridge](http://www.clarabridge.com) in Reston, VA.
 
 
