@@ -1,40 +1,44 @@
-<h2 class="m0 text-small text-black text-uppercase gray">
+<h2 class="m0 text-small text-black text-uppercase gray py3">
   {{ page.latest-projects-section-title }}
 </h2>
-<div class="py3">
+<div class="">
   <!--
   More info coming soon.
   -->
   {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
   {% for posts in sorted_projects limit:4 %}
-    <div class="sm-col sm-col-12 md-col-6 p1">
       {% if posts.is-featured == true %}
-        <div class="project-header-image bg-cover bg-center bg-primary rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-        <div class="mt2 mb2 project-detail-block relative">
-          <small class="m0 gray">
-            {{ posts.project-year }}
-          </small>
-          <a class="project-link primary" href="{{ posts.url }}">
-            <h2 class="m0 text-default">
-              {{ posts.title }}
-            </h2>
-          </a>
-          <p class="m0 text-small py3">
-            {{ posts.project-excerpt-text }}
-          </p>
-          <ul class="tags absolute bottom-0 left-0 right-0">
-            <a class="tag-link mr1" href="{{ posts.url }}">
-              <li class="inline-block">Branding</li>
+        <div class="sm-col sm-col-12 md-col-6">
+        <div class="project-header-image bg-cover bg-center bg-primary" style="background-image: url('{{ posts.project-header-image }}')">
+          <div class="project-detail-block relative p3">
+            <small class="m0 gray">
+              {{ posts.project-year }}
+            </small>
+            <a class="project-link primary" href="{{ posts.url }}">
+              <h2 class="m0 text-default">
+                {{ posts.title }}
+              </h2>
             </a>
-            <a class="tag-link mr1" href="{{ posts.url }}">
-              <li class="inline-block">Development</li>
-            </a>
-            <a class="tag-link" href="{{ posts.url }}">
-              <li class="inline-block">Illustration</li>
-            </a>
-          </ul>
+            <p class="m0 text-small py3">
+              {{ posts.project-excerpt-text }}
+            </p>
+          </div>
         </div>
+      </div>
       {% endif %}
-    </div>
   {% endfor %}
 </div>
+
+<!--
+<ul class="tags absolute bottom-0 left-0 right-0">
+  <a class="tag-link mr1" href="{{ posts.url }}">
+    <li class="inline-block">Branding</li>
+  </a>
+  <a class="tag-link mr1" href="{{ posts.url }}">
+    <li class="inline-block">Development</li>
+  </a>
+  <a class="tag-link" href="{{ posts.url }}">
+    <li class="inline-block">Illustration</li>
+  </a>
+</ul>
+-->

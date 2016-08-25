@@ -1,13 +1,26 @@
 @import "mr-globals/typography";
 
 article h1 {
- color: $primary;
- margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 article h2 {
-  color: $gray;
-  font-size: $text-x-medium;
+  font-size: $text-medium;
   font-weight: $text-semibold;
   margin: 0;
+}
+
+article p {
+  color: $pure-white;
+}
+
+article a {
+  color: $secondary;
+  transition: color 100ms ease-in-out;
+}
+
+article h1,
+article h2,
+article a:hover {
+  color: $primary-light;
 }

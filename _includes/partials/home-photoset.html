@@ -1,14 +1,14 @@
-<h2 class="m0 text-small text-black text-uppercase gray">
+<h2 class="m0 text-small text-black text-uppercase gray py3">
   {{ page.latest-photoset-section-title }}
 </h2>
-<div class="clearfix py3">
+<div class="clearfix">
   <!--
   More info coming soon.
   -->
   {% assign sorted_photos = site.photos | sort: 'date') | reverse %}
   {% for posts in sorted_photos limit:2 %}
-  <div class="sm-col sm-col-12 md-col-6 p1">
-    <div class="bg-cover bg-center py4 bg-primary rounded" style="background-image: url('{{ posts.photoset-header-image }}')">
+  <div class="sm-col sm-col-12 md-col-6">
+    <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
       <div class="clearfix p3">
         <div class="photoset-detail-block p1">
           <small class="m0 pure-white">
