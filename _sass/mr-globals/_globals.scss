@@ -103,6 +103,28 @@ button.white-button:focus {
   outline: $primary !important;
 }
 
+a.secondary-button,
+button.secondary-button {
+  padding: 1em 2em;
+  border-radius: 2.5px;
+  background: $secondary;
+  transition: all 100ms ease-in-out;
+  color: $primary;
+  text-decoration: none;
+  border: none !important;
+  cursor: pointer;
+}
+
+a.secondary-button:hover,
+button.secondary-button:hover {
+  background: $primary-light;
+}
+
+a.secondary-button:focus,
+button.secondary-button:focus {
+  outline: $primary !important;
+}
+
 /* link styling for tags */
 ul.tags {
   -webkit-padding-start: 0 !important;
@@ -124,4 +146,8 @@ a.tag-link:hover {
   background: $pure-white;
   border: $primary 2px solid;
   color: $primary;
+}
+
+.border-secondary {
+  border: solid 5px $secondary;
 }
