@@ -1,15 +1,15 @@
-<h2 class="m0 text-small text-black text-uppercase gray py3">
+<h2 class="m0 text-small text-black text-uppercase gray">
   {{ page.latest-projects-section-title }}
 </h2>
-<div class="">
+<div class="py3">
   <!--
   More info coming soon.
   -->
   {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
   {% for posts in sorted_projects limit:4 %}
       {% if posts.is-featured == true %}
-        <div class="sm-col sm-col-12 md-col-6">
-        <div class="project-header-image bg-cover bg-center bg-primary" style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="sm-col sm-col-12 md-col-6 rounded overflow-hidden p1">
+        <div class="project-header-image bg-cover bg-center bg-primary rounded" style="background-image: url('{{ posts.project-header-image }}')">
           <div class="project-detail-block relative p3">
             <small class="m0 gray">
               {{ posts.project-year }}

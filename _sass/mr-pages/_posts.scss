@@ -24,3 +24,10 @@ article h2,
 article a:hover {
   color: $primary-light;
 }
+
+
+article hr {
+  width: 100%;
+  border: solid 2px $secondary;
+  max-width: 100px;
+}
