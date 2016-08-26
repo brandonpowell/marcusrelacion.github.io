@@ -10,6 +10,7 @@ about-text: |-
 
   When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
 experience-section-title: 'Experience:'
+introduction-photo-image: "/uploads/marcus-relacion-portrait.jpg"
 layout: pages/page-home
 ---
 
