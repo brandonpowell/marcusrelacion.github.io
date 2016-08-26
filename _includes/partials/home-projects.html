@@ -1,6 +1,12 @@
-<h2 class="m0 text-default text-black primary-light py3 px1">
-  {{ page.latest-projects-section-title }}
-</h2>
+<div class="py3 px1">
+  <h2 class="m0 text-default text-black primary-light">
+    {{ page.latest-projects-section-title }}
+  </h2>
+  <p class="m0 text-small text-light primary-light">
+    For more, please visit the project <a href="#">archives</a>.
+  </p>
+</div>
+
 <div class="">
   <!--
   More info coming soon.
@@ -20,9 +26,10 @@
               </h2>
             </a>
             <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block">
-              View Project <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
-      <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
-  </svg>
+              View Project
+              <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
+                <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
+              </svg>
             </button>
           </div>
         </div>
@@ -30,17 +37,3 @@
     </div>
   {% endfor %}
 </div>
-
-<!--
-<ul class="tags absolute bottom-0 left-0 right-0">
-  <a class="tag-link mr1" href="{{ posts.url }}">
-    <li class="inline-block">Branding</li>
-  </a>
-  <a class="tag-link mr1" href="{{ posts.url }}">
-    <li class="inline-block">Development</li>
-  </a>
-  <a class="tag-link" href="{{ posts.url }}">
-    <li class="inline-block">Illustration</li>
-  </a>
-</ul>
--->

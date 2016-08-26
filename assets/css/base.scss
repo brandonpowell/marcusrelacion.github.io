@@ -12,7 +12,7 @@
  */
 
 /* Reset */
-
+@import "mr-globals/reset";
 
 /* Basscss Modules */
 @import "basscss/basscss-basic";
@@ -27,8 +27,8 @@
 @import "basscss/basscss-margin";
 @import "basscss/basscss-padding";
 @import "basscss/basscss-position";
-@import "basscss/basscss-type-scale";
-@import "basscss/basscss-typography";
+//@import "basscss/basscss-type-scale";
+//@import "basscss/basscss-typography";
 
 /* MR Modules */
 @import "mr-globals/colors";
@@ -42,4 +42,4 @@
 /*===
 Media Queries
 ===*/
-@custom-media --phone-small (max-width: 29.9375em); /* 479px */
+//@custom-media --phone-small (max-width: 29.9375em); /* 479px */

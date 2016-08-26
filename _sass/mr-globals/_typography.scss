@@ -83,12 +83,12 @@ a {
   cursor: pointer;
   transition: color 150ms ease-in-out;
   text-decoration: underline;
-  color: $primary;
+  color: $primary-light;
 }
 
 article a:hover,
 a:hover {
-  color: $primary-light;
+  color: $secondary;
 }
 
 article a:focus,
@@ -96,10 +96,12 @@ a:focus {
   outline: $primary auto 10px !important;
 }
 
+/*
 article a:visited,
 a:visited {
   outline: $secondary;
 }
+*/
 
 blockquote p {
   font-size: $text-x-medium !important;

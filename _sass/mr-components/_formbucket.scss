@@ -10,8 +10,11 @@ textarea {
   margin-top: 1em;
 }
 
+
 textarea {
-  min-height: 150px;
+  height: 377px;
+  max-height: 377px;
+  overflow: scroll;
 }
 
 label {

@@ -1,7 +1,12 @@
-<h2 class="m0 text-default text-black primary-light py3 px1">
-  {{ page.latest-photoset-section-title }}
-</h2>
-<p>For more, please visit the photo archives.</>
+<div class="py3 px1">
+  <h2 class="m0 text-default text-black primary-light">
+    {{ page.latest-photoset-section-title }}
+  </h2>
+  <p class="m0 text-small text-light primary-light">
+    For more, please visit the photo <a href="#">archives</a>.
+  </p>
+</div>
+
 <div class="p1">
   <!--
   More info coming soon.
@@ -12,21 +17,22 @@
     <div class="bg-cover bg-center py4 bg-primary" style="background-image: url('{{ posts.photoset-header-image }}')">
       <div class="clearfix p3">
         <div class="photoset-detail-block p1">
-          <small class="m0 text-x-small pure-white text-semibold">
+          <small class="m0 text-x-small primary-light  text-semibold">
             {{ posts.photoset-year }} | {{ posts.photoset-location }}
           </small>
-          <a class="project-link pure-white" href="{{ posts.url }}">
+          <a class="project-link primary-light " href="{{ posts.url }}">
             <h2 class="m0 text-medium">
               {{ posts.title }}
             </h2>
           </a>
-          <p class="m0 text-small pure-white py3">
+          <p class="m0 text-small primary-light  py3">
             {{ posts.photoset-excerpt-text }}
           </p>
           <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block relative">
-            View Photoset <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
-    <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
-</svg>
+            View Photoset
+            <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
+              <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
+            </svg>
           </button>
         </div>
       </div>
