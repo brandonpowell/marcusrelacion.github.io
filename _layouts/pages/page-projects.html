@@ -1,5 +1,8 @@
 {% include global/body-open.html %}
-    <section class="introduction clearfix">
+  <header class="clearfix">
+    {% include header.html %}
+  </header>
+    <section class="introduction clearfix py4">
       <!-- Contains the structure of the project cards. -->
       {% include partials/introduction.html %}
     </section>
@@ -8,9 +11,7 @@
       <!-- Contains the structure of the project cards. -->
       {% include partials/projects.html %}
     </section>
-
-    <section class="projects bg-secondary">
-      <!-- Contains the structure of the project cards. -->
-      {% include partials/section-cta.html %}
-    </section>
+  <footer>
+    {% include footer.html %}
+  </footer>
 {% include global/body-closed.html %}

@@ -3,8 +3,6 @@
 ===============================================>>>>>*/
 
 // font families
-$serif: 'Merriweather', serif; // should remove
-$sans: 'Work Sans', sans-serif; // should remove
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
 
 // font sizes
@@ -27,9 +25,6 @@ $text-black: 900; // headers
 /*=============================================>>>>>
 = Type Styles =
 ===============================================>>>>>*/
-
-//.serif { font-family: $serif; }
-//.sans { font-family: $sans; }
 .system { font-family: $system; }
 
 .text-x-small { font-size: $text-x-small; }
@@ -73,7 +68,6 @@ small {
 p {
   font-size: $text-default;
   font-weight: $text-light;
-  color: $gray;
 }
 
 article a,
@@ -94,6 +88,11 @@ a:hover {
 article a:focus,
 a:focus {
   outline: $primary auto 10px !important;
+}
+
+/* removes the underlink from header/main nav links */
+a.nav-link {
+  text-decoration: none;
 }
 
 /*

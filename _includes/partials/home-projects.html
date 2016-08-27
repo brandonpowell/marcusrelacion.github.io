@@ -7,33 +7,33 @@
   </p>
 </div>
 
-<div class="">
-  <!--
-  More info coming soon.
-  -->
-  {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
-  {% for posts in sorted_projects limit:4 %}
-    <div class="sm-col sm-col-12 md-col-6 rounded overflow-hidden p1">
-      {% if posts.is-featured == true %}
-        <div class="project-header-image bg-cover bg-center bg-primary rounded border-secondary " style="background-image: url('{{ posts.project-header-image }}')">
-          <div class="project-detail-block relative p3">
-            <small class="m0 pure-white">
-              {{ posts.project-year }}
-            </small>
-            <a class="project-link primary-light" href="{{ posts.url }}">
-              <h2 class="m0 mb4 text-default">
-                {{ posts.title }}
-              </h2>
-            </a>
-            <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block">
-              View Project
-              <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
-                <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
-              </svg>
-            </button>
-          </div>
+<div class="clearfix">
+<!--
+More info coming soon.
+-->
+{% assign sorted_projects = site.projects | sort: 'date') | reverse %}
+{% for posts in sorted_projects limit:4 %}
+  <div class="sm-col sm-col-12 md-col-6 rounded overflow-hidden p1">
+    {% if posts.is-featured == true %}
+      <div class="project-header-image bg-cover bg-center bg-primary rounded border-secondary " style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="project-detail-block relative p3">
+          <small class="m0 pure-white">
+            {{ posts.project-year }}
+          </small>
+          <a class="project-link primary-light" href="{{ posts.url }}">
+            <h2 class="m0 mb4 text-default">
+              {{ posts.title }}
+            </h2>
+          </a>
+          <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block">
+            View Project
+            <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
+              <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
+            </svg>
+          </button>
         </div>
-      {% endif %}
-    </div>
-  {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
 </div>

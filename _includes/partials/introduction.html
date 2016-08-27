@@ -1,6 +1,11 @@
-<article class="sm-col sm-col-8">
-  {{ page.content | markdownify }}
-</article>
-<div class="sm-col sm-col-4 border-secondary rounded">
-  <img src="{{ page.introduction-photo-image }}"
+<div class="clearfix p1">
+  <div class="sm-col sm-col-7">
+    <article>
+      {{ page.content | markdownify }}
+    </article>
+  </div>
+
+  <div class="sm-col sm-col-5">
+    <div class="bg-cover bg-center border-secondary rounded" style="background-image: url('{{page.introduction-photo-image }}'); min-height: 300px;"></div>
+  </div>
 </div>
