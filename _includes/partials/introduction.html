@@ -4,8 +4,10 @@
       {{ page.content | markdownify }}
     </article>
   </div>
-
+  {% if site.pages == "home" %}
   <div class="sm-col sm-col-6 p1">
     <div class="bg-cover bg-center border-secondary rounded" style="background-image: url('{{page.introduction-photo-image }}'); min-height: 300px;"></div>
   </div>
+  {% else %}
+  {% endif %}
 </div>
