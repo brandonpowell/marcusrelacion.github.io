@@ -15,7 +15,7 @@ article p {
 }
 
 article a {
-  color: $secondary;
+  color: $highlight;
   transition: color 100ms ease-in-out;
 }
 
@@ -28,6 +28,6 @@ article a:hover {
 
 article hr {
   width: 100%;
-  border: solid 2px $secondary;
+  border: solid 2px $highlight;
   max-width: 100px;
 }
