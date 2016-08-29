@@ -1,17 +1,7 @@
 {% include global/body-open.html %}
-  <header class="clearfix">
-    {% include header.html %}
-  </header>
-    <section class="introduction">
-      <!-- Contains the structure of the project cards. -->
-      {% include partials/introduction.html %}
-    </section>
-
-    <section class="projects">
-      <!-- Contains the structure of the project cards. -->
-      {% include partials/projects.html %}
-    </section>
-  <footer>
-    {% include footer.html %}
-  </footer>
+  {% include header.html %}
+    {% include partials/introduction.html %}
+    {% include partials/projects.html %}
+    {% include partials/projects-archive.html %}
+  {% include footer.html %}
 {% include global/body-closed.html %}

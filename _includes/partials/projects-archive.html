@@ -1,0 +1,7 @@
+<section class="project-archive clearfix border-secondary rounded p3">
+  {% for posts in site.projects %}
+    <ul>
+      <a href="{{posts.url}}" class="text-small"><li>{{ posts.project-year }} | {{ posts.title }}</li></a>
+    </ul>
+  {% endfor %}
+</section>
