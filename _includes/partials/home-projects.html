@@ -14,7 +14,7 @@
   {% for posts in sorted_projects limit:4 %}
       <div class="sm-col sm-col-12 md-col-6 overflow-hidden p1">
       {% if posts.is-featured == true %}
-        <div class="project-header-image bg-cover bg-center bg-primary border-secondary rounded p1" style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="project-header-image bg-cover bg-center bg-primary border-highlight rounded p1" style="background-image: url('{{ posts.project-header-image }}')">
           <div class="project-detail-block relative p3">
             <small class="m0 pure-white">
               {{ posts.project-year }}

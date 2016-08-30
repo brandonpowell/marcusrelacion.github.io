@@ -4,7 +4,7 @@
   -->
   {% assign sorted_photos = site.photos | sort: 'date') | reverse %}
   {% for posts in sorted_photos %}
-  <div class="sm-col sm-col-12 rounded border-secondary clearfix mb2">
+  <div class="sm-col sm-col-12 rounded border-highlight clearfix mb2">
     <div class="bg-cover bg-center bg-primary py4" style="background-image: url('{{ posts.photoset-header-image }}')">
       <div class="clearfix p3 ">
         <div class="photoset-detail-block ">

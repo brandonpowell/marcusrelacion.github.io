@@ -6,7 +6,7 @@ More info coming soon.
 {% for posts in sorted_projects %}
   <div class="sm-col sm-col-12 md-col-6 rounded overflow-hidden p1">
     {% if posts.is-featured == true %}
-      <div class="project-header-image bg-cover bg-center bg-primary rounded border-secondary " style="background-image: url('{{ posts.project-header-image }}')">
+      <div class="project-header-image bg-cover bg-center bg-primary rounded border-highlight" style="background-image: url('{{ posts.project-header-image }}')">
         <div class="project-detail-block relative p3">
           <small class="m0 pure-white">
             {{ posts.project-year }}
