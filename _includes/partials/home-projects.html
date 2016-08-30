@@ -1,5 +1,5 @@
 <section class="clearfix p1">
-  <div class="py3">
+  <div class="py3 p1">
     <h2 class="m0 text-default text-black primary-light">
       {{ page.latest-projects-section-title }}
     </h2>
@@ -12,9 +12,9 @@
   -->
   {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
   {% for posts in sorted_projects limit:4 %}
-    <div class="sm-col sm-col-12 md-col-6 overflow-hidden">
+      <div class="sm-col sm-col-12 md-col-6 overflow-hidden p1">
       {% if posts.is-featured == true %}
-        <div class="project-header-image bg-cover bg-center bg-primary" style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="project-header-image bg-cover bg-center bg-primary border-secondary rounded p1" style="background-image: url('{{ posts.project-header-image }}')">
           <div class="project-detail-block relative p3">
             <small class="m0 pure-white">
               {{ posts.project-year }}

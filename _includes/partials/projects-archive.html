@@ -1,9 +1,10 @@
 <section class="project-archive clearfix p1">
   <div class="border-secondary rounded p3">
   {% for posts in site.projects %}
-    <ul>
-      <a href="{{posts.url}}" class="text-small">
-        <li class="inline-block">{{ posts.project-year }} | {{ posts.title }}</li>
+    <ul class="">
+      <a href="{{posts.url}}" class="archive-link text-small">
+        <li class="inline-block mr3">{{ posts.project-year }}</li>
+        <li class="inline-block mr3">{{posts.title}}</li>
       </a>
     </ul>
   {% endfor %}
