@@ -1,9 +1,10 @@
-<section class="clearfix p1">
-  <div class="py3 p1">
-    <h2 class="m0 text-default text-black primary-light">
+<section class="">
+  <div class="container clearfix p3">
+  <div class="py3">
+    <h2 class="m0 text-default text-black gray">
       {{ page.latest-projects-section-title }}
     </h2>
-    <p class="m0 text-small text-light primary-light">
+    <p class="m0 text-small text-light gray">
       For more, please visit the project <a href="/projects">archives</a>.
     </p>
   </div>
@@ -12,10 +13,10 @@
   -->
   {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
   {% for posts in sorted_projects limit:4 %}
-      <div class="sm-col sm-col-12 md-col-6 overflow-hidden p1">
+      <div class="sm-col sm-col-12 md-col-6 overflow-hidden">
       {% if posts.is-featured == true %}
-        <div class="project-header-image bg-cover bg-center bg-primary border-highlight rounded p3" style="background-image: url('{{ posts.project-header-image }}')">
-          <div class="project-detail-block border relative">
+        <div class="project-header-image bg-cover bg-center bg-primary p3" style="background-image: url('{{ posts.project-header-image }}')">
+          <div class="project-detail-block py1 relative">
             <small class="m0 pure-white">
               {{ posts.project-year }}
             </small>
@@ -35,4 +36,5 @@
       {% endif %}
     </div>
   {% endfor %}
+</div>
 </section>

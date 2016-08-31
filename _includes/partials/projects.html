@@ -6,8 +6,8 @@ More info coming soon.
 {% for posts in sorted_projects %}
   <div class="sm-col sm-col-12 md-col-6 rounded overflow-hidden p1">
     {% if posts.is-featured == true %}
-      <div class="project-header-image bg-cover bg-center bg-primary rounded border-highlight" style="background-image: url('{{ posts.project-header-image }}')">
-        <div class="project-detail-block relative p3">
+      <div class="project-header-image bg-cover bg-center bg-primary rounded border-highlight p3" style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="project-detail-block py1 relative">
           <small class="m0 pure-white">
             {{ posts.project-year }}
           </small>
@@ -16,7 +16,7 @@ More info coming soon.
               {{ posts.title }}
             </h2>
           </a>
-          <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block">
+          <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block absolute" style="bottom: 0; left: 0; right: 0;">
             View Project
             <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
               <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
