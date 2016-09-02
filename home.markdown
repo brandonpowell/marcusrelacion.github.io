@@ -16,7 +16,7 @@ layout: pages/page-home
 
 # Hello!
 
-## I'm Marcus Relacion, a designer and developer interested in creating memorable experiences through thoughtful design.
+## I'm Marcus Relacion, a designer and developer interested in creating memorable experiences through thoughtful interactions.
 
 ---
 
