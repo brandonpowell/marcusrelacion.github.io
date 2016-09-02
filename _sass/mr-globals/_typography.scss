@@ -93,6 +93,18 @@ a:focus {
 /* removes the underlink from header/main nav links */
 a.nav-link {
   text-decoration: none;
+  padding: 0.75em 1em;
+  border-radius: 2px;
+  transition: background 100ms ease-in-out;
+}
+
+a.nav-link:hover {
+  color: $primary;
+  background: $highlight;
+}
+
+a.logotype {
+  text-decoration: none;
 }
 
 /*
