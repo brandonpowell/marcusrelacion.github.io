@@ -20,7 +20,7 @@ layout: pages/page-home
 
 ---
 
-> Currently designing and building interfaces at [Clarabridge](http://www.clarabridge.com) in Reston, VA.
+Currently designing and building interfaces at [Clarabridge](http://www.clarabridge.com) in Reston, VA.
 
 
 
