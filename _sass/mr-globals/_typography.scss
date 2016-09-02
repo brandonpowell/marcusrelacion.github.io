@@ -5,6 +5,8 @@
 // font families
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
 
+$courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+
 // font sizes
 $text-x-small: 0.75em;
 $text-small: 1em;
@@ -26,6 +28,7 @@ $text-black: 900; // headers
 = Type Styles =
 ===============================================>>>>>*/
 .system { font-family: $system; }
+.courier { font-family: $courier; }
 
 .text-x-small { font-size: $text-x-small; }
 .text-small { font-size: $text-small; }
@@ -93,14 +96,6 @@ a:focus {
 /* removes the underlink from header/main nav links */
 a.nav-link {
   text-decoration: none;
-  padding: 0.75em 1em;
-  border-radius: 2px;
-  transition: background 100ms ease-in-out;
-}
-
-a.nav-link:hover {
-  color: $primary;
-  background: $highlight;
 }
 
 a.logotype {
