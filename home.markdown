@@ -21,5 +21,5 @@ layout: pages/page-home
 ---
 
 *Currently:
- 
+
 Junior UI Designer at [Clarabridge](http://www.clarabridge.com).
