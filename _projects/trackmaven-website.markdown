@@ -2,9 +2,9 @@
 title: TrackMaven Marketing Website
 date: 2016-08-12 21:51:00 -04:00
 is-featured: true
-project-year: 2015-2016
+project-year: 2016
 project-header-image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
-project-excerpt-text: Wordpress? Whats that?
+project-excerpt-text: A few contributions I made to the TrackMaven marketing site.
 layout: singles/single-project
 ---
 
