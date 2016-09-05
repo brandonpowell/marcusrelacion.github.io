@@ -6,7 +6,7 @@ article h1 {
 
 article h2 {
   font-size: $text-medium;
-  font-weight: $text-semibold;
+  font-weight: $text-black;
   margin: 0;
 }
 
@@ -16,8 +16,16 @@ article p {
 }
 
 article a {
-  color: $highlight;
+  color: $gray;
   transition: color 100ms ease-in-out;
+  font-weight: $text-black;
+  background: $highlight;
+  padding: 0.005em 0.25em;
+  transition: background  150ms ease-in-out;
+}
+
+article a:hover {
+  background: none;
 }
 
 article h1,

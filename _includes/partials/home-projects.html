@@ -1,41 +1,40 @@
-<section class="">
-  <div class="container clearfix p3">
-    <div class="px1 py3">
-      <h2 class="m0 text-default text-black gray">
-        {{ page.latest-projects-section-title }}
-      </h2>
-      <p class="m0 courier text-small text-light gray">
-        For more, please visit the project <a href="/projects">archives</a>.
-      </p>
-    </div>
-    <!--
-    More info coming soon.
-    -->
-    {% assign sorted_projects = site.projects | sort: 'date') | reverse %}
-    {% for posts in sorted_projects limit:4 %}
-      <div class="sm-col sm-col-12 md-col-6 px1 py2">
-      {% if posts.is-featured == true %}
-        <div class="project-image overflow-hidden moon" style="">
-          <img src="{{ posts.project-header-image }}">
-        </div>
-        <div class="project-details p2">
-          <small class="project-year courier m0 mb1 primary text-black">
+<section class="container clearfix p3">
+  <div class="py3">
+    <h2 class="m0 text-small text-black gray">
+      {{ page.latest-projects-section-title }}
+    </h2>
+  </div>
+  <!--
+  More info coming soon.
+  -->
+  {% assign sorted_projects = site.projects | sort: 'date') %}
+  {% for posts in sorted_projects limit:2 %}
+    <div class="sm-col sm-col-6 md-col-6">
+    {% if posts.is-featured == true %}
+      <div class="project-card bg-cover bg-center py4" style="background-image: url('{{ posts.project-header-image }}')">
+        <div class="project-details py4 p3">
+          <small class="project-year m0 mb1 highlight text-black">
             {{ posts.project-year }}
           </small>
-          <a class="project-link" href="{{ posts.url }}">
-            <h2 class="m0 mt1 mb3 text-small primary">
+          <a class="project-link text-light pure-white" href="{{ posts.url }}">
+            <h2 class="m0 mt1 text-default block" style="min-height: 100px;">
               {{ posts.title }}
             </h2>
           </a>
-          <button onclick="location.href='{{ posts.url }}'" class="secondary-button courier text-x-small text-black inline-block">
+          <!--
+          <p class="m0 text-small primary-light  py3">
+            {{ posts.project-excerpt-text }}
+          </p>
+          -->
+          <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block">
             View Project
             <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
               <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
             </svg>
           </button>
         </div>
-      {% endif %}
       </div>
-    {% endfor %}
-  </div>
+    {% endif %}
+    </div>
+  {% endfor %}
 </section>

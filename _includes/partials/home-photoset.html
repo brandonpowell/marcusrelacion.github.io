@@ -1,12 +1,8 @@
-<section class="">
-  <div class="container clearfix p3">
+<section class="container clearfix p3">
   <div class="py3">
-    <h2 class="m0 text-default text-black gray">
+    <h2 class="m0 text-small text-black gray">
       {{ page.latest-photoset-section-title }}
     </h2>
-    <p class="m0 text-small text-light gray">
-      For more, please visit the photo <a href="#">archives</a>.
-    </p>
   </div>
   <!--
   More info coming soon.
@@ -17,18 +13,18 @@
     <div class="bg-cover bg-center bg-primary py4" style="background-image: url('{{ posts.photoset-header-image }}')">
       <div class="clearfix p3 ">
         <div class="photoset-detail-block ">
-          <small class="m0 text-x-small primary-light  text-semibold">
+          <small class="m0 text-x-small pure-white  text-semibold">
             {{ posts.photoset-year }} | {{ posts.photoset-location }}
           </small>
-          <a class="project-link primary-light " href="{{ posts.url }}">
+          <a class="project-link pure-white " href="{{ posts.url }}">
             <h2 class="m0 text-medium">
               {{ posts.title }}
             </h2>
           </a>
-          <p class="m0 text-small primary-light  py3">
+          <p class="m0 text-small pure-white  py3">
             {{ posts.photoset-excerpt-text }}
           </p>
-          <button onclick="location.href='{{ posts.url }}'" class="secondary-button text-x-small text-black inline-block relative">
+          <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block relative">
             View Photoset
             <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
               <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
@@ -39,5 +35,4 @@
     </div>
   </div>
   {% endfor %}
-</div>
 </section>
