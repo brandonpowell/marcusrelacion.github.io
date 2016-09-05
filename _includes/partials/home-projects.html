@@ -11,21 +11,19 @@
   {% for posts in sorted_projects limit:2 %}
     <div class="sm-col sm-col-6 md-col-6">
     {% if posts.is-featured == true %}
-      <div class="project-card bg-cover bg-center py4" style="background-image: url('{{ posts.project-header-image }}')">
+      <div class="project-card bg-cover bg-center" style="background-image: url('{{ posts.project-header-image }}');">
         <div class="project-details py4 p3">
           <small class="project-year m0 mb1 highlight text-black">
             {{ posts.project-year }}
           </small>
           <a class="project-link text-light pure-white" href="{{ posts.url }}">
-            <h2 class="m0 mt1 text-default block" style="min-height: 100px;">
+            <h2 class="m0 mt1 text-default block" style="min-height: 60px;">
               {{ posts.title }}
             </h2>
           </a>
-          <!--
-          <p class="m0 text-small primary-light  py3">
+          <p class="m0 text-small pure-white courier mb3 py2">
             {{ posts.project-excerpt-text }}
           </p>
-          -->
           <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block">
             View Project
             <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
