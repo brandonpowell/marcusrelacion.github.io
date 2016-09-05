@@ -4,9 +4,8 @@ date: 2016-08-14 21:00:00 -04:00
 is-featured: true
 project-year: 2015
 project-header-image: "/uploads/trackmaven-illustrations-header-f66030.jpg"
-project-excerpt-text: During my internship with TrackMaven in the Winter/Spring of
-  2015 I was tasked with creating several illustrations that aligned with the visual
-  style that the design team had established.
+project-excerpt-text: Various illustrations created for use on the TrackMaven marketing
+  site, blog and social media.
 layout: singles/single-project
 ---
 
