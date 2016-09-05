@@ -9,15 +9,7 @@ about-text: |-
   ![about-image-63fbea.jpg](/uploads/about-image-63fbea.jpg)
 
   When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
-experience-section-title: 'Experience:'
-introduction-photo-image: "/uploads/marcus-relacion-portrait.jpg"
 layout: pages/page-home
 ---
 
-# Hello!
-
-## I'm Marcus Relacion, a designer and developer interested in creating memorable experiences through thoughtful design.
-
----
-
-*Currently: Junior UI Designer at [Clarabridge](http://www.clarabridge.com) in Reston,VA.
+## Marcus Relacion is a Washington, DC based designer and developer currently at [Clarabridge](http://www.clarabridge.com).
