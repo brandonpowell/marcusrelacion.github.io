@@ -1,5 +1,5 @@
-<section class="">
-  <div class="container clearfix p3">
+<section class="right right-pane relative bg-pure-white" style="width: 100%; max-width: 70%; height:125%">
+  <div class="container clearfix">
     <div class="px1 py3">
       <h2 class="m0 text-default text-black gray">
         {{ page.latest-projects-section-title }}
@@ -15,7 +15,7 @@
     {% for posts in sorted_projects limit:4 %}
       <div class="sm-col sm-col-12 md-col-6 px1 py2">
       {% if posts.is-featured == true %}
-        <div class="project-image overflow-hidden moon" style="">
+        <div class="project-image overflow-hidden" style="">
           <img src="{{ posts.project-header-image }}">
         </div>
         <div class="project-details p2">

@@ -1,7 +1,7 @@
 @import "mr-globals/typography";
 
 article h1 {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 article h2 {
@@ -11,8 +11,8 @@ article h2 {
 }
 
 article p {
-  color: $pure-white;
-  font-family: $courier
+  color: $gray;
+  font-family: $courier;
 }
 
 article a {
@@ -23,9 +23,8 @@ article a {
 article h1,
 article h2,
 article a:hover {
-  color: $primary-light;
+  color: $primary;
 }
-
 
 article hr {
   width: 100%;
