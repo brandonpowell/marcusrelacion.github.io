@@ -1,6 +1,6 @@
 ---
 title: TrackMaven Illustrations
-date: 2016-08-14 21:00:00 -04:00
+date: 2015-01-01 21:00:00 -05:00
 is-featured: true
 project-year: 2015
 project-header-image: "/uploads/trackmaven-illustrations-header-f66030.jpg"

@@ -1,10 +1,11 @@
 ---
 title: TrackMaven Marketing Website
-date: 2016-08-12 21:51:00 -04:00
+date: 2016-01-01 21:51:00 -05:00
 is-featured: true
 project-year: 2016
 project-header-image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
-project-excerpt-text: Contributions I made to the TrackMaven marketing site.
+project-excerpt-text: Small selection design & development contributions made to the
+  TrackMaven marketing site.
 layout: singles/single-project
 ---
 
