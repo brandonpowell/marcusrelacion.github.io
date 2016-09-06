@@ -1,6 +1,6 @@
 <section class="container clearfix p3">
   <div class="py3">
-    <h2 class="m0 text-small text-black gray">
+    <h2 class="m0 text-small text-black gray p1">
       {{ page.latest-projects-section-title }}
     </h2>
   </div>
@@ -9,9 +9,9 @@
   -->
   {% assign sorted_projects = site.projects | sort: 'date') %}
   {% for posts in sorted_projects limit:2 %}
-    <div class="sm-col sm-col-6 md-col-6">
+    <div class="sm-col sm-col-6 md-col-6 p1">
     {% if posts.is-featured == true %}
-      <div class="project-card bg-cover bg-center" style="background-image: url('{{ posts.project-header-image }}');">
+      <div class="project-card bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}');">
         <div class="project-details py4 p3">
           <small class="project-year m0 mb1 highlight text-black">
             {{ posts.project-year }}
@@ -21,7 +21,7 @@
               {{ posts.title }}
             </h2>
           </a>
-          <p class="m0 text-small pure-white courier mb3 py2">
+          <p class="m0 text-small pure-white courier mb3 py2" style="min-height: 160px;">
             {{ posts.project-excerpt-text }}
           </p>
           <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block">
