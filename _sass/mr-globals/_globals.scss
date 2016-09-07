@@ -72,3 +72,8 @@ img.project-image {
 ul.tags {
   -webkit-padding-start: 0 !important;
 }
+
+/* border highlight */
+.border-highlight {
+  border: solid 5px $highlight;
+}
