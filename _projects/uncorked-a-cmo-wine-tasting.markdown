@@ -1,12 +1,11 @@
 ---
 title: 'Uncorked: A CMO Wine Tasting'
-date: 2016-08-17 08:59:00 -04:00
+date: 2015-01-01 08:59:00 -05:00
 is-featured: true
-project-year: 2016
-project-header-image: "/uploads/uncorked-header.jpg"
-project-excerpt-text: 'For Uncorked: A CMO Wine Tasting, I was tasked with creating
-  the identity, promotional materials, custom printed invitations, illustrations and
-  landing page. '
+project-year: 2015
+project-header-image: "/uploads/uncorked-header-88d4ae.jpg"
+project-excerpt-text: Identity designed for TrackMaven's exclusive annual event   held
+  in Austin, TX during South by Southwest (SXSW).
 layout: singles/single-project
 ---
 

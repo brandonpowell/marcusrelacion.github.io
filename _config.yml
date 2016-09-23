@@ -10,7 +10,7 @@ collections:
     output: false
   photos:
     title: Photos
-    output: false
+    output: true
   posts:
     title: Posts
     output: true
@@ -68,6 +68,7 @@ exclude:
 - ".jekyll-metadata"
 - ".sass-cache"
 - CNAME
+- ".DS_Store"
 sass:
   sass_dir: _sass
   style: compressed

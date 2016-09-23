@@ -1,0 +1,24 @@
+input,
+textarea {
+  border: solid 5px $highlight;
+  border-radius: 2.5px;
+  height: 50px;
+  padding: 1em;
+  width: 100%;
+  font-size: $text-small;
+  color: $primary !important;
+  margin-top: 1em;
+}
+
+
+textarea {
+  height: 369px;
+  max-height: 369px;
+  overflow: scroll;
+}
+
+label {
+  font-size: $text-small;
+  color: $primary-light;
+  font-weight: $text-semibold;
+}

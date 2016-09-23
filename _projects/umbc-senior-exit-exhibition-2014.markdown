@@ -1,10 +1,11 @@
 ---
 title: UMBC Senior Exit Exhibition 2014
-date: 2016-08-17 09:22:00 -04:00
+date: 2014-01-01 09:22:00 -05:00
 is-featured: true
 project-year: 2014
-project-header-image: "/uploads/umbc-see-header.png"
-project-excerpt-text: UMBC
+project-header-image: "/uploads/umbc-see-header-2304b2.jpg"
+project-excerpt-text: Exhibition design and branding for the 2014 UMBC Senior Exit
+  Exhibition (UMBC SEE).
 layout: singles/single-project
 ---
 

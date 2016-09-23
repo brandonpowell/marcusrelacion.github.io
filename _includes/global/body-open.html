@@ -9,15 +9,13 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name='description' content='{{ site.meta.description }}'>
-    <title>{{site.title}} | {{title}}</title>
+    <title>{{site.title}} | {{page.title}}</title>
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
     <link rel='shortcut icon' type='image/x-icon' href='/assets/favicon.png' />
 
     <!-- styles -->
     <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
-
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Work+Sans:300,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
 
     <!-- smart browser detection -->
     <script type="text/javascript">
@@ -45,5 +43,4 @@
   </head>
 
   <body>
-    <main class="">
-      {% include header.html %}
+    <main>

@@ -1,0 +1,72 @@
+<section class="container clearfix p3">
+  {% if page.url == "/home/" %}
+  <div class="py2">
+    <h2 class="m0 text-small text-uppercase text-black gray p1">
+      {{ page.latest-photoset-section-title }}
+    </h2>
+  </div>
+  {% elsif page.url == "/photos/" %}
+  {% endif %}
+  <!--
+  More info coming soon.
+  -->
+  {% if page.url == "/home/" %}
+    {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+    {% for posts in sorted_photos limit:1 %}
+      <div class="sm-col sm-col-12 clearfix p1 mb2">
+        <div class="bg-cover bg-center bg-primary rounded border-highlight py4" style="background-image: url('{{ posts.photoset-header-image }}')">
+          <div class="clearfix p3 ">
+            <div class="photoset-detail-block ">
+              <small class="m0 text-x-small pure-white  text-semibold">
+                {{ posts.photoset-year }} | {{ posts.photoset-location }}
+              </small>
+              <a class="project-link pure-white " href="{{ posts.url }}">
+                <h2 class="m0 text-medium">
+                  {{ posts.title }}
+                </h2>
+              </a>
+              <p class="m0 text-small pure-white courier py3">
+                {{ posts.photoset-excerpt-text }}
+              </p>
+              <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block relative">
+                View Photoset
+                <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
+                  <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% elsif page.url == "/photos/" %}
+    {% assign sorted_photos = site.photos | sort: 'date' | reverse %}
+    {% for posts in sorted_photos %}
+      <div class="sm-col sm-col-12 clearfix p1 mb2">
+        <div class="bg-cover bg-center bg-primary rounded border-highlight py4" style="background-image: url('{{ posts.photoset-header-image }}')">
+          <div class="clearfix p3 ">
+            <div class="photoset-detail-block ">
+              <small class="m0 text-x-small pure-white  text-semibold">
+                {{ posts.photoset-year }} | {{ posts.photoset-location }}
+              </small>
+              <a class="project-link pure-white " href="{{ posts.url }}">
+                <h2 class="m0 text-medium">
+                  {{ posts.title }}
+                </h2>
+              </a>
+              <p class="m0 text-small pure-white courier py3">
+                {{ posts.photoset-excerpt-text }}
+              </p>
+              <button onclick="location.href='{{ posts.url }}'" class="button button-highlight text-x-small text-black inline-block relative">
+                View Photoset
+                <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
+                  <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</section>

@@ -3,12 +3,12 @@
 ===============================================>>>>>*/
 
 // font families
-$serif: 'Merriweather', serif; // should remove
-$sans: 'Work Sans', sans-serif; // should remove
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
 
+$courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+
 // font sizes
-$text-x-small: 0.6em;
+$text-x-small: 0.75em;
 $text-small: 1em;
 $text-default: 1.4em;
 $text-medium: 1.6em;
@@ -27,10 +27,8 @@ $text-black: 900; // headers
 /*=============================================>>>>>
 = Type Styles =
 ===============================================>>>>>*/
-
-//.serif { font-family: $serif; }
-//.sans { font-family: $sans; }
 .system { font-family: $system; }
+.courier { font-family: $courier; }
 
 .text-x-small { font-size: $text-x-small; }
 .text-small { font-size: $text-small; }
@@ -73,29 +71,15 @@ small {
 p {
   font-size: $text-default;
   font-weight: $text-light;
-  color: $gray;
 }
 
-a {
+/* removes the underlink from header/main nav links */
+a.nav-link {
   text-decoration: none;
-  font-weight: $text-semibold;
-  cursor: pointer;
-  transition: color 150ms ease-in-out;
-  text-decoration: underline;
 }
 
-a:hover {
-  color: $primary;
-}
-
-a:focus {
-  outline: $primary auto 10px !important;
-}
-
-blockquote p {
-  font-size: $text-x-medium !important;
-  font-style: normal;
-  margin: 1.5em 0;
+a.logotype {
+  text-decoration: none;
 }
 
 /*= End of Type Styles =*/

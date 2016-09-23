@@ -1,21 +1,15 @@
 ---
 title: Home
 date: 2016-07-03 02:45:00 -04:00
-mr-logo-image: "/uploads/mr-white-logo.svg"
-home-bg-image: "/uploads/home-header.jpg"
-home-bg-color: "#4a5860"
-recent-projects: Recent Projects
-latest-photoset: 'Latest Photoset:'
-latest-journal: 'Latest Journal:'
-about: 'About:'
+latest-projects-section-title: 'Latest Projects:'
+latest-photoset-section-title: 'Latest Photoset:'
+latest-notes-section-title: 'Latest Journal:'
+about-section-title: 'About:'
 about-text: |-
   ![about-image-63fbea.jpg](/uploads/about-image-63fbea.jpg)
 
   When not at my computer, I can often be found shooting photographs in the city, spending time with family, attending local meet ups, or playing video games with friends.
-work-experience-bg-image: "/uploads/bg-work-experience.jpg"
 layout: pages/page-home
 ---
 
-# Hello!
-
-My name is Marcus Relacion. Currently I'm designing & building interfaces as a Junior UI Designer at [Clarabridge](http://www.clarabridge.com/) in Reston, VA.
+## Marcus Relacion is a Washington, DC based designer and developer currently at [Clarabridge](http://www.clarabridge.com).

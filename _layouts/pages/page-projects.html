@@ -1,62 +1,7 @@
 {% include global/body-open.html %}
-
-    <section>
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 px1">
-          <article class="pure-white">
-            {{ page.content | markdownify }}
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects">
-      <div class="container clearfix p3">
-        <!--
-        More info coming soon.
-        -->
-        {% for posts in site.projects %}
-          <a href="{{ posts.url }}">
-          <div class="sm-col sm-col-12 md-col-6 p1">
-          {% if posts.is-featured == true %}
-            <div class="project-image-block bg-cover bg-center rounded" style="background-image: url('{{ posts.project-header-image }}')"></div>
-            <div class="project-detail-block">
-              <small class="text-semibold">
-                {{ posts.project-year }}
-              </small>
-              <h2 class="m0 py2 text-medium">
-                {{ posts.title }}
-              </h2>
-              <p class="m0 text-small">
-                {{ posts.project-excerpt-text }}
-              </p>
-            </div>
-          {% else %}
-          {% endif %}
-          </div>
-          </a>
-        {% endfor %}
-      </div>
-    </section>
-
-    <section class="projects bg-primary">
-      <div class="container clearfix p3">
-        <small class="center block">Project Archive</small>
-        <!--
-        More info coming soon.
-        -->
-        {% for posts in site.projects %}
-          <ul>
-            <a href="{{ posts.url}}">
-              <li class="project-archive-link m0 text-small pure-white">
-                <small>{{ posts.project-year }}</small>
-                <h3 class="text-default">{{ posts.title }}</h3>
-              </li>
-            </a>
-          </ul>
-        {% endfor %}
-      </div>
-    </section>
-
-
+  {% include header.html %}
+    {% include partials/introduction.html %}
+    {% include partials/projects.html %}
+    {% include partials/archive.html %}
+  {% include footer.html %}
 {% include global/body-closed.html %}
