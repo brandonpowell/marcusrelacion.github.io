@@ -1,47 +1,25 @@
-{% if page.url == "/projects/" %}
-  <section class="bg-highlight">
-    <div class="container clearfix p3">
-      {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
-      <div class="p2">
-        {% for posts in sorted_projects %}
-        <ul class="">
-          <a href="{{posts.url}}" class="archive-link primary text-small">
-            <li class="inline-block text-black mr2 py1">
-              {{ posts.project-year }}
-            </li>
-            <li class="inline-block py1 courier">
-              {{posts.title}}
-            </li>
-            <li class="inline-block py1 right courier" style="text-align: left;">
-              Development, Design, Branding
-            </li>
-          </a>
-        </ul>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-{% elsif page.url == "/photos/" %}
-  <section class="bg-highlight">
-    <div class="container clearfix p3">
-      {% assign sorted_photos = site.photos | sort: 'date' | reverse %}
-      <div class="p2">
+<section class="bg-highlight">
+  <div class="container clearfix p3">
+    {% if page.url == "/projects/" %}
+      <ul class="">
+      {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
+      {% for posts in sorted_projects %}
+        <a href="{{posts.url}}" class="archive-link primary text-small">
+          <li class="block text-black py1">
+            {{ posts.project-year }} <span class="courier"> | {{posts.title}}</span>
+          </li>
+        </a>
+      {% endfor %}
+      {% elsif page.url == "/photos/" %}
+        {% assign sorted_photos = site.photos | sort: 'photoset-year' | reverse %}
         {% for posts in sorted_photos %}
-        <ul class="">
           <a href="{{posts.url}}" class="archive-link primary text-small">
-            <li class="inline-block text-black mr2 py1">
-              {{ posts.photoset-year }}
-            </li>
-            <li class="inline-block mr2 py1 courier">
-              {{posts.title}}
-            </li>
-            <li class="inline-block py1 right courier" style="text-align: left;">
-              Concert, Travel
+            <li class="block text-black py1">
+              {{ posts.photoset-year }} <span class="courier"> | {{posts.title}}</span>
             </li>
           </a>
-        </ul>
         {% endfor %}
-      </div>
-    </div>
-  </section>
-{% endif %}
+        </ul>
+      {% endif %}
+  </div>
+</section>
