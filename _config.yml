@@ -47,9 +47,9 @@ defaults:
     image:
     description:
     year:
-    project-excerpt:
-    project-role:
-    project-collaborators:
+    excerpt:
+    role:
+    collaborators:
     - collaborator:
     project-types:
     - type:
