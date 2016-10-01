@@ -12,9 +12,9 @@ $fs-large: 2em;
 $fs-headline: 2.25em;
 
 // font weights
-$text-light: 300; // body copy
-$text-semibold: 600; // sub-headers
-$text-black: 900; // headers
+$fw-light: 300; // body copy
+$fw-semibold: 600; // sub-headers
+$fw-black: 900; // headers
 
 .system { font-family: $system; }
 .courier { font-family: $courier; }
@@ -25,42 +25,9 @@ $text-black: 900; // headers
 .fs-large { font-size: $fs-large; }
 .fs-headline { font-size: $fs-headline; }
 
-.text-light { font-weight: $text-light; }
-.text-semibold { font-weight: $text-semibold; }
-.text-black { font-weight: $text-black; }
+.fw-light { font-weight: $fw-light; }
+.fw-semibold { font-weight: $fw-semibold; }
+.fw-black { font-weight: $fw-black; }
 
 .text-uppercase { text-transform: uppercase; }
 .text-lowercase { text-transform: lowercase; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: $text-black;
-}
-
-h1 {
-
-}
-
-h2 {
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-small {
-
-}
-
-p {
-
-}
-
-/* removes the underlink from header/main nav links */
-a.nav-link {
-  text-decoration: none;
-}
-
-a.logotype {
-  text-decoration: none;
-}
