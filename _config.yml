@@ -49,8 +49,10 @@ defaults:
     year:
     project-excerpt:
     project-role:
+    project-collaborators:
+    - collaborator:
     project-types:
-    - field:
+    - type:
 - scope:
     path: ''
     type: photos
