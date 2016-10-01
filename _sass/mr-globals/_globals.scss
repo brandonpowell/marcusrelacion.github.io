@@ -7,21 +7,6 @@
   margin: 0 auto;
 }
 
-/* sets the max width of the logo */
-.logo-wrapper {
-  max-width: 50px;
-  width: 100%;
-}
-
-/*
-img  {
-  width: 100%;
-  max-width: 100%;
-  vertical-align: middle;
-  border-radius: 4px;
-}
-*/
-
 /* styling for broken images */
 img {
   font-family: $system;
@@ -38,9 +23,8 @@ img {
 }
 
 img:before {
-  content: "I apologize, but this image appears to be broken. Shoot me an email at hello@marcusrelacion.com and I'll get this fixed as soon as possible.";
+  content: "Looks like this image is missing :( Shoot me an email at hello@marcusrelacion.com and I'll get this fixed as soon as possible.";
   display: block;
-
 }
 
 img:after {
@@ -56,24 +40,3 @@ img:after {
 .rounded-top-right { border-radius: 0 4px 0 0; }
 .rounded-top { border-radius: 4px 4px 0 0; }
 .rounded-bottom { border-radius: 0 0 4px 4px; }
-
-img.project-image {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  opacity: 1;
-  transition: opacity 100ms ease-in-out;
-}
-
-/* link styling for tags */
-ul.tags {
-  -webkit-padding-start: 0 !important;
-}
-
-/* border highlight */
-.border-highlight {
-  border: solid 5px $highlight;
-}

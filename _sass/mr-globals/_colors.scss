@@ -6,7 +6,25 @@ $gray: #555555;
 $pure-white: rgba(255,255,255,1);
 $pure-black: rgba(0,0,0,1);
 
-/* Colors */
+$white: rgba(255,255,255,1);
+$black: rgba(0,0,0,1);
+
+$grandis: rgba(255,217,128,1.00);
+$grandis-1: rgba(255,217,128,.80);
+$grandis-2: rgba(255,217,128,.60);
+$grandis-3: rgba(255,217,128,.40);
+$grandis-4: rgba(255,217,128,.20);
+$grandis-5: rgba(255,217,128,.10);
+
+
+
+/* colors */
+.grandis {
+  color: $grandis;
+}
+
+.white { color: $white; }
+
 .primary { color: $primary; }
 .primary-light { color: $primary-light; }
 .highlight { color: $highlight; }

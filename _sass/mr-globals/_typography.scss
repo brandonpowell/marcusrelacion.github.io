@@ -1,6 +1,3 @@
-/*=============================================>>>>>
-= Type Variables =
-===============================================>>>>>*/
 
 // font families
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
@@ -21,12 +18,6 @@ $text-light: 300; // body copy
 $text-semibold: 600; // sub-headers
 $text-black: 900; // headers
 
-/*= End of Type Variables =*/
-/*=============================================<<<<<*/
-
-/*=============================================>>>>>
-= Type Styles =
-===============================================>>>>>*/
 .system { font-family: $system; }
 .courier { font-family: $courier; }
 
@@ -81,6 +72,3 @@ a.nav-link {
 a.logotype {
   text-decoration: none;
 }
-
-/*= End of Type Styles =*/
-/*=============================================<<<<<*/
