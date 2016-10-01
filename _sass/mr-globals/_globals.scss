@@ -10,6 +10,12 @@ body {
   margin: 0 auto;
 }
 
+.content-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /* styling for broken images */
 img {
   font-family: $system;
