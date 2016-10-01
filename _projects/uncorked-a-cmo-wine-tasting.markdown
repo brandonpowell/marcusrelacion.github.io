@@ -6,11 +6,13 @@ year: 2015
 project-excerpt: Identity designed for TrackMaven's exclusive annual event   held
   in Austin, TX during South by Southwest (SXSW).
 project-role: Intern
+project-collaborators:
+- collaborator: Laura McGuigan
 project-types:
-- field: Branding
-- field: Illustration
-- field: Front-End Development
-- field: Print
+- type: Branding
+- type: Illustration
+- type: Front-End Development
+- type: Print
 layout: singles/single-project
 ---
 
