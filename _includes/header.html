@@ -46,7 +46,7 @@
       {% if site.is-updating == true %}
       <section class="update-bar bg-grandis rounded">
         <div class="container clearfix px3 py1">
-          {{ site.update-text }}
+          {{ site.update-text | markdownify }}
         </div>
       </section>
       {% else %}
