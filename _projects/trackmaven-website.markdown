@@ -1,11 +1,16 @@
 ---
 title: TrackMaven Marketing Website
 date: 2016-01-01 21:51:00 -05:00
-is-featured: true
-project-year: 2016
-project-header-image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
-project-excerpt-text: Small selection design & development contributions made to the
-  TrackMaven marketing site.
+image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
+year: 2016
+excerpt: Small selection design & development contributions made to the TrackMaven
+  marketing site.
+role: Junior Designer
+collaborators:
+- collaborator: Laura McGuigan - VP of Design, TrackMaven
+- collaborator: Wade Hammes - Front-End Developer, TrackMaven
+project-types:
+- type: Front-End Development
 layout: singles/single-project
 ---
 
