@@ -10,17 +10,15 @@
       {% assign sorted_projects = site.projects | sort: 'year' %}
       {% for posts in sorted_projects limit:2 %}
         <div class="sm-col sm-col-12 md-col-6">
-          <div class="project-card bg-cover bg-center" style="background-image: url('{{ posts.project-header-image }}');">
-            <div class="project-details py4 p3">
-              <small class="project-year m0 fs-default grandis fw-black text-uppercase">
+          <div class="project-card relative block bg-cover bg-center" style="background-image: url('{{ posts.project-header-image }}');">
+            <div class="project-details p3">
+              <h6 class="year m0 mb2 fs-default grandis fw-black text-uppercase">
                 {{ posts.project-year }}
-              </small>
-              <a class="project-link m0 fs-medium white fw-black" href="{{ posts.url }}">
-                <h2 class="m0">
-                  {{ posts.title }}
-                </h2>
+              </h6>
+              <a class="project-link m0 fs-medium white fw-black inline-block" href="{{ posts.url }}" style="min-height: 75px;">
+                {{ posts.title }}
               </a>
-              <p class="m0 pure-white courier mb3 py2" style="min-height: 160px;">
+              <p class="m0 fs-medium white courier" style="min-height: 275px;">
                 {{ posts.project-excerpt-text }}
               </p>
               <button onclick="location.href='{{ posts.url }}'" class="button button-grandis fs-default inline-block">
