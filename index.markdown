@@ -1,8 +1,6 @@
 ---
 title: Home - Updated
 date: 2016-10-01 17:37:00 -04:00
-is-updating: true
-update-text: Currently undergoing maintenance. [Spot an issue?](https://github.com/marcusrelacion/marcusrelacion.github.io/issues)
 layout: pages/page-home
 ---
 
