@@ -9,8 +9,8 @@
     <div class="content-container clearfix p3">
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
       {% for posts in sorted_projects %}
-        <div class="sm-col sm-col-12 md-col-6">
-          <div class="project-card bg-cover bg-center" style="background-image: url('{{ posts.image }}');">
+        <div class="sm-col sm-col-12 md-col-6 p1">
+          <div class="project-card bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}');">
             <div class="project-details p3">
               <h6 class="year m0 mb2 fs-default grandis fw-black text-uppercase">
                 {{ posts.year }}

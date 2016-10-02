@@ -4,16 +4,18 @@ body {
   font-size: 100%;
 }
 /* sets the max width for the container of the site */
-.container {
+.container,
+.content-container {
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
 }
 
+.container {
+  max-width: 960px;
+}
+
 .content-container {
-  width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 /* styling for broken images */

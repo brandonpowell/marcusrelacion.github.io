@@ -60,8 +60,8 @@ defaults:
     image: 
     description: 
     year: 
-    photoset-excerpt: 
-    photoset-location: 
+    excerpt: 
+    location: 
 permalink: pretty
 exclude:
 - package.json
@@ -78,3 +78,5 @@ sass:
   sass_dir: _sass
   style: compressed
 logo-image: "/uploads/mr-white-logo.svg"
+is-updating: true
+update-text: Currently undergoing maintenance. [Spot an issue?](https://github.com/marcusrelacion/marcusrelacion.github.io/issues)
