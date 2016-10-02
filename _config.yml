@@ -44,18 +44,23 @@ defaults:
     type: projects
   values:
     layout: singles/single-project
-    is-featured: 
-    project-year: 
-    project-header-image: 
-    project-excerpt-text: 
+    image: 
+    description: 
+    year: 
+    excerpt: 
+    role: 
+    collaborators:
+    - collaborator: 
+    project-types:
+    - type: 
 - scope:
     path: ''
     type: photos
   values:
-    is-featured: 
-    photoset-year: 
-    photoset-header-image: 
-    photoset-excerpt-text: 
+    image: 
+    description: 
+    year: 
+    photoset-excerpt: 
     photoset-location: 
 permalink: pretty
 exclude:

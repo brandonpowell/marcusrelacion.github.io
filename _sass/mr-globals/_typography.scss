@@ -1,6 +1,3 @@
-/*=============================================>>>>>
-= Type Variables =
-===============================================>>>>>*/
 
 // font families
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
@@ -8,79 +5,45 @@ $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helveti
 $courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 
 // font sizes
-$text-x-small: 0.75em;
-$text-small: 1em;
-$text-default: 1.4em;
-$text-medium: 1.6em;
-$text-x-medium: 2em;
-$text-large: 2.4em;
-$text-x-large: 2.8em;
+$fs-small: 0.75em;
+$fs-default: 1em;
+$fs-medium: 1.5em;
+$fs-large: 2em;
+$fs-headline: 2.25em;
 
 // font weights
-$text-light: 300; // body copy
-$text-semibold: 600; // sub-headers
-$text-black: 900; // headers
+$fw-light: 300; // body copy
+$fw-semibold: 600; // sub-headers
+$fw-black: 900; // headers
 
-/*= End of Type Variables =*/
-/*=============================================<<<<<*/
-
-/*=============================================>>>>>
-= Type Styles =
-===============================================>>>>>*/
 .system { font-family: $system; }
 .courier { font-family: $courier; }
 
-.text-x-small { font-size: $text-x-small; }
-.text-small { font-size: $text-small; }
-.text-default { font-size: $text-default; }
-.text-medium { font-size: $text-medium; }
-.text-x-medium { font-size: $text-x-medium; }
-.text-large { font-size: $text-large; }
-.text-x-large { font-size: $text-x-large; }
+.fs-small { font-size: $fs-small; }
+.fs-default { font-size: $fs-default; }
+.fs-medium { font-size: $fs-medium; }
+.fs-large { font-size: $fs-large; }
+.fs-headline { font-size: $fs-headline; }
 
-.text-light { font-weight: $text-light; }
-.text-semibold { font-weight: $text-semibold; }
-.text-black { font-weight: $text-black; }
+.fw-light { font-weight: $fw-light; }
+.fw-semibold { font-weight: $fw-semibold; }
+.fw-black { font-weight: $fw-black; }
 
 .text-uppercase { text-transform: uppercase; }
 .text-lowercase { text-transform: lowercase; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: $text-black;
+.ta-center {
+  text-align: center;
 }
 
-h1 {
-  font-size: $text-x-large;
-  font-weight: $text-black;
+.ta-left {
+  text-align: left;
 }
 
-h2 {
-  font-size: $text-large;
+.ta-right {
+  text-align: right;
 }
 
-h3 {
-  font-size: $text-x-medium;
-  text-transform: uppercase;
+.ta-justify {
+  text-align: justify;
 }
-
-small {
-  font-size: $text-x-small;
-}
-
-p {
-  font-size: $text-default;
-  font-weight: $text-light;
-}
-
-/* removes the underlink from header/main nav links */
-a.nav-link {
-  text-decoration: none;
-}
-
-a.logotype {
-  text-decoration: none;
-}
-
-/*= End of Type Styles =*/
-/*=============================================<<<<<*/

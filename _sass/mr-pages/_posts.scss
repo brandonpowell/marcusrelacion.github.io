@@ -1,36 +1,13 @@
 @import "mr-globals/typography";
 
-article h1 {
-  margin-bottom: 0.5em;
-}
-
-article h2 {
-  font-size: $text-medium;
-  font-weight: $text-black;
-  margin: 0;
-  line-height: 1.6em;
-}
-
-article p {
-  color: $gray;
-  font-family: $courier;
-}
+/* article styles */
 
 article a {
-  color: $gray;
+  color: $grandis;
+  font-weight: $fw-black;
   transition: color 100ms ease-in-out;
-  font-weight: $text-black;
-  background: $highlight;
-  padding: 0.005em 0.25em;
-  transition: background  150ms ease-in-out;
 }
 
 article a:hover {
-  background: none;
-}
-
-article hr {
-  width: 100%;
-  border: solid 2px $highlight;
-  max-width: 100px;
+  color: $grandis-1;
 }

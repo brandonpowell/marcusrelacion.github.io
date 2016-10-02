@@ -1,17 +1,17 @@
-/* base button styling */
+/* buttons */
 .button {
-  padding: 1em 2em;
-  background: none;
+  padding: 1.5em 2em;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
 }
 
-.button-highlight {
-  background: $highlight;
-  color: $primary;
-  transition: transform 100ms ease-in-out;
+.button-grandis {
+  background-color: $grandis;
+  color: $black-1;
+  transition: color 150ms ease-in-out;
 }
 
-.button-highlight:hover {
-  transform: scale(1.075);
+.button-grandis:hover {
+  color: $black-3;
 }

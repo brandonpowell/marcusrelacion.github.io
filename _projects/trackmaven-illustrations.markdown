@@ -1,11 +1,13 @@
 ---
 title: TrackMaven Illustrations
 date: 2015-01-01 21:00:00 -05:00
-is-featured: true
-project-year: 2015
-project-header-image: "/uploads/trackmaven-illustrations-header-f66030.jpg"
-project-excerpt-text: Various illustrations created for use on the TrackMaven marketing
-  site, blog and social media.
+image: "/uploads/trackmaven-illustrations-header-f66030.jpg"
+year: 2015
+excerpt: Various illustrations created for use on the TrackMaven marketing site, blog
+  and social media.
+role: Design Intern
+project-types:
+- type: Illustration
 layout: singles/single-project
 ---
 
