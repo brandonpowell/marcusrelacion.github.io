@@ -43,6 +43,14 @@
 
   <body>
     <main>
+      {% if site.is-updating == true %}
+      <section class="update-bar bg-grandis rounded">
+        <div class="container clearfix px3 py1">
+          {{ site.update-text }}
+        </div>
+      </section>
+      {% else %}
+      {% endif %}
       <header>
         <div class="container clearfix p3">
           <a class="logotype" href="/home">
