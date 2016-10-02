@@ -43,6 +43,10 @@
 
   <body>
     <main>
+      {% comment %}
+      * Status bar for updating visitors on the maintenance status of the site.
+      * Only appears during site revisions.
+      {% endcomment %}
       {% if site.is-updating == true %}
       <section class="update-bar bg-grandis">
         <div class="container clearfix px3 py1">
@@ -54,14 +58,15 @@
       <header>
         <div class="container clearfix p3">
           <a class="logotype" href="/home">
-            <h2 class="m0 grandis fs-medium">
+            <h2 class="m0 grandis fs-medium fw-black">
               Marcus Relacion
             </h2>
           </a>
           <p class="courier m0 grandis fs-default">
             Design &amp; Development
           </p>
-
+        </div>
+        <div class="container clearfix px3 py1">
           <a href="/projects/" class="m0 fs-default mr2 white">
             Projects
           </a>
