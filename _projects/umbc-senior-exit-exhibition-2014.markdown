@@ -1,11 +1,20 @@
 ---
 title: UMBC Senior Exit Exhibition 2014
 date: 2014-01-01 09:22:00 -05:00
-is-featured: true
-project-year: 2014
-project-header-image: "/uploads/umbc-see-header-2304b2.jpg"
-project-excerpt-text: Exhibition design and branding for the 2014 UMBC Senior Exit
-  Exhibition (UMBC SEE).
+image: "/uploads/umbc-see-header-2304b2.jpg"
+year: 2014
+excerpt: Exhibition design and branding for the 2014 UMBC Senior Exit Exhibition (UMBC
+  SEE).
+role: Undegraduate
+collaborators:
+- collaborator: Michael Muccioli
+- collaborator: Andrew Gallagher
+- collaborator: Kirsten Green
+project-types:
+- type: Exhibition
+- type: Branding
+- type: Front- End Development
+- type: Print
 layout: singles/single-project
 ---
 
