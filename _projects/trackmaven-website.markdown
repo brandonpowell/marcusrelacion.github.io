@@ -11,7 +11,7 @@ collaborators:
 - collaborator: Wade Hammes - Front-End Developer, TrackMaven
 project-types:
 - type: Front-End Development
-layout: singles/single-project
+layout: single/project
 ---
 
 Over the course of the last 11 months, I was fortunate enough to have the opportunity to design and develop for the [TrackMaven](http://trackmaven.com/) marketing site.
