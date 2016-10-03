@@ -15,7 +15,7 @@ project-types:
 - type: Branding
 - type: Front- End Development
 - type: Print
-layout: singles/single-project
+layout: single/project
 ---
 
 The UMBC Senior Exit Exhibition is the annual exhibition that showcases and highlights the work of graduating seniors from the Visual Arts Program at UMBC.
