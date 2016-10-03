@@ -6,6 +6,6 @@ year: 2016
 excerpt: 'Photos from Abstractions 2016, a three day conference held in Pittsburgh,
   PA for designers and developers. '
 location: David Lawrence Convention Center
-layout: singles/single-photos
+layout: single/photoset
 ---
 
