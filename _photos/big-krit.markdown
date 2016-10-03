@@ -5,6 +5,6 @@ image: "/uploads/big-krit-header.jpg"
 year: 2015
 excerpt: Cadillactica
 location: The Howard Theater
-layout: singles/single-photos
+layout: single/photoset
 ---
 
