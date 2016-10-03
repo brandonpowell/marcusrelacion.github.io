@@ -5,6 +5,6 @@ image: "/uploads/pittsburgh-header.jpg"
 year: 2016
 excerpt: New Set Coming.
 location: Pittsburgh, PA
-layout: singles/single-photos
+layout: single/photoset
 ---
 
