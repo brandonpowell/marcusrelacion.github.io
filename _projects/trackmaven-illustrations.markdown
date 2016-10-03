@@ -8,7 +8,7 @@ excerpt: Various illustrations created for use on the TrackMaven marketing site,
 role: Design Intern
 project-types:
 - type: Illustration
-layout: singles/single-project
+layout: single/project
 ---
 
 During my internship with TrackMaven in the Winter/Spring of 2015 I was tasked with creating several illustrations that aligned with the visual style that the design team had established.
