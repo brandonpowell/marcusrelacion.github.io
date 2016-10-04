@@ -11,8 +11,8 @@ role: Junior Designer
 collaborators:
 - collaborator: Laura McGuigan - VP of Design, TrackMaven
 - collaborator: Wade Hammes - Front-End Developer, TrackMaven
-project-types:
-- type: Front-End Development
+project-skills:
+- project-skill: Front-End Development
 layout: single/project
 ---
 
