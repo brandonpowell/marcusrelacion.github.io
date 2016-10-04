@@ -8,10 +8,10 @@
 
 .button-grandis {
   background-color: $grandis;
-  color: $black-1;
+  color: $darken-1;
   transition: color 150ms ease-in-out;
 }
 
 .button-grandis:hover {
-  color: $black-3;
+  color: $darken-3;
 }

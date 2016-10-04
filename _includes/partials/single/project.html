@@ -1,45 +1,65 @@
-<section class="project-intro">
+<section class="project-intro bg-cover bg-center py4 relative" style="background-image: url('{{ page.image }}');">
   <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-9 pr2">
+    <div class="sm-col sm-col-12">
+      <span class="bg-grandis rounded p2 fs-small m0 inline-block mb3 courier fw-black">< back to work</span>
+    </div>
+    <div class="sm-col sm-col-12 md-col-10">
       <article class="white fs-medium courier">
         {{ content }}
       </article>
     </div>
-    <div class="sm-col sm-col-12 md-col-3 bg-grandis rounded">
-      <small class="fw-black text-uppercase">Role</small>
-      <h3 class="m0 courier fw-light">{{ page.role }}</h3>
-
-      <small class="fw-black text-uppercase">Skills</small>
-      {% for project-skill in page.project-skills %}
-      <h3 class="m0 courier fw-light">{{ project-skill }}</h3>
-      {% endfor %}
-
-        {{ page.project-types.type }}
-
-    </div>
   </div>
 </section>
 
+<aside class="project-info bg-grandis">
+  <div class="container clearfix px3">
+    <div class="sm-col sm-col-12">
+      <div class="sm-col sm-col-12 md-col-3 pr2 py2">
+        <small class="m0 fw-black text-uppercase">
+          Client
+        </small>
+        <h6 class="m0 fw-light courier">
+          TrackMaven
+        </h6>
+      </div>
+
+      <div class="sm-col sm-col-12 md-col-3 pr2 py2">
+        <small class="m0 fw-black text-uppercase">
+          Role
+        </small>
+        <h6 class="m0 fw-light courier">
+          {{ page.role }}
+        </h6>
+      </div>
+
+      <div class="sm-col sm-col-12 md-col-4 pr2 py2">
+        <small class="m0 fw-black text-uppercase">
+          Role
+        </small>
+        <h6 class="m0 fw-light courier">
+          Front-End Development
+        </h6>
+      </div>
+
+      <div class="sm-col sm-col-12 md-col-2 pr2 py2">
+        <small class="m0 fw-black text-uppercase">
+          View
+        </small>
+        <h6 class="m0 fw-light courier">
+          Live Site
+        </h6>
+      </div>
+    </div>
+  </div>
+</aside>
+
 <section class="white fs-default courier">
-  <p>
-    During my time at TrackMaven, I had the unique opportunity to not only design branded materials as a member of the design team, but to also contribute code and assist in developing the marketing site.
-  </p>
   <p>
     Under the guidance and direction of Wade Hammes, one of TrackMavens' Front-End Developers; I was able to gain hands-on experience working with HTML5, CSS3, jQuery, PHP as well as Wordpress. In addition to gaining experience in the skills listed above, I was introduced to Gulp, a build tool that helps accelerate and automate the development process.
   </p>
   <p>
     Below are a few examples that allowed me to put all of this new found knowledge to the test:
   </p>
-
-  <p>
-
-  </p>
-</section>
-
-<section class="">
-</section>
-
-<section class="">
 </section>
 
 Over the course of the last 11 months, I was fortunate enough to have the opportunity to design and develop for the [TrackMaven](http://trackmaven.com/) marketing site.
