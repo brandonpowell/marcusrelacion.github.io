@@ -52,7 +52,6 @@ defaults:
     collaborators:
     - collaborator:
     skills:
-      - skill:
 - scope:
     path: ''
     type: photos
