@@ -5,6 +5,7 @@ image: "/uploads/trackmaven-illustrations-header-f66030.jpg"
 year: 2015
 excerpt: Various illustrations created for use on the TrackMaven marketing site, blog
   and social media.
+client: TrackMaven
 role: Design Intern
 skills:
 - Illustration
