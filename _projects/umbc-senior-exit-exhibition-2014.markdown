@@ -5,6 +5,7 @@ image: "/uploads/umbc-see-header-2304b2.jpg"
 year: 2014
 excerpt: Exhibition design and branding for the 2014 UMBC Senior Exit Exhibition (UMBC
   SEE).
+client: UMBC
 role: Undegraduate
 collaborators:
 - collaborator: Michael Muccioli
