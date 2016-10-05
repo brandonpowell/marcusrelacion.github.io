@@ -8,11 +8,10 @@ excerpt: Identity designed for TrackMaven's exclusive annual event held in Austi
 role: Junior Designer
 collaborators:
 - collaborator: Laura McGuigan - VP of Design, TrackMaven
-project-types:
-- type: Branding
-- type: Illustration
-- type: Front-End Development
-- type: Print
+skills:
+- Branding
+- Illustration
+- Front-End Development
 layout: single/project
 ---
 
