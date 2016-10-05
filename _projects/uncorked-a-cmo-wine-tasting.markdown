@@ -5,6 +5,7 @@ image: "/uploads/uncorked-header-88d4ae.jpg"
 year: 2015
 excerpt: Identity designed for TrackMaven's exclusive annual event held in Austin,
   TX during South by Southwest (SXSW).
+client: TrackMaven
 role: Junior Designer
 collaborators:
 - collaborator: Laura McGuigan - VP of Design, TrackMaven
