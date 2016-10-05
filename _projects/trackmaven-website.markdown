@@ -7,6 +7,7 @@ description: During my time at TrackMaven, I had the unique opportunity to not o
   code and assist in developing the marketing site.
 year: 2016
 excerpt: Select examples of contributions made to the TrackMaven marketing site.
+client: TrackMaven
 role: Junior Designer
 collaborators:
 - collaborator: Laura McGuigan - VP of Design, TrackMaven
