@@ -1,28 +1,31 @@
-<section class="home-projects">
-  {% if page.layout == 'pages/page-home' %}
-    <div class="container clearfix p3">
-      <h2 class="m0 fs-default fw-black white text-uppercase">
+<section class="home-projects mt4">
+  {% if page.layout == 'pages/page-home' or 'pages/page-projects' %}
+    <div class="container clearfix px3">
+      <h2 class="m0 fs-default fw-black white text-uppercase ta-center">
         Latest Projects:
       </h2>
     </div>
 
     <div class="content-container clearfix p3">
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
-      {% for posts in sorted_projects %}
-        <div class="sm-col sm-col-12 md-col-6 p1">
+      {% for posts in sorted_projects limit:3 %}
+        <div class="sm-col sm-col-12 md-col-12 lg-col-4 p1">
           <a href="{{ posts.url }}" class="project-link border grandis p3 block td-none">
-            <span class="year m0 p1 fs-default white fw-black inconsolata">
+            <span class="year m0 fs-default white fw-black inconsolata">
               {{ posts.year }}
             </span>
             <h2 class="project-title m0 mt3 mb1 fs-medium white fw-black merriweather td-underline" href="{{ posts.url }}" style="min-height: 75px;">
               {{ posts.title }}
             </h2>
-            <p class="project-excerpt m0 fs-default white inconsolata" style="min-height: 100px;">
+            <p class="project-excerpt m0 mb3 fs-default white inconsolata" style="min-height: 125px;">
               {{ posts.excerpt}}
             </p>
-            <span class="skills m0 mt3 fs-small fw-light white inconsolata block">
-              {{ posts.project-skills }}
+            <hr>
+            {% for skill in posts.skills %}
+            <span class="skills m0 fs-small fw-light white inconsolata block inline-block pr1">
+              {{ skill }}
             </span>
+            {% endfor %}
           </a>
         </div>
       {% endfor %}

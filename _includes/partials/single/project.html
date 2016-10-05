@@ -36,9 +36,11 @@
         <small class="m0 fw-black merriweather fs-small">
           Role
         </small>
+        {% for skill in page.skills %}
         <h6 class="m0 fw-light inconsolata">
-          Front-End Development
+          {{ skill }}
         </h6>
+        {% endfor %}
       </div>
 
       <div class="sm-col sm-col-12 md-col-2 pr2 py2">
