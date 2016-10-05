@@ -6,8 +6,8 @@ year: 2015
 excerpt: Various illustrations created for use on the TrackMaven marketing site, blog
   and social media.
 role: Design Intern
-project-types:
-- type: Illustration
+skills:
+- Illustration
 layout: single/project
 ---
 
