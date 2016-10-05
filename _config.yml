@@ -51,8 +51,8 @@ defaults:
     role:
     collaborators:
     - collaborator:
-    project-skills:
-      -;
+    skills:
+      - skill:
 - scope:
     path: ''
     type: photos
