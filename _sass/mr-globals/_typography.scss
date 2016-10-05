@@ -1,12 +1,10 @@
 
 // font families
 $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
-
 $courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 
 $inconsolata: 'Inconsolata', monospace;
 $merriweather: 'Merriweather', serif;
-
 
 // font sizes
 $fs-small: 0.75em;
@@ -53,4 +51,11 @@ $fw-black: 900; // headers
 
 .ta-justify {
   text-align: justify;
+}
+
+.td-none {
+  text-decoration: none;
+}
+.td-underline {
+  text-decoration: underline;
 }

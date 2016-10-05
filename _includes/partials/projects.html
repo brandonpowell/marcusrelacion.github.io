@@ -10,27 +10,20 @@
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
       {% for posts in sorted_projects %}
         <div class="sm-col sm-col-12 md-col-6 p1">
-            <div class="project-details grandis border rounded p3">
-              <h3 class="year m0 fs-default grandis fw-black inconsolata">
-                {{ posts.year }}
-              </h3>
-              <h6 class="m0 fs-default fw-light pb3 white inconsolata">
-                Front-End Development
-              </h6>
-              <a class="project-link m0 mt1 mb1 fs-medium white fw-black inline-block merriweather" href="{{ posts.url }}" style="min-height: 75px;">
-                {{ posts.title }}
-              </a>
-              <p class="m0 fs-default white inconsolata" style="min-height: 175px;">
-                {{ posts.excerpt}}
-              </p>
-              <a href="{{posts.url}}" class=" inconsolata fs-default fw-light white inline-block">
-                View Project
-                <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
-                  <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
-                </svg>
-              </a>
-            </div>
-
+          <a href="{{ posts.url }}" class="project-link border grandis p3 block td-none">
+            <span class="year m0 p1 fs-default white fw-black inconsolata">
+              {{ posts.year }}
+            </span>
+            <h2 class="project-title m0 mt3 mb1 fs-medium white fw-black merriweather td-underline" href="{{ posts.url }}" style="min-height: 75px;">
+              {{ posts.title }}
+            </h2>
+            <p class="project-excerpt m0 fs-default white inconsolata" style="min-height: 100px;">
+              {{ posts.excerpt}}
+            </p>
+            <span class="skills m0 mt3 fs-small fw-light white inconsolata block">
+              {{ posts.project-skills }}
+            </span>
+          </a>
         </div>
       {% endfor %}
     </div>

@@ -58,10 +58,14 @@ a.logotype  {
 }
 
 
-.project-card {
-  min-height: 300px;
-}
-
 .border-grandis {
 
+}
+
+.project-link {
+  transition: all 100ms ease-in-out;
+}
+
+.project-link:hover {
+  background-color: $grandis;
 }
