@@ -10,25 +10,27 @@
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
       {% for posts in sorted_projects %}
         <div class="sm-col sm-col-12 md-col-6 p1">
-          <div class="project-card bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}');">
-            <div class="project-details p3">
-              <h6 class="year m0 mb2 fs-default grandis fw-black text-uppercase">
+            <div class="project-details grandis border rounded p3">
+              <h3 class="year m0 fs-default grandis fw-black inconsolata">
                 {{ posts.year }}
+              </h3>
+              <h6 class="m0 fs-default fw-light pb3 white inconsolata">
+                Front-End Development
               </h6>
-              <a class="project-link m0 fs-medium white fw-black inline-block" href="{{ posts.url }}" style="min-height: 75px;">
+              <a class="project-link m0 mt1 mb1 fs-medium white fw-black inline-block merriweather" href="{{ posts.url }}" style="min-height: 75px;">
                 {{ posts.title }}
               </a>
-              <p class="m0 fs-medium white courier" style="min-height: 275px;">
+              <p class="m0 fs-default white inconsolata" style="min-height: 175px;">
                 {{ posts.excerpt}}
               </p>
-              <button onclick="location.href='{{ posts.url }}'" class="button button-grandis fs-default fw-black inline-block">
+              <a href="{{posts.url}}" class=" inconsolata fs-default fw-light white inline-block">
                 View Project
                 <svg id="i-arrow-right" class="ml1 relative" style="top: 3px; right: -5px;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%">
                   <path d="M22 6 L30 16 22 26 M30 16 L2 16" />
                 </svg>
-              </button>
+              </a>
             </div>
-          </div>
+
         </div>
       {% endfor %}
     </div>

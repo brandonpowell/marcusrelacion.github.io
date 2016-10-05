@@ -4,6 +4,10 @@ $system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helveti
 
 $courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 
+$inconsolata: 'Inconsolata', monospace;
+$merriweather: 'Merriweather', serif;
+
+
 // font sizes
 $fs-small: 0.75em;
 $fs-default: 1em;
@@ -18,6 +22,9 @@ $fw-black: 900; // headers
 
 .system { font-family: $system; }
 .courier { font-family: $courier; }
+
+.inconsolata { font-family: $inconsolata; }
+.merriweather { font-family: $merriweather; }
 
 .fs-small { font-size: $fs-small; }
 .fs-default { font-size: $fs-default; }
