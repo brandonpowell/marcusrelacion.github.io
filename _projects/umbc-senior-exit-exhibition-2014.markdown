@@ -10,11 +10,10 @@ collaborators:
 - collaborator: Michael Muccioli
 - collaborator: Andrew Gallagher
 - collaborator: Kirsten Green
-project-types:
-- type: Exhibition
-- type: Branding
-- type: Front- End Development
-- type: Print
+skills:
+- Exhibition
+- Branding
+- Print
 layout: single/project
 ---
 
