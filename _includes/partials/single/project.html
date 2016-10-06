@@ -1,18 +1,5 @@
-<section class="project-intro bg-cover bg-center py4 relative" style="background-image: url('{{ page.image }}');">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12">
-      <span class="bg-grandis rounded p2 fs-small m0 inline-block mb3 inconsolata fw-black">< back to work</span>
-    </div>
-    <div class="sm-col sm-col-12 md-col-10">
-      <article class="white fs-medium inconsolata">
-        {{ content }}
-      </article>
-    </div>
-  </div>
-</section>
-
-<aside class="project-info bg-grandis">
-  <div class="container clearfix px3">
+<aside class="project-info mt3">
+  <div class="content-container clearfix px3 bg-grandis">
     <div class="sm-col sm-col-12">
       <div class="sm-col sm-col-12 md-col-3 pr2 py2">
         <small class="m0 fw-black merriweather fs-small">
@@ -42,7 +29,6 @@
         </h6>
         {% endfor %}
       </div>
-
       <div class="sm-col sm-col-12 md-col-2 pr2 py2">
         <small class="m0 fw-black merriweather fs-small">
           View
@@ -54,6 +40,18 @@
     </div>
   </div>
 </aside>
+<section class="project-intro relative">
+  <div class="content-container clearfix p3 bg-cover bg-center py4 mt4 relative" style="background-image: url('{{ page.image }}');">
+    <div class="sm-col sm-col-12">
+      <a href="/projects/" class="fs-default m0 inline-block mb4 inconsolata fw-black white td-none">back to work</a>
+    </div>
+    <div class="sm-col sm-col-12 md-col-10 mt4">
+      <article class="white fs-medium inconsolata">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</section>
 
 <section class="white fs-default inconsolata">
   <p>

@@ -13,6 +13,7 @@ article a:hover {
 }
 
 article h1 {
+  font-family: $merriweather;
   font-size: $fs-large;
   font-weight: $fw-black;
   line-height: normal;
@@ -20,7 +21,8 @@ article h1 {
 }
 
 article h2 {
-  font-size: $fs-small;
+  font-family: $inconsolata;
+  font-size: $fs-default;
   font-weight: $fw-light;
   margin: 0;
 }

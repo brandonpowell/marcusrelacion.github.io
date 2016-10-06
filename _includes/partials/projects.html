@@ -1,11 +1,19 @@
 <section class="home-projects mt4">
-  {% if page.layout == 'pages/page-home' or 'pages/page-projects' %}
+  {% if page.layout == 'pages/page-home' %}
     <div class="container clearfix px3">
       <h2 class="m0 fs-default fw-black white text-uppercase ta-center">
         Latest Projects:
       </h2>
     </div>
+  {% elsif page.layout == 'pages/page-projects' %}
+    <div class="container clearfix px3">
+      <h2 class="m0 fs-default fw-black white text-uppercase ta-center">
+        Featured Projects:
+      </h2>
+    </div>
+  {% endif %}
 
+  {% if page.layout == 'pages/page-home' or 'pages/page-projects' %}
     <div class="content-container clearfix p3">
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
       {% for posts in sorted_projects limit:3 %}
