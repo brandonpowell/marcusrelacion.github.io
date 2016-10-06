@@ -1,10 +1,9 @@
-<section class="py4">
-  <div class="container clearfix p3 bg-grandis">
-    <div class="container clearfix px3">
-      <h2 class="m0 fs-default fw-black darken-3 text-uppercase ta-center">
-        Archives:
-      </h2>
-    </div>
+<section class="py4 container">
+  <div class="clearfix p3 bg-grandis">
+    <h2 class="m0 fs-default fw-black darken-3 text-uppercase ta-center">
+      Archives:
+    </h2>
+
     {% if page.url == "/projects/" %}
       <ul class="">
       {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
@@ -13,9 +12,6 @@
         <a href="{{posts.url}}" class="archive-link text-small block td-none white">
           <li class="block text-black py1 inconsolata">
             <span class="inconsolata fs-default white">{{ posts.year }}</span> | <span class="merriweather fw-black white fs-default">{{posts.title}}</span>
-          </li>
-          <li class="block merriweather fw-black">
-
           </li>
         </a>
         </div>

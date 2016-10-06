@@ -16,7 +16,7 @@
   {% if page.layout == 'pages/page-home' or 'pages/page-projects' %}
     <div class="content-container clearfix p3">
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
-      {% for posts in sorted_projects limit:3 %}
+      {% for posts in sorted_projects limit:6 %}
         <div class="sm-col sm-col-12 md-col-12 lg-col-4 p1">
           <a href="{{ posts.url }}" class="project-link border grandis p3 block td-none">
             <span class="year m0 fs-default white fw-black inconsolata">

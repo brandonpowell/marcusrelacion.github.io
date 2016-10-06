@@ -1,23 +1,26 @@
 input,
 textarea {
-  border: solid 5px $highlight;
-  border-radius: 2.5px;
-  height: 50px;
+  border: solid 5px $grandis;
+  border-radius: 2px;
+  height: 75px;
   padding: 1em;
   width: 100%;
-
-  color: $primary !important;
+  color: $grandis !important;
   margin-top: 1em;
+  font-family: $inconsolata;
+  font-size: $fs-default;
+  background-color: transparent;
 }
 
 
 textarea {
-  height: 369px;
-  max-height: 369px;
+  height: 250px;
+  max-height: 250px;
   overflow: scroll;
 }
 
 label {
-  color: $primary-light;
+  color: $white;
   font-weight: $fw-semibold;
+  font-family: $merriweather;
 }
