@@ -1,6 +1,8 @@
 ---
 title: 'Uncorked: A CMO Wine Tasting'
 date: 2015-01-01 08:59:00 -05:00
+tags:
+- "?"
 image: "/uploads/uncorked-header-88d4ae.jpg"
 is-featured: true
 year: 2015
