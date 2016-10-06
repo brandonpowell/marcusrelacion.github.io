@@ -1,39 +1,39 @@
-<aside class="project-info mt3">
-  <div class="content-container clearfix px3 bg-grandis">
+<aside class="project-info">
+  <div class="content-container clearfix p3 bg-grandis">
     <div class="sm-col sm-col-12">
-      <div class="sm-col sm-col-12 md-col-3 pr2 py2">
-        <small class="m0 fw-black merriweather fs-small">
+      <div class="sm-col sm-col-12 md-col-3 pr2 py1">
+        <small class="m0 fw-black merriweather fs-small white">
           Client
         </small>
-        <h6 class="m0 fw-light inconsolata">
+        <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
           {{ page.client }}
         </h6>
       </div>
 
-      <div class="sm-col sm-col-12 md-col-3 pr2 py2">
-        <small class="m0 fw-black merriweather fs-small">
+      <div class="sm-col sm-col-12 md-col-3 pr2 py1">
+        <small class="m0 fw-black merriweather fs-small white">
           Role
         </small>
-        <h6 class="m0 fw-light inconsolata">
+        <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
           {{ page.role }}
         </h6>
       </div>
 
-      <div class="sm-col sm-col-12 md-col-4 pr2 py2">
-        <small class="m0 fw-black merriweather fs-small">
+      <div class="sm-col sm-col-12 md-col-4 pr2 py1">
+        <small class="m0 fw-black merriweather fs-small white">
           Role
         </small>
         {% for skill in page.skills %}
-        <h6 class="m0 fw-light inconsolata">
+        <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
           {{ skill }}
         </h6>
         {% endfor %}
       </div>
-      <div class="sm-col sm-col-12 md-col-2 pr2 py2">
-        <small class="m0 fw-black merriweather fs-small">
+      <div class="sm-col sm-col-12 md-col-2 pr2 py1">
+        <small class="m0 fw-black merriweather fs-small white">
           View
         </small>
-        <h6 class="m0 fw-light inconsolata">
+        <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
           Live Site
         </h6>
       </div>
@@ -45,7 +45,7 @@
     <div class="sm-col sm-col-12">
       <a href="/projects/" class="fs-default m0 inline-block mb4 inconsolata fw-black white td-none">back to work</a>
     </div>
-    <div class="sm-col sm-col-12 md-col-10 mt4">
+    <div class="sm-col sm-col-12 md-col-6 mt4">
       <article class="white fs-medium inconsolata">
         {{ content }}
       </article>
