@@ -2,6 +2,7 @@
 title: 'Uncorked: A CMO Wine Tasting'
 date: 2015-01-01 08:59:00 -05:00
 image: "/uploads/uncorked-header-88d4ae.jpg"
+is-featured: true
 year: 2015
 excerpt: Identity designed for TrackMaven's exclusive annual event held in Austin,
   TX during South by Southwest (SXSW).
