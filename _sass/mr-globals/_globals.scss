@@ -71,5 +71,13 @@ a.logotype  {
 }
 
 @media screen and (min-width: 831px) {
-  
+
+}
+
+.archives {
+  transition: background-color 100ms ease-in-out;
+}
+
+.archives:hover {
+  background-color: $lighten-4;
 }
