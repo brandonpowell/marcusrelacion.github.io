@@ -20,9 +20,8 @@ body {
 
 /* styling for broken images */
 img {
-  font-family: $system;
+  font-family: $inconsolata;
   font-weight: 400;
-  border: solid 1px $grandis;
   border-radius: 2px;
   text-align: center;
   font-size: $fs-small;
@@ -47,10 +46,10 @@ img:after {
 .bg-no-repeat { background-repeat: no-repeat; }
 
 .rounded { border-radius: 2px; }
-.rounded-top-left { border-radius: 4px 0 0 0; }
-.rounded-top-right { border-radius: 0 4px 0 0; }
-.rounded-top { border-radius: 4px 4px 0 0; }
-.rounded-bottom { border-radius: 0 0 4px 4px; }
+.rounded-top-left { border-radius: 2px 0 0 0; }
+.rounded-top-right { border-radius: 0 2px 0 0; }
+.rounded-top { border-radius: 2px 2px 0 0; }
+.rounded-bottom { border-radius: 0 0 2px 2px; }
 
 /* removes the underlink from header/main nav links */
 a.nav-link,
