@@ -19,6 +19,19 @@
         </h6>
       </div>
 
+      {% comment %}
+      <div class="sm-col sm-col-12 md-col-4 pr2 py1">
+        <small class="m0 fw-black merriweather fs-small white">
+          Collaborators
+        </small>
+        {% for collaborator in page.collaborators %}
+        <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+          {{ collaborator }}
+        </h6>
+        {% endfor %}
+      </div>
+      {% endcomment %}
+
       <div class="sm-col sm-col-12 md-col-4 pr2 py1">
         <small class="m0 fw-black merriweather fs-small white">
           Role
@@ -54,5 +67,9 @@
 </section>
 
 <section class="white fs-default inconsolata">
-  {{ page.main-content-text }}
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12">
+      {{ page.main-content-text | markdownify }}
+    </div>
+  </div>
 </section>

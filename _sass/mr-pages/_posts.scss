@@ -2,14 +2,11 @@
 
 /* article styles */
 
-article a {
+article a,
+section a {
   color: $grandis;
   font-weight: $fw-black;
   transition: color 100ms ease-in-out;
-}
-
-article a:hover {
-  color: $grandis-1;
 }
 
 article h1 {
