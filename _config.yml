@@ -36,35 +36,34 @@ defaults:
     path: ''
     type: jobs
   values:
-    is-current: 
-    job-duration: 
-    job-title: 
+    is-current:
+    job-duration:
+    job-title:
 - scope:
     path: ''
     type: projects
   values:
     layout: single/project
-    image: 
-    description: 
-    is-featured: 
-    year: 
-    excerpt: 
-    client: 
-    role: 
-    collaborators:
-    - collaborator: 
+    main-content-text:
+    image:
+    description:
+    year:
+    excerpt:
+    client:
+    role:
+    collaborators: []
     skills: []
 - scope:
     path: ''
     type: photos
   values:
-    layout: singles/photoset
-    image: 
-    description: 
-    is-featured: 
-    year: 
-    excerpt: 
-    location: 
+    layout: single/photoset
+    image:
+    description:
+    is-featured:
+    year:
+    excerpt:
+    location:
 permalink: pretty
 exclude:
 - package.json
