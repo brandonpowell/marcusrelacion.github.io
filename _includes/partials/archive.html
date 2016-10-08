@@ -1,31 +1,38 @@
-<section class="archives py4 bg-lighten-5">
+<section class="archives py4 bg-darken-5">
   <div class="clearfix p3 container">
-    <h2 class="m0 fs-default fw-black white text-uppercase ta-center">
+    <h2 class="m0 mb2 fs-default fw-black white ta-center merriweather">
       Archives
     </h2>
 
     {% if page.url == "/projects/" %}
       <ul class="">
-      {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
-      {% for posts in sorted_projects %}
-        <div class="sm-col sm-col-12 md-col-6">
-        <a href="{{posts.url}}" class="archive-link text-small block td-none white">
-          <li class="block text-black py1 inconsolata">
-            <span class="inconsolata fs-default white">{{ posts.year }}</span> | <span class="merriweather fw-black white fs-default">{{posts.title}}</span>
-          </li>
-        </a>
-        </div>
-      {% endfor %}
-      {% elsif page.url == "/photos/" %}
+        {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
+        {% for posts in sorted_projects %}
+          <div class="sm-col sm-col-12 md-col-6">
+            <a href="{{posts.url}}" class="archive-link text-small block td-none">
+              <li class="block text-black py1 inconsolata">
+                <span class="inconsolata fs-default">{{ posts.year }}</span> | <span class="merriweather fw-black fs-default">{{posts.title}}</span>
+              </li>
+            </a>
+          </div>
+        {% endfor %}
+        {% elsif page.url == "/photos/" %}
         {% assign sorted_photos = site.photos | sort: 'photoset-year' | reverse %}
         {% for posts in sorted_photos %}
-          <a href="{{posts.url}}" class="archive-link primary text-small">
-            <li class="block text-black py1">
-              {{ posts.photoset-year }} <span class="courier"> | {{posts.title}}</span>
-            </li>
-          </a>
+          <div class="sm-col sm-col-12 md-col-6">
+            <a href="{{posts.url}}" class="archive-link text-small block td-none">
+              <li class="block text-black py1 inconsolata">
+                <span class="inconsolata fs-default">
+                  {{ posts.year }}
+                </span> |
+                <span class="merriweather fw-black fs-default">
+                  {{posts.title}}
+                </span>
+              </li>
+            </a>
+          </div>
         {% endfor %}
-        </ul>
-      {% endif %}
+      </ul>
+    {% endif %}
   </div>
 </section>
