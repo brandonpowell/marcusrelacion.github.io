@@ -2,13 +2,13 @@
 title: TrackMaven Marketing Website
 date: 2016-01-01 21:51:00 -05:00
 main-content-text: |-
-  Under the guidance and direction of Wade Hammes, one of TrackMavens' Front-End Developers; I was able to gain hands-on experience working with HTML5, CSS3, jQuery, PHP as well as Wordpress. In addition to gaining experience in the skills listed above, I was introduced to Gulp, a build tool that helps accelerate and automate the development process.
+  Under the guidance and direction of [Wade Hammes](https://twitter.com/whammes), TrackMaven's sole front-end developer at the time; I was able to gain hands-on experience working with HTML5, CSS3, jQuery, PHP as well as Wordpress. In addition to gaining experience in the skills listed above, I was introduced to Gulp, a build tool that helps accelerate and automate the development process.
 
   Below are a few examples that allowed me to put all of this new found knowledge to the test:
 
   ## ROI of TrackMaven
 
-  In the Summer of 2015, the ROI of TrackMaven [page](http://trackmaven.com/roi-of-trackmaven/) was added to the marketing site. Working alongside the marketing department, the goal of this page was to show the ROI and benefits of using TrackMaven in a clear, concise landing page.
+  In the Summer of 2015, the ROI of TrackMaven [page](http://trackmaven.com/roi-of-trackmaven/) was added to the marketing site. Working alongside the marketing department, the purpose of this page was to show the ROI and benefits of using TrackMaven in a clear, concise landing page.
 
   The page was built using HTML and CSS.
 
@@ -20,7 +20,7 @@ main-content-text: |-
 
   ## Homepage Development
 
-  In December 2015, I was tasked with building TrackMaven's newly redesigned [homepage](http://trackmaven.com/). The redesign was led by [Laura McGuigan](https://twitter.com/grafxnerd) and the goal of the redesign was to better land potential customers using updated copy across the page that better explained how TrackMaven could be beneficial for their companies.
+  In December 2015, I was tasked with building TrackMaven's newly redesigned [homepage](http://trackmaven.com/). The redesign was led by [Laura McGuigan](https://twitter.com/grafxnerd) and the purpose of the redesign was to better land potential customers using updated copy, that better explained how TrackMaven could be beneficial for their companies.
 
   The page was built inside Wordpress, making use of Advanced Custom Fields as well as PHP, CSS, JS, jQuery.
 
