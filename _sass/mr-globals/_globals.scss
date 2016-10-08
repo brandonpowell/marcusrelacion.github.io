@@ -22,7 +22,8 @@ body {
 img {
   font-family: $system;
   font-weight: 400;
-  background: #f1f1f1;
+  border: solid 1px $grandis;
+  border-radius: 2px;
   text-align: center;
   font-size: $fs-small;
   width: 100%;
