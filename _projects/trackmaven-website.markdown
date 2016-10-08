@@ -5,7 +5,6 @@ image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
 description: During my time at TrackMaven, I had the unique opportunity to not only
   design branded materials as a member of the design team, but to also contribute
   code and assist in developing the marketing site.
-is-featured: true
 year: 2016
 excerpt: Select examples of contributions made to the TrackMaven marketing site.
 client: TrackMaven
