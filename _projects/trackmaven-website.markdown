@@ -14,7 +14,7 @@ collaborators:
 - collaborator: Laura McGuigan - VP of Design, TrackMaven
 - collaborator: Wade Hammes - Front-End Developer, TrackMaven
 skills:
-- Front-End Development
+- Front-End Dev
 layout: single/project
 ---
 
