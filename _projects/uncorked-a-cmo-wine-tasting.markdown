@@ -1,15 +1,19 @@
 ---
 title: 'Uncorked: A CMO Wine Tasting'
 date: 2015-01-01 08:59:00 -05:00
+main-content-text: "With Uncorked, I was tasked with creating the identity, promotional
+  materials, custom printed invitations, illustrations and landing page. \n\n<img
+  src=\"/assets/TrackMaven Uncorked: Logo.jpg\">\n\n<img src=\"/assets/TrackMaven
+  Uncorked: Illustration.jpg\">\n\n<img src=\"/assets/TrackMaven Uncorked: Invitations.jpg\">\n\n<img
+  src=\"/assets/TrackMaven Uncorked: Social Graphic.jpg\">\n\n<img src=\"/assets/TrackMaven
+  Uncorked: Pattern.jpg\">\n\n<img src=\"/assets/TrackMaven Uncorked: Login Page.jpg\">\n\n<img
+  src=\"/assets/TrackMaven Uncorked: Sign Up Form.jpg\">"
 image: "/uploads/uncorked-header-88d4ae.jpg"
-is-featured: true
 year: 2015
 excerpt: Identity designed for TrackMaven's exclusive annual event held in Austin,
   TX during South by Southwest (SXSW).
 client: TrackMaven
 role: Junior Designer
-collaborators:
-- collaborator: Laura McGuigan - VP of Design, TrackMaven
 skills:
 - Branding
 - Illustration
@@ -17,20 +21,6 @@ skills:
 layout: single/project
 ---
 
-## Uncorked: A CMO Wine Tasting is TrackMaven's exclusive annual event held the day before SXSW officially begins in Austin, TX.
+# Uncorked: A CMO Wine Tasting
 
-With Uncorked, I was tasked with creating the identity, promotional materials, custom printed invitations, illustrations and landing page. 
-
-<img src="/assets/TrackMaven Uncorked: Logo.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Illustration.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Invitations.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Social Graphic.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Pattern.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Login Page.jpg">
-
-<img src="/assets/TrackMaven Uncorked: Sign Up Form.jpg">
+## Uncorked, is TrackMaven's annual wine tasting for CMO's held in Austin, TX the night prior to SXSW.
