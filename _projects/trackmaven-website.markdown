@@ -9,6 +9,9 @@ year: 2016
 excerpt: Select examples of contributions made to the TrackMaven marketing site.
 client: TrackMaven
 role: Junior Designer
+collaborators:
+- Laura McGuigan - VP of Design, TrackMaven
+- Wade Hammes - Front-End Developer
 skills:
 - Front-End Dev
 layout: single/project
