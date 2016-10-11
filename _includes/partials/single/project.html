@@ -1,11 +1,11 @@
-<section class="project-intro relative">
-  <div class="container clearfix">
+<section class="project-intro relative py4">
+  <div class="content-container clearfix">
     <div class="sm-col sm-col-12">
-      <div class="p3 bg-cover bg-center rounded-top relative" style="background-image: url('{{ page.image }}')">
+      <div class="px3 py4 bg-cover bg-center rounded-top relative" style="background-image: url('{{ page.image }}')">
         <article class="white fs-medium inconsolata">
           {{ content }}
         </article>
-        <div class="container clearfix p3 bg-grandis rounded-bottom">
+        <div class="p3 clearfix bg-grandis rounded-bottom">
           <div class="sm-col sm-col-12">
             <div class="sm-col sm-col-12 md-col-3 py1">
               <small class="m0 fw-black merriweather fs-small white">
@@ -63,11 +63,11 @@
     </div>
   </div>
 
-  <div class="container clearfix">
-    <section class="sm-col sm-col-12">
-      <div class="white inconsolata px3">
+  <section class="container clearfix">
+    <div class="sm-col sm-col-12 p3">
+      <div class="main-content white inconsolata">
         {{ page.main-content-text | markdownify }}
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </section>
