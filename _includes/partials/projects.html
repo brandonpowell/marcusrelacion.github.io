@@ -10,7 +10,7 @@
       {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
       {% for posts in sorted_projects limit:3 %}
         <div class="sm-col sm-col-12 md-col-12 lg-col-4 p1">
-          <a href="{{ posts.url }}" class="project-link rounded p3 block td-none bg-cover bg-center" style="background-image: url('{{ posts.image }}')">
+          <a href="{{ posts.url }}" class="project-link rounded p3 block td-none bg-cover bg-center">
             <span class="year m0 fs-default white fw-black inconsolata">
               {{ posts.year }}
             </span>

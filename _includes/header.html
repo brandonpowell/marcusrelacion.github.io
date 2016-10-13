@@ -18,7 +18,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Merriweather:300,400,900" rel="stylesheet">
 
-
     <!-- smart browser detection -->
     <script type="text/javascript">
       if ('visibilityState' in document) {
@@ -52,7 +51,7 @@
       {% endcomment %}
       {% if site.is-updating == true %}
       <section class="update-bar bg-grandis">
-        <div class="container clearfix px3 py1">
+        <div class="container clearfix px3 py1 white">
           {{ site.update-text | markdownify }}
         </div>
       </section>
@@ -60,24 +59,26 @@
       {% endif %}
       <header>
         <div class="container clearfix p3">
-          <a class="logotype inline-block" href="/">
-            <h2 class="m0 grandis fs-medium fw-black">
-              Marcus Relacion
-            </h2>
-            <p class="courier m0 grandis fs-default">
-              Design &amp; Development
-            </p>
-          </a>
-        </div>
-        <div class="container clearfix px3 pb3">
-          <a href="/projects/" class="link m0 fs-default mr3 white fw-black merriweather">
-            Projects
-          </a>
-          <a href="/photos/" class="link m0 fs-default mr3 white fw-black merriweather">
-            Photos
-          </a>
-          <a href="/contact/" class="link m0 fs-default mr3 white fw-black merriweather">
-            Contact
-          </a>
+          <div class="sm-col sm-col-12 md-col-6">
+            <a class="logotype inline-block" href="/">
+              <h2 class="m0 grandis fs-medium fw-black">
+                Marcus Relacion
+              </h2>
+              <p class="courier m0 grandis fs-default">
+                Design &amp; Development
+              </p>
+            </a>
+          </div>
+          <div class="sm-col sm-col-12 md-col-6 mt2">
+            <a href="/projects/" class="link m0 fs-default mr3 white fw-black merriweather">
+              Projects
+            </a>
+            <a href="/photos/" class="link m0 fs-default mr3 white fw-black merriweather">
+              Photos
+            </a>
+            <a href="/contact/" class="link m0 fs-default mr3 white fw-black merriweather">
+              Contact
+            </a>
+          </div>
         </div>
       </header>
