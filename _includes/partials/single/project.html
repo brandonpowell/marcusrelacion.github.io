@@ -1,73 +1,70 @@
-<section class="project-intro relative py4">
-  <div class="content-container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-6">
-      <div class="px3 py4 bg-cover bg-center rounded-top relative" style="background-image: url('{{ page.image }}')">
-        <article class="white fs-medium inconsolata mt4 mb3">
-          {{ content }}
-        </article>
-        <div class="p3 clearfix bg-grandis rounded-bottom">
-          <div class="sm-col sm-col-12">
-            <div class="sm-col sm-col-12 md-col-3 py1">
-              <small class="m0 fw-black merriweather fs-small white">
-                Client
-              </small>
-              <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-                {{ page.client }}
-              </h6>
-            </div>
+<section class="split relative">
+  <div class="left-pane top-0 left-0 bottom-0 fixed border bg-cover bg-center rounded-top relative" style="z-index: 9999; background-image: url('{{ page.image }}'); min-height: 100vh; width: 30%;">
+    <div class="sm-col sm-col-12 p3">
+      <article class="white fs-medium inconsolata mt4 mb3">
+        {{ content }}
+      </article>
+      <div class="p3 clearfix bg-grandis rounded-bottom">
+        <div class="sm-col sm-col-12">
+          <div class="sm-col sm-col-12 md-col-4 py1">
+            <small class="m0 fw-black merriweather fs-small white">
+              Client
+            </small>
+            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+              {{ page.client }}
+            </h6>
+          </div>
 
-            <div class="sm-col sm-col-12 md-col-3 py1">
-              <small class="m0 fw-black merriweather fs-small white">
-                Role
-              </small>
-              <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-                {{ page.role }}
-              </h6>
-            </div>
+          <div class="sm-col sm-col-12 md-col-4 py1">
+            <small class="m0 fw-black merriweather fs-small white">
+              Role
+            </small>
+            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+              {{ page.role }}
+            </h6>
+          </div>
 
-            {% comment %}
-            <div class="sm-col sm-col-12 md-col-3 py1">
-              <small class="m0 fw-black merriweather fs-small white">
-                Collaborators
-              </small>
-              {% for collaborator in page.collaborators %}
-              <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-                {{ collaborator }}
-              </h6>
-              {% endfor %}
-            </div>
-            {% endcomment %}
+          {% comment %}
+          <div class="sm-col sm-col-12 md-col-4 py1">
+            <small class="m0 fw-black merriweather fs-small white">
+              Collaborators
+            </small>
+            {% for collaborator in page.collaborators %}
+            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+              {{ collaborator }}
+            </h6>
+            {% endfor %}
+          </div>
+          {% endcomment %}
 
-            <div class="sm-col sm-col-12 md-col-3 py1">
-              <small class="m0 fw-black merriweather fs-small white">
-                Skills
-              </small>
-              {% for skill in page.skills %}
-              <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-                {{ skill }}
-              </h6>
-              {% endfor %}
-            </div>
+          <div class="sm-col sm-col-12 md-col-4 py1">
+            <small class="m0 fw-black merriweather fs-small white">
+              Skills
+            </small>
+            {% for skill in page.skills %}
+            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+              {{ skill }}
+            </h6>
+            {% endfor %}
+          </div>
 
-            <div class="sm-col sm-col-12 md-col-3 py1">
-              <small class="m0 fw-black merriweather fs-small white">
-                View
-              </small>
-              <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-                Live Site
-              </h6>
-            </div>
+          <div class="sm-col sm-col-12 py1 ta-center">
+            <small class="m0 fw-black merriweather fs-small white">
+              View
+            </small>
+            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
+              Live Site
+            </h6>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <section class="container clearfix">
+  <div class="right-pane right" style="min-height: 100vh; width: 70%;">
     <div class="sm-col sm-col-12 p3">
       <div class="main-content white inconsolata">
         {{ page.main-content-text | markdownify }}
       </div>
     </div>
-  </section>
+  </div>
 </section>

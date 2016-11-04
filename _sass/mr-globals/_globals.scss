@@ -82,8 +82,27 @@ a.logotype  {
   background-color: $grandis;
 }
 
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 1280px) {
+ .left-pane {
+   z-index: 9999;
+   min-height: 100vh;
+   width: 30%;
+   position: fixed;
+   float: left;
+ }
 
+ .right-pane {
+   min-height: 100vh;
+   width: 70%;
+   float: right;
+ }
+
+ .update-bar {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   left: 0;
+ }
 }
 
 .archives {
@@ -92,4 +111,8 @@ a.logotype  {
 
 .archives:hover {
   background-color: $darken-4;
+}
+
+.border-grandis {
+  border: solid 2px $grandis;
 }

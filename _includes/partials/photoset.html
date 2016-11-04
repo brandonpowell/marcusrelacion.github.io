@@ -1,26 +1,27 @@
-<section class="home-photosets mt4">
+<section class="home-photosets">
   {% if page.layout == 'pages/page-home' %}
-    <div class="container clearfix px3">
+    <div class="container clearfix">
       <h2 class="m0 fs-default fw-black white ta-center merriweather">
         Latest Photosets
       </h2>
     </div>
 
-    <div class="content-container clearfix p3">
+    <div class="content-container clearfix">
       {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-      {% for posts in sorted_photos limit:2 %}
-      <div class="sm-col sm-col-12 md-col-6 lg-col-6 p1">
+      {% for posts in sorted_photos limit:1 %}
+      <div class="sm-col sm-col-12 p1">
         <a href="{{ posts.url }}" class="photoset-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
-          <span class="year m0 fs-default white fw-black inconsolata">
-            {{ posts.year }}
-          </span>
-          <h2 class="project-title m0 mt3 mb1 fs-medium white fw-black merriweather td-underline" href="{{ posts.url }}" style="min-height: 75px;">
-            {{ posts.title }}
-          </h2>
-          <p class="project-excerpt m0 mb3 fs-default white inconsolata" style="min-height: 125px;">
-            {{ posts.excerpt}}
-          </p>
-          <hr>
+          <div class="col-7">
+            <span class="year m0 fs-default white fw-black inconsolata">
+              {{ posts.year }}
+            </span>
+            <h2 class="project-title m0 mt4 fs-medium white fw-black merriweather td-underline" href="{{ posts.url }}" style="min-height: 75px;">
+              {{ posts.title }}
+            </h2>
+            <p class="project-excerpt m0 mb3 fs-default white inconsolata" style="min-height: 75px;">
+              {{ posts.excerpt}}
+            </p>
+          </div>
         </a>
       </div>
       {% endfor %}

@@ -1,5 +1,9 @@
-{% include header.html %}
-  {% include partials/introduction.html %}
-    {% include partials/photoset.html %}
-    {% include partials/archive.html %}
-{% include footer.html %}
+  {% include doctype-open.html %}
+    <section class="">
+      <div class="container clearfix p3" style="">
+        {% include partials/introduction.html %}
+        {% include partials/photos.html %}
+        {% include partials/archive.html %}
+      </div>
+    </section>
+  {% include partials/footer.html %}

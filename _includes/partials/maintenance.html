@@ -1,0 +1,13 @@
+{% comment %}
+* Status bar for updating visitors on the maintenance status of the site.
+* Only appears during site revisions.
+{% endcomment %}
+
+{% if site.is-updating == true %}
+  <section class="update-bar bg-darken-4 ta-center border-grandis">
+    <div class="container clearfix white">
+      {{ site.update-text | markdownify }}
+    </div>
+  </section>
+{% else %}
+{% endif %}

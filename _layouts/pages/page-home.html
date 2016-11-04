@@ -1,5 +1,19 @@
-{% include header.html %}
-  {% include partials/introduction.html %}
-    {% include partials/projects.html %}
-    {% include partials/photoset.html %}
-{% include footer.html %}
+  {% include doctype-open.html %}
+    <section class="">
+      <div class="container clearfix p3" style="">
+        <div class="">
+          {% include partials/navigation.html %}
+          {% include partials/introduction.html %}
+        </div>
+      </div>
+      <div class="bg-darken-5" style="">
+        <div class="container clearfix p3">
+          <div class="white inconsolata">
+            {% include partials/projects.html %}
+            {% include partials/photoset.html %}
+            {% include partials/footer.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+  {% include doctype-closed.html %}
