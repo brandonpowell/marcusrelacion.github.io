@@ -1,10 +1,6 @@
-
 // font families
-$system: caption, '-apple-system', 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif;
-$courier: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
-
 $inconsolata: 'Inconsolata', monospace;
-$merriweather: 'Merriweather', serif;
+$noto-serif: 'Noto Serif', serif;
 
 // font sizes
 $fs-small: 0.75em;
@@ -13,16 +9,8 @@ $fs-medium: 1.5em;
 $fs-large: 2em;
 $fs-headline: 2.25em;
 
-// font weights
-$fw-light: 300; // body copy
-$fw-semibold: 600; // sub-headers
-$fw-black: 900; // headers
-
-.system { font-family: $system; }
-.courier { font-family: $courier; }
-
 .inconsolata { font-family: $inconsolata; }
-.merriweather { font-family: $merriweather; }
+.noto-serif { font-family: $noto-serif; }
 
 .fs-small { font-size: $fs-small; }
 .fs-default { font-size: $fs-default; }
@@ -30,32 +18,23 @@ $fw-black: 900; // headers
 .fs-large { font-size: $fs-large; }
 .fs-headline { font-size: $fs-headline; }
 
-.fw-light { font-weight: $fw-light; }
-.fw-semibold { font-weight: $fw-semibold; }
-.fw-black { font-weight: $fw-black; }
+//.fw-100 { font-weight: 100; }
+//.fw-200 { font-weight: 200; }
+//.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+//.fw-500 { font-weight: 500; }
+//.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+//.fw-800 { font-weight: 800; }
+//.fw-900 { font-weight: 900; }
 
-.text-uppercase { text-transform: uppercase; }
-.text-lowercase { text-transform: lowercase; }
+.tt-upper { text-transform: uppercase; }
+.tt-lower { text-transform: lowercase; }
 
-.ta-center {
-  text-align: center;
-}
+.ta-center { text-align: center; }
+.ta-left { text-align: left; }
+.ta-right { text-align: right; }
+.ta-justify { text-align: justify; }
 
-.ta-left {
-  text-align: left;
-}
-
-.ta-right {
-  text-align: right;
-}
-
-.ta-justify {
-  text-align: justify;
-}
-
-.td-none {
-  text-decoration: none;
-}
-.td-underline {
-  text-decoration: underline;
-}
+.td-none { text-decoration: none; }
+.td-underline { text-decoration: underline; }

@@ -1,0 +1,92 @@
+<section class="introduction">
+  <div class="container clearfix p3">
+    <div class="m0 white inconsolata">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+</section>
+
+{% if page.url == '/' %}
+<section class="content-projects">
+  <div class="container clearfix px3">
+    <h2 class="">Latest Photosets</h2>
+  </div>
+
+  <div class="content-container clearfix px3">
+    {% assign sorted_photos = site.projects | sort: 'date' | reverse  %}
+    {% for posts in sorted_photos limit: 3 %}
+    <div class="content-card sm-col sm-col-4 p1">
+      <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
+        <div class="content-details">
+          <span class="content-year">{{ posts.year }}</span>
+          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="content-photos">
+  <div class="container clearfix px3">
+    <h2 class="">Latest Photosets</h2>
+  </div>
+
+  <div class="content-container clearfix px3">
+    {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+    {% for posts in sorted_photos limit: 1 %}
+    <div class="content-card sm-col sm-col-12">
+      <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
+        <div class="content-details">
+          <span class="content-year m0 white inconsolata fw-700">{{ posts.year }}</span>
+          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+          <p class="content-excerpt m0 white inconsolata fw-400">
+            {{ posts.excerpt}}
+          </p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% elsif page.url == '/projects/' %}
+<section class="content-projects">
+  <div class="content-container clearfix p3">
+    {% assign sorted_photos = site.projects | sort: 'date' | reverse  %}
+    {% for posts in sorted_photos limit: 2 %}
+    <div class="content-card sm-col sm-col-6 p1">
+      <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
+        <div class="content-details">
+          <span class="content-year">{{ posts.year }}</span>
+          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% elsif page.url == "/photos/" %}
+<section class="content-photos">
+  <div class="content-container clearfix p3">
+    {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+    {% for posts in sorted_photos %}
+    <div class="content-card sm-col sm-col-12 p1">
+      <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
+        <div class="content-details">
+          <span class="content-year m0 white inconsolata fw-700">{{ posts.year }}</span>
+          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+          <p class="content-excerpt m0 white inconsolata fw-400">
+            {{ posts.excerpt}}
+          </p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% elsif page.url == "/contact/" %}
+{% include partials/contact.html %}
+{% endif %}
