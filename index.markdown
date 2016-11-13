@@ -1,6 +1,7 @@
 ---
 title: Home -
 date: 2016-10-01 17:37:00 -04:00
+background-image: "/uploads/home-header.jpg"
 layout: pages/page-home
 ---
 
