@@ -6,7 +6,7 @@ body {
 
 /* styles for maintenance bar */
 .maintenance a {
-  color: $lighten-2;
+  color: $darken-3;
   display: inline-block;
 }
 
@@ -25,6 +25,15 @@ body {
 .introduction h1,
 .introduction h2 {
   margin: 0;
+}
+
+.content-card {
+  color: $white;
+  transition: all 100ms ease-in;
+}
+.content-card:hover {
+  background-color: $mr-primary;
+  color: $darken-4;
 }
 
 .border-mr-primary {

@@ -19,7 +19,7 @@
       <a href="{{ posts.url }}" class="content-link td-none">
       <li class="content-card border-mr-primary rounded" style="min-height: 175px;">
         <div class="content-details p3">
-          <h6 class="content-year m0 white inconsolata fw-700">{{ posts.year }}</h6>
+          <h6 class="content-year m0 inconsolata fw-700">{{ posts.year }}</h6>
           <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
         </div>
       </li>
@@ -49,6 +49,14 @@
       </a>
     </div>
     {% endfor %}
+  </div>
+</section>
+
+<section class="about">
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12">
+      {{ post.about-text }}
+    </div>
   </div>
 </section>
 
