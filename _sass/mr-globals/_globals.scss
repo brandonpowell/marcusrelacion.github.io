@@ -7,7 +7,7 @@ body {
 /* styles for maintenance bar */
 .maintenance a {
   color: $lighten-2;
-  display: block;
+  display: inline-block;
 }
 
 /* styles for page introduction */
@@ -25,6 +25,10 @@ body {
 .introduction h1,
 .introduction h2 {
   margin: 0;
+}
+
+.border-mr-primary {
+  border: solid 2px $mr-primary;
 }
 
 /* sets the max width for the container of the site */
