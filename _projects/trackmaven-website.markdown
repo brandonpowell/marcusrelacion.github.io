@@ -1,6 +1,7 @@
 ---
 title: TrackMaven Marketing Website
 date: 2016-01-01 21:51:00 -05:00
+position: 1
 main-content-text: |-
   Under the guidance and direction of [Wade Hammes](https://twitter.com/whammes), TrackMaven's sole front-end developer at the time; I was able to gain hands-on experience working with HTML5, CSS3, jQuery, PHP as well as Wordpress. In addition to gaining experience in the skills listed above, I was introduced to Gulp, a build tool that helps accelerate and automate the development process.
 

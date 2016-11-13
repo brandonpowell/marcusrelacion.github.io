@@ -1,6 +1,7 @@
 ---
 title: TrackMaven Illustrations
 date: 2015-01-01 21:00:00 -05:00
+position: 2
 main-content-text: "The following sets of illustrations I created were for use on
   both the marketing site and blog:\n\n## TM-Talks\n\n![trackmaven-illustrations-tm-talks.jpg](/uploads/trackmaven-illustrations-tm-talks.jpg)\n\n![trackmaven-illustrations-tm-talks-blog.jpg](/uploads/trackmaven-illustrations-tm-talks-blog.jpg)\n\n##
   Projector \n\n![trackmaven-illustrations-movie.jpg](/uploads/trackmaven-illustrations-movie.jpg)\n\n![trackmaven-illustrations-movie-blog.jpg](/uploads/trackmaven-illustrations-movie-blog.jpg)\n\n##

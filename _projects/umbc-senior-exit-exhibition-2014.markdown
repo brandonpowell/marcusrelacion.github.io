@@ -1,6 +1,7 @@
 ---
 title: UMBC Senior Exit Exhibition 2014
 date: 2014-01-01 09:22:00 -05:00
+position: 3
 main-content-text: |-
   For the 2014 exhibition, I was selected by design staff to create and design a poster advertising the show. The project grew from only designing a poster to an actual branding project which included printed collateral, assisting with the layout of the exhibition in the Center for Art Design and Visual Culture, and the development of responsive website.
 
