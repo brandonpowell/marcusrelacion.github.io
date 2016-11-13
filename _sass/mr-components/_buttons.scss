@@ -6,12 +6,12 @@
   cursor: pointer;
 }
 
-.button-grandis {
-  background-color: $grandis;
+.button-mr-primary {
+  background-color: $mr-primary;
   color: $darken-1;
   transition: color 150ms ease-in-out;
 }
 
-.button-grandis:hover {
+.button-mr-primary:hover {
   color: $darken-3;
 }

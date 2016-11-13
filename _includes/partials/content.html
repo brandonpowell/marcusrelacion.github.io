@@ -18,7 +18,7 @@
     <div class="content-card sm-col sm-col-4 p1">
       <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
         <div class="content-details">
-          <span class="content-year">{{ posts.year }}</span>
+          <span class="content-year m0 white inconsolata fw-700">{{ posts.year }}</span>
           <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
         </div>
       </a>
@@ -55,9 +55,9 @@
   <div class="content-container clearfix p3">
     {% assign sorted_photos = site.projects | sort: 'date' | reverse  %}
     {% for posts in sorted_photos limit: 2 %}
-    <div class="content-card sm-col sm-col-6 p1">
+    <div class="content-card sm-col sm-col-6 p1 flex flex-wrap">
       <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
-        <div class="content-details">
+        <div class="content-details self-center">
           <span class="content-year">{{ posts.year }}</span>
           <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
         </div>
