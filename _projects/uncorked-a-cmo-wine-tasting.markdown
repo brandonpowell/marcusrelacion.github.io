@@ -1,6 +1,7 @@
 ---
 title: 'Uncorked: A CMO Wine Tasting'
 date: 2015-01-01 08:59:00 -05:00
+position: 0
 main-content-text: "With Uncorked, I was tasked with creating the identity, promotional
   materials, custom printed invitations, illustrations and landing page. \n\n<img
   src=\"/assets/TrackMaven Uncorked: Logo.jpg\">\n\n<img src=\"/assets/TrackMaven
