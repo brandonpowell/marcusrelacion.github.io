@@ -1,6 +1,7 @@
 ---
 title: Home
 date: 2016-07-03 02:45:00 -04:00
+background-image: "/uploads/home-header.jpg"
 latest-projects-section-title: 'Latest Projects:'
 latest-photoset-section-title: 'Latest Photoset:'
 latest-notes-section-title: 'Latest Journal:'
