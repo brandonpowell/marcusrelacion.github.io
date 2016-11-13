@@ -1,7 +1,7 @@
 {% if page.url == '/' %}
 <section class="content-projects">
-  <div class="container clearfix px3">
-    <h2 class="">Latest Photosets</h2>
+  <div class="container clearfix pt3 px3">
+    <h2 class="m0 ta-center inconsolata white fw-700">Latest Projects</h2>
   </div>
 
   <div class="content-container clearfix px3">
@@ -9,10 +9,13 @@
     {% for posts in sorted_projects limit:3 %}
     <ul class="content-list sm-col sm-col-12 md-col-4 p1">
       <a href="{{ posts.url }}" class="content-link td-none">
-      <li class="content-card border-mr-primary rounded" style="min-height: 175px;">
+      <li class="content-card border-mr-primary rounded">
         <div class="content-details p3">
           <h6 class="content-year m0 inconsolata fw-700">{{ posts.year }}</h6>
-          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+          <h2 class="content-title m0 noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+          <p class="content-excerpt m0 inconsolata fw-400">
+            {{ posts.excerpt}}
+          </p>
         </div>
       </li>
       </a>
@@ -22,33 +25,27 @@
 </section>
 
 <section class="content-photos">
-  <div class="container clearfix px3">
-    <h2 class="">Latest Photosets</h2>
+  <div class="container clearfix pt3 px3">
+    <h2 class="m0 ta-center inconsolata white fw-700">Latest Photoset</h2>
   </div>
 
   <div class="content-container clearfix px3">
     {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
     {% for posts in sorted_photos limit: 1 %}
-    <div class="content-card sm-col sm-col-12">
-      <a href="{{ posts.url }}" class="content-link p3 block td-none bg-cover bg-center rounded" style="background-image: url('{{ posts.image }}')">
-        <div class="content-details">
-          <span class="content-year m0 white inconsolata fw-700">{{ posts.year }}</span>
-          <h2 class="content-title m0 white noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
-          <p class="content-excerpt m0 white inconsolata fw-400">
+    <ul class="content-list sm-col sm-col-12 p1">
+      <a href="{{ posts.url }}" class="content-link td-none">
+      <li class="content-card border-mr-secondary rounded">
+        <div class="content-details p3">
+          <h6 class="content-year m0 inconsolata fw-700">{{ posts.year }}</h6>
+          <h2 class="content-title m0 noto-serif fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+          <p class="content-excerpt m0 inconsolata fw-400">
             {{ posts.excerpt}}
           </p>
         </div>
+      </li>
       </a>
-    </div>
+    </ul>
     {% endfor %}
-  </div>
-</section>
-
-<section class="about">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12">
-      {{ post.about-text }}
-    </div>
   </div>
 </section>
 

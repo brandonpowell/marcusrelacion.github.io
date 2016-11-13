@@ -29,16 +29,22 @@ body {
 
 .content-card {
   color: $white;
-  transition: all 100ms ease-in;
+  transition: color 100ms ease-in;
 }
 .content-card:hover {
-  background-color: $mr-primary;
-  color: $darken-4;
+  color: $darken-2;
 }
 
-.border-mr-primary {
-  border: solid 2px $mr-primary;
+.border-mr-primary,
+.border-mr-secondary {
+  transition: background-color 150ms ease-in;
 }
+
+.border-mr-primary { border: solid 2px $mr-primary;}
+.border-mr-primary:hover { background-color: $mr-primary; }
+
+.border-mr-secondary { border: solid 2px $mr-secondary; }
+.border-mr-secondary:hover { background-color: $mr-secondary; }
 
 /* sets the max width for the container of the site */
 .container,

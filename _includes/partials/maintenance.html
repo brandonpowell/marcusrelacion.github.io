@@ -4,10 +4,10 @@ Only appears during site revisions.
 {% endcomment %}
 
 {% if site.is-updating == true %}
-<section class="maintenance bg-mr-primary td-none inconsolata fw-700 ta-center darken-3">
-  <div class="container clearfix px3">
-    {{ site.update-text | markdownify }}
-  </div>
-</section>
+  <section class="maintenance bg-mr-primary td-none inconsolata fw-700 ta-center darken-3">
+    <div class="container clearfix px3">
+      {{ site.update-text | markdownify }}
+    </div>
+  </section>
 {% else %}
 {% endif %}

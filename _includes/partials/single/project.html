@@ -1,70 +1,7 @@
-<section class="relative container clearfix p3">
-  <div class="" style="background-image: url('{{ page.image }}');">
-    <div class="sm-col sm-col-12">
-      <article class="m0 white fs-medium inconsolata">
-        {{ content }}
-      </article>
-      <div class="p3 clearfix bg-mr-primary rounded-bottom">
-        <div class="sm-col sm-col-12">
-          <div class="sm-col sm-col-12 md-col-4 py1">
-            <small class="m0 fw-black merriweather fs-small white">
-              Client
-            </small>
-            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-              {{ page.client }}
-            </h6>
-          </div>
-
-          <div class="sm-col sm-col-12 md-col-4 py1">
-            <small class="m0 fw-black merriweather fs-small white">
-              Role
-            </small>
-            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-              {{ page.role }}
-            </h6>
-          </div>
-
-          {% comment %}
-          <div class="sm-col sm-col-12 md-col-4 py1">
-            <small class="m0 fw-black merriweather fs-small white">
-              Collaborators
-            </small>
-            {% for collaborator in page.collaborators %}
-            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-              {{ collaborator }}
-            </h6>
-            {% endfor %}
-          </div>
-          {% endcomment %}
-
-          <div class="sm-col sm-col-12 md-col-4 py1">
-            <small class="m0 fw-black merriweather fs-small white">
-              Skills
-            </small>
-            {% for skill in page.skills %}
-            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-              {{ skill }}
-            </h6>
-            {% endfor %}
-          </div>
-
-          <div class="sm-col sm-col-12 py1 ta-center">
-            <small class="m0 fw-black merriweather fs-small white">
-              View
-            </small>
-            <h6 class="m0 fw-light inconsolata lighten-2 fs-default">
-              Live Site
-            </h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="">
-    <div class="sm-col sm-col-12 p3">
-      <div class="main-content white inconsolata">
-        {{ page.main-content-text | markdownify }}
-      </div>
+<section class="container clearfix p3">
+  <div class="sm-col sm-col-12">
+    <div class="main-content white inconsolata">
+      {{ page.main-content-text | markdownify }}
     </div>
   </div>
 </section>
