@@ -1,38 +1,33 @@
-<section class="archives clearfix p3 container rounded bg-mr-primary">
-  <div class="">
-    <h2 class="m0 mb2">
+{% if page.url == "/projects/" %}
+<section class="container clearfix archives rounded bg-mr-primary p3">
+  <ul class="">
+    <h2 class="ta-center m0 mb2 fs-l inconsolata fw-700 darken-2">
       Archives
     </h2>
-
-    {% if page.url == "/projects/" %}
-      <ul class="">
-        {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
-        {% for posts in sorted_projects %}
-          <div class="">
-            <a href="{{posts.url}}" class="archive-link text-small block td-none">
-              <li class="block text-black py1 inconsolata">
-                <span class="inconsolata fs-default">{{ posts.year }}</span> | <span class="merriweather fw-black fs-default">{{posts.title}}</span>
-              </li>
-            </a>
-          </div>
-        {% endfor %}
-        {% elsif page.url == "/photos/" %}
-        {% assign sorted_photos = site.photos | sort: 'photoset-year' | reverse %}
-        {% for posts in sorted_photos %}
-          <div class="sm-col sm-col-12 md-col-6">
-            <a href="{{posts.url}}" class="archive-link text-small block td-none">
-              <li class="block text-black py1 inconsolata">
-                <span class="inconsolata fs-default">
-                  {{ posts.year }}
-                </span> |
-                <span class="merriweather fw-black fs-default">
-                  {{posts.title}}
-                </span>
-              </li>
-            </a>
-          </div>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
+    {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
+    {% for posts in sorted_projects %}
+      <a href="{{posts.url}}" class="sm-col sm-col-6 p1">
+        <li class="darken-3">
+          <span class="">{{ posts.year }}</span> | <span class="">{{posts.title}}</span>
+        </li>
+      </a>
+    {% endfor %}
+  </ul>
 </section>
+{% elsif page.url == "/photos/" %}
+<section class="container clearfix archives rounded bg-mr-primary p3">
+  <ul class="">
+    <h2 class="ta-center m0 mb2 fs-l inconsolata fw-700 darken-2">
+      Archives
+    </h2>
+    {% assign sorted_photos = site.photos | sort: 'project-year' | reverse %}
+    {% for posts in sorted_photos %}
+      <a href="{{posts.url}}" class="sm-col sm-col-6 p1">
+        <li class="darken-3">
+          <span class="">{{ posts.year }}</span> | <span class="">{{posts.title}}</span>
+        </li>
+      </a>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

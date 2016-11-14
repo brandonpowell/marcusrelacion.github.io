@@ -3,20 +3,24 @@ $inconsolata: 'Inconsolata', monospace;
 $noto-serif: 'Noto Serif', serif;
 
 // font sizes
-$fs-small: 0.75em;
-$fs-default: 1em;
-$fs-medium: 1.5em;
-$fs-large: 2em;
-$fs-headline: 2.25em;
+$fs-xxs: 0.7rem;
+$fs-xs: 0.8rem;
+$fs-s: 0.9rem;
+$fs-m: 1rem;
+$fs-l: 1.4rem;
+$fs-xl: 1.8rem;
+$fs-xxl: 2.2rem;
 
 .inconsolata { font-family: $inconsolata; }
 .noto-serif { font-family: $noto-serif; }
 
-.fs-small { font-size: $fs-small; }
-.fs-default { font-size: $fs-default; }
-.fs-medium { font-size: $fs-medium; }
-.fs-large { font-size: $fs-large; }
-.fs-headline { font-size: $fs-headline; }
+.fs-xxs { font-size: $fs-xxs; }
+.fs-xs { font-size: $fs-xs; }
+.fs-s { font-size: $fs-s; }
+.fs-m { font-size: $fs-m; }
+.fs-l { font-size: $fs-l; }
+.fs-xl { font-size: $fs-xl; }
+.fs-xxl { font-size: $fs-xxl; }
 
 //.fw-100 { font-weight: 100; }
 //.fw-200 { font-weight: 200; }
