@@ -1,7 +1,7 @@
 <header class="bg-cover bg-center" style="background-image: url('{{ page.background-image}}');">
   <div class="container clearfix p3">
     <div class="sm-col sm-col-6 md-col-8 mb2">
-      <a class="logotype inline-block" href="/">
+      <a class="logotype inline-block td-none" href="/">
         <h2 class="m0 white noto-serif fw-700">Marcus Relacion</h2>
         <p class="m0 white inconsolata">Design &amp; Development</p>
       </a>
@@ -12,11 +12,11 @@
       <a href="/contact/" class="m0 mr1 white inconsolata fw-700 td-none">Contact</a>
     </div>
   </div>
-  <section class="introduction">
+  <div class="introduction">
     <div class="container clearfix p3">
-      <div class="sm-col sm-col-12 md-col-10 m0 white inconsolata">
+      <div class="sm-col sm-col-12 md-col-12 m0 white inconsolata">
         {{ page.content | markdownify }}
       </div>
     </div>
-  </section>
+  </div>
 </header>

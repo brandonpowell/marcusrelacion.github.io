@@ -1,16 +1,16 @@
 @import "mr-globals/typography";
 
-body {
-  font-size: 100%;
-}
+/* ============= */
+
+body { font-size: 100%; }
 
 /* styles for maintenance bar */
 .maintenance a {
-  color: $darken-3;
+  color: $darken-2;
   display: inline-block;
 }
 
-/* styles for page introduction */
+/* styles for page introductions */
 .introduction h1 {
   font-family: $noto-serif;
   font-size: 2.8rem;
@@ -27,24 +27,22 @@ body {
   margin: 0;
 }
 
+/* styling for content card */
 .content-card {
   color: $white;
-  transition: color 100ms ease-in;
+  transition: color 150ms ease-in;
 }
 .content-card:hover {
   color: $darken-2;
 }
 
-.border-mr-primary,
-.border-mr-secondary {
+/* styling for borders */
+.border-mr-primary {
+  border: solid 2px $mr-primary;
   transition: background-color 150ms ease-in;
 }
 
-.border-mr-primary { border: solid 2px $mr-primary;}
 .border-mr-primary:hover { background-color: $mr-primary; }
-
-.border-mr-secondary { border: solid 2px $mr-secondary; }
-.border-mr-secondary:hover { background-color: $mr-secondary; }
 
 /* sets the max width for the container of the site */
 .container,
@@ -53,13 +51,26 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  max-width: 832px;
+.container { max-width: 832px; }
+.content-container { max-width: 1024px; }
+
+/* styling for background images */
+.bg-no-repeat { background-repeat: no-repeat; }
+
+/* styling for rounded corners */
+.rounded { border-radius: 2px; }
+.rounded-top-left { border-radius: 2px 0 0 0; }
+.rounded-top-right { border-radius: 0 2px 0 0; }
+.rounded-top { border-radius: 2px 2px 0 0; }
+.rounded-bottom { border-radius: 0 0 2px 2px; }
+
+/* styling for anchors */
+a {
+  color: $mr-primary;
+  transition: color 150ms ease-in;
 }
 
-.content-container {
-  max-width: 1024px;
-}
+a:hover { color: $white; }
 
 /* styling for broken images */
 img {
@@ -72,6 +83,7 @@ img {
   display: block;
   position: relative;
   vertical-align: middle;
+  background-color: $lighten-5;
 }
 
 img:before {
@@ -83,30 +95,4 @@ img:after {
   content: "(url: " attr(src) ")";
   display: block;
   margin-top: 1em;
-}
-
-.bg-no-repeat { background-repeat: no-repeat; }
-
-.rounded { border-radius: 2px; }
-.rounded-top-left { border-radius: 2px 0 0 0; }
-.rounded-top-right { border-radius: 0 2px 0 0; }
-.rounded-top { border-radius: 2px 2px 0 0; }
-.rounded-bottom { border-radius: 0 0 2px 2px; }
-
-/* removes the underlink from header/main nav links */
-a.nav-link,
-a.logotype  {
-  text-decoration: none;
-}
-
-.link,
-.archive-link {
-  color: $white;
-  background-color: none;
-  transition: color 100ms ease-in-out;
-}
-
-.link:hover,
-.archive-link:hover {
-  color: $mr-primary;
 }
