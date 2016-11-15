@@ -73,7 +73,7 @@
 <section class="content-photos">
   <div class="content-container clearfix px3">
     {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-    {% for posts in sorted_photos limit: 1 %}
+    {% for posts in sorted_photos %}
     <ul class="content-list sm-col sm-col-12 p1">
       <a href="{{ posts.url }}" class="content-link td-none">
         <li class="content-card border-mr-primary rounded">
