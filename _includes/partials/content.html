@@ -1,96 +1,94 @@
 {% if page.url == '/' %}
-<section class="content-projects">
-  <div class="container clearfix pt3 px3">
-    <h2 class="m0 ta-center inconsolata white fw-700">Latest Projects</h2>
-  </div>
+  <section class="content-projects">
+    <div class="container clearfix pt3 px3">
+      <h2 class="m0 ta-center inconsolata white fw-700">Latest Projects</h2>
+    </div>
 
-  <div class="content-container clearfix px3">
-    {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
-    {% for posts in sorted_projects limit:2 %}
-    <ul class="content-list sm-col sm-col-12 md-col-6 p1">
-      <a href="{{ posts.url }}" class="content-link td-none">
-        <li class="content-card border-mr-primary rounded">
-          <div class="content-details p3">
-            <h6 class="content-year m0 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
-            <h2 class="content-title m0 mb1 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
-            <p class="content-excerpt m0 inconsolata fs-m fw-400">
-              {{ posts.excerpt}}
-            </p>
-          </div>
-        </li>
-      </a>
-    </ul>
-    {% endfor %}
-  </div>
-</section>
+    <div class="content-container clearfix px3">
+      {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
+      {% for posts in sorted_projects limit:2 %}
+      <ul class="content-list sm-col sm-col-12 md-col-6 p1">
+        <a href="{{ posts.url }}" class="content-link td-none">
+          <li class="content-card border-mr-primary rounded">
+            <div class="content-details p3">
+              <h6 class="content-year m0 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
+              <h2 class="content-title m0 mb1 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+              <p class="content-excerpt m0 inconsolata fs-m fw-400">
+                {{ posts.excerpt}}
+              </p>
+            </div>
+          </li>
+        </a>
+      </ul>
+      {% endfor %}
+    </div>
+  </section>
 
-<section class="content-photos">
-  <div class="container clearfix pt3 px3">
-    <h2 class="m0 ta-center inconsolata white fw-700">Latest Photoset</h2>
-  </div>
+  <section class="content-photos">
+    <div class="container clearfix pt3 px3">
+      <h2 class="m0 ta-center inconsolata white fw-700">Latest Photoset</h2>
+    </div>
 
-  <div class="content-container clearfix px3">
-    {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-    {% for posts in sorted_photos limit: 1 %}
-    <ul class="content-list sm-col sm-col-12 p1">
-      <a href="{{ posts.url }}" class="content-link td-none">
-        <li class="content-card border-mr-primary rounded">
-          <div class="content-details p3">
-            <h6 class="content-year m0 mb1 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
-            <h2 class="content-title m0 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
-            <p class="content-excerpt m0 inconsolata fs-m fw-400">
-              {{ posts.excerpt}}
-            </p>
-          </div>
-        </li>
-      </a>
-    </ul>
-    {% endfor %}
-  </div>
-</section>
+    <div class="content-container clearfix px3">
+      {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+      {% for posts in sorted_photos limit: 1 %}
+      <ul class="content-list sm-col sm-col-12 p1">
+        <a href="{{ posts.url }}" class="content-link td-none">
+          <li class="content-card border-mr-primary rounded">
+            <div class="content-details p3">
+              <h6 class="content-year m0 mb1 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
+              <h2 class="content-title m0 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+              <p class="content-excerpt m0 inconsolata fs-m fw-400">
+                {{ posts.excerpt}}
+              </p>
+            </div>
+          </li>
+        </a>
+      </ul>
+      {% endfor %}
+    </div>
+  </section>
 
 {% elsif page.url == '/projects/' %}
-<div class="content-container clearfix px3">
-  {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
-  {% for posts in sorted_projects limit: 3 %}
-  <ul class="content-list sm-col sm-col-4 p1">
-    <a href="{{ posts.url }}" class="content-link td-none">
-      <li class="content-card border-mr-primary rounded">
-        <div class="content-details p3">
-          <h6 class="content-year m0 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
-          <h2 class="content-title m0 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
-          <p class="content-excerpt m0 inconsolata fs-m fw-400">
-            {{ posts.excerpt}}
-          </p>
-        </div>
-      </li>
-    </a>
-  </ul>
-  {% endfor %}
-</div>
 
-{% elsif page.url == "/photos/" %}
-<section class="content-photos">
-  <div class="content-container clearfix px3">
-    {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-    {% for posts in sorted_photos %}
-    <ul class="content-list sm-col sm-col-12 p1">
+  <div class="content-container clearfix p3">
+    {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
+    {% for posts in sorted_projects limit: 4 %}
+    <ul class="content-list sm-col sm-col-12 md-col-6 px1">
       <a href="{{ posts.url }}" class="content-link td-none">
-        <li class="content-card border-mr-primary rounded">
+        <li class="content-card border-mr-primary rounded" style="min-height: 200px;">
           <div class="content-details p3">
             <h6 class="content-year m0 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
             <h2 class="content-title m0 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
-            <p class="content-excerpt m0 inconsolata fs-m fw-400">
-              {{ posts.excerpt}}
-            </p>
+            <p class="content-excerpt m0 inconsolata fs-m fw-400">{{ posts.excerpt}}</p>
           </div>
         </li>
       </a>
     </ul>
     {% endfor %}
   </div>
-</section>
+
+{% elsif page.url == "/photos/" %}
+
+  <section class="content-photos">
+    <div class="content-container clearfix p3">
+      {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+      {% for posts in sorted_photos %}
+      <ul class="content-list sm-col sm-col-12 md-col-6 px1">
+        <a href="{{ posts.url }}" class="content-link td-none">
+          <li class="content-card border-mr-primary rounded" style="min-height: 200px;">
+            <div class="content-details p3">
+              <h6 class="content-year m0 inconsolata fs-xs fw-700">{{ posts.year }}</h6>
+              <h2 class="content-title m0 noto-serif fs-l fw-700" href="{{ posts.url }}">{{ posts.title }}</h2>
+              <p class="content-excerpt m0 inconsolata fs-m fw-400">{{ posts.excerpt}}</p>
+            </div>
+          </li>
+        </a>
+      </ul>
+      {% endfor %}
+    </div>
+  </section>
 
 {% elsif page.url == "/contact/" %}
-{% include partials/contact.html %}
+  {% include partials/contact.html %}
 {% endif %}
