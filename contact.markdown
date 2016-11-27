@@ -7,4 +7,4 @@ layout: pages/page-contact
 
 # Let's Chat
 
-## Interested in working together? Shoot me a message and I'll get back to you within 24-48 hours.
+## Tell me a bit about yourself and your project using the form below.
