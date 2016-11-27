@@ -5,3 +5,6 @@ permalink: "/thank-you-for-emailing"
 layout: pages/page-email-thank-you
 ---
 
+# Thank you!    
+
+## Thank you again for reaching out and telling me a bit about your project. I'm excited to discuss it further and will be in touch within 24-48 hours. 
