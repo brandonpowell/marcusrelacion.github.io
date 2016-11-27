@@ -2,7 +2,7 @@
 title: Email
 date: 2016-11-27 14:03:00 -05:00
 permalink: "/contact/thank-you"
-layout: pages/page-email-thank-you
+layout: pages/page-contact-thank-you
 ---
 
 # Thank you!    
