@@ -4,11 +4,11 @@ Only appears during site revisions.
 {% endcomment %}
 
 {% if site.is-updating == true %}
-  <a class="db" href="#">
-    <div class="bg-mr-primary tc br1 pa2">
-      <div class="cf darken-2">
-        {{ site.update-text }}
-      </div>
+  <a class="db link" href="{{ site.update-link }}" target="_blank">
+    <div class="bg-alert tc br1 pa2">
+      <h6 class="f6 fw9 cf darken-3 sans-serif tracked-tight">
+        {{ site.update-message }}
+      </h6>
     </div>
   </a>
 {% else %}

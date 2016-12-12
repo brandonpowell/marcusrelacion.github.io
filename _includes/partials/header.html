@@ -1,35 +1,29 @@
-<header class="pa4">
+<header class="br1 pa4 mt4" style="background: url('{{ page.background-image}}') no-repeat center center; background-size: cover;">
   <div class="cf">
-    <div class="fl w-50-ns">
-      <a href="/">
-        <h2>
+    <d2iv class="fl w-100-ns w-50-m w-50-l pb2">
+      <a class="link" href="/">
+        <h1 class="ma0 f3 fw9 noto-serif white">
           Marcus Relacion
-        </h2>
-        <p>
+        </h1>
+        <p class="ma0 f6 fw3 inconsolata white">
           Design &amp; Development
         </p>
       </a>
     </div>
-    <div class="fl w-50-ns">
-      <a href="/projects/">
+    <div class="w-100-ns w-50-m w-50-l ">
+      <a class="link ma0 f6 fw9 pr2 inconsolata white" href="/projects/">
         Projects
       </a>
-      <a href="/photos/">
-        Photos
-      </a>
-      <a href="/contact/">
+      <a class="link ma0 f6 fw9 pr2 inconsolata white" href="/contact/">
         Contact
       </a>
     </div>
   </div>
-</header>
-
-<section class="pa4 br1 ma4" style="background-image: url('{{ page.background-image}}');">
-  <div class="cf">
-    <div class="fl w-100-ns w-80-m w-60-l">
-      <div>
+  <div class="cf pt4">
+    <div class="fl w-100-ns w-90-m w-85-l">
+      <div class="measure-narrow">
         {{ page.content | markdownify }}
       </div>
     </div>
   </div>
-</section>
+</header>
