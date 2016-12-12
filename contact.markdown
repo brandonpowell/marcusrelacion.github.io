@@ -1,9 +1,10 @@
 ---
 title: Contact
 date: 2016-08-28 15:13:00 -04:00
+position: 3
 layout: pages/page-contact
 ---
 
 # Let's Chat
 
-Interested in working together on a project? Please fill out the form and I'll be in touch within 24-48 hours.
+## Tell me a bit about yourself and your project using the form below.

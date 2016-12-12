@@ -2,9 +2,9 @@
 title: Marcus Relacion, Designer
 timezone: America/New_York
 collections:
-  jobs:
-    title: Jobs
-    output: false
+  case-studies:
+    title: Case Studies
+    output: true
   notes:
     title: Notes
     output: false
@@ -43,22 +43,24 @@ defaults:
     path: ''
     type: projects
   values:
-    layout: singles/single-project
+    layout: single/project
+    main-content-text: 
     image: 
     description: 
     year: 
     excerpt: 
+    client: 
     role: 
-    collaborators:
-    - collaborator: 
-    project-types:
-    - type: 
+    collaborators: []
+    skills: []
 - scope:
     path: ''
     type: photos
   values:
+    layout: single/photoset
     image: 
     description: 
+    is-featured: 
     year: 
     excerpt: 
     location: 

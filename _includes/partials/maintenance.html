@@ -1,0 +1,18 @@
+{% comment %}
+Status bar for updating visitors on the maintenance status of the site.
+Only appears during site revisions.
+{% endcomment %}
+
+{% if site.is-updating == true %}
+  <a class="db" href="#">
+    <div class="bg-mr-primary tc br1 pa2">
+      <div class="cf">
+        {{ site.update-text | markdownify }}
+      </div>
+    </div>
+  </a>
+{% else %}
+  {% comment %}
+  display nothing if site.is-updating == false
+  {% endcomment %}
+{% endif %}

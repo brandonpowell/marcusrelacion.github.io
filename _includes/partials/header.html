@@ -1,0 +1,35 @@
+<header class="pa4">
+  <div class="cf">
+    <div class="fl w-50-ns">
+      <a href="/">
+        <h2>
+          Marcus Relacion
+        </h2>
+        <p>
+          Design &amp; Development
+        </p>
+      </a>
+    </div>
+    <div class="fl w-50-ns">
+      <a href="/projects/">
+        Projects
+      </a>
+      <a href="/photos/">
+        Photos
+      </a>
+      <a href="/contact/">
+        Contact
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="pa4 br1 ma4" style="background-image: url('{{ page.background-image}}');">
+  <div class="cf">
+    <div class="fl w-100-ns w-80-m w-60-l">
+      <div>
+        {{ page.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>

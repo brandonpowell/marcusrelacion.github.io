@@ -5,6 +5,6 @@ image: "/uploads/geto-boys-header.jpg"
 year: 2015
 excerpt: The Geto Boys
 location: The Howard Theater
-layout: singles/single-photos
+layout: single/photoset
 ---
 
