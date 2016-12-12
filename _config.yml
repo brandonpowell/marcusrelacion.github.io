@@ -2,9 +2,6 @@
 title: Marcus Relacion, Designer
 timezone: America/New_York
 collections:
-  jobs:
-    title: Jobs
-    output: false
   notes:
     title: Notes
     output: false
