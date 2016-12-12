@@ -8,4 +8,4 @@ layout: pages/page-photos
 
 # Photos
 
-## A growing collection of photographs from events, traveling, concerts and daily life.
+A growing collection of photographs from events, traveling, and daily life.
