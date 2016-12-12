@@ -8,4 +8,4 @@ layout: pages/page-projects
 
 # Projects   
 
-## Take a moment to view the projects I've had the opportunity to work on over the years.
+Take a moment to view the projects I've had the opportunity to work on over the years.
