@@ -28,7 +28,7 @@ main-content-text: |-
   ![TrackMaven Homepage - 1](/assets/TrackMaven Homepage - 1.jpg)
 
   ![TrackMaven Homepage - 2](/assets/TrackMaven Homepage - 2.jpg)
-image: "/uploads/trackmaven-website-header-cfc9a8.jpg"
+image: "/uploads/tm-website-header.jpg"
 description: During my time at TrackMaven, I had the unique opportunity to not only
   design branded materials as a member of the design team, but to also contribute
   code and assist in developing the marketing site.
