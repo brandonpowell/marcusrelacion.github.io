@@ -4,12 +4,15 @@ Only appears during site revisions.
 {% endcomment %}
 
 {% if site.is-updating == true %}
-
-  <section class="maintenance bg-mr-primary td-none inconsolata fw-700 ta-center darken-3">
-    <div class="container clearfix px3">
-      {{ site.update-text | markdownify }}
+  <a class="db" href="#">
+    <div class="bg-mr-primary tc br1 pa2">
+      <div class="cf">
+        {{ site.update-text | markdownify }}
+      </div>
     </div>
-  </section>
-  
+  </a>
 {% else %}
+  {% comment %}
+  display nothing if site.is-updating == false
+  {% endcomment %}
 {% endif %}
