@@ -7,4 +7,4 @@ layout: pages/page-contact
 
 # Let's Chat
 
-## Tell me a bit about yourself and your project using the form below.
+Tell me a bit about yourself and your project using the form below.
