@@ -81,4 +81,5 @@ sass:
   style: compressed
 logo-image: "/uploads/mr-white-logo.svg"
 is-updating: true
-update-text: Currently undergoing maintenance. [Spot an issue?](https://github.com/marcusrelacion/marcusrelacion.github.io/issues)
+update-message: "Currently, undergoing maintenance.  \U0001F6E0"
+update-link: https://github.com/marcusrelacion/marcusrelacion.github.io/issues
