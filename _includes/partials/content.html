@@ -1,5 +1,5 @@
 {% if page.url == '/' %}
-  <section class="fl center content-projects bg-mr-primary">
+  <section class="center content-projects bg-mr-primary pv6">
     <div class="cf pa4">
       <span class="content-header">
         <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
@@ -8,18 +8,18 @@
       </span>
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
       {% for posts in sorted_projects limit:4 %}
-      <ul class="content-list fl w-100 w-100-m w-25-l">
+      <ul class="content-list fl w-100 w-25-l">
         <a href="{{ posts.url }}" class="content-link link">
-          <li class="content-card pa3">
+          <li class="content-card pa2">
             <div class="content-details">
               <img class="br1 mb3" src="{{ posts.image }}">
               <h6 class="content-year ma0 f6 fw1 inconsolata darken-3 pb2">
                 {{ posts.year }}
               </h6>
-              <h2 class="content-title ma0 f5 fw9 noto-serif darken-3 pb2">
+              <h2 class="content-title ma0 f5 fw9 noto-serif darken-2 pb2">
                 {{ posts.title }}
               </h2>
-              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-3">
+              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-2">
                 {{ posts.excerpt}}
               </p>
             </div>
@@ -30,10 +30,10 @@
     </div>
   </section>
 
-  <section class="content-projects bg-mr-secondary fl w-100 w-50-m">
-    <div class="cf pa3">
+  <section class="content-projects bg-mr-secondary fl w-100 w-50-m pv6">
+    <div class="cf pa4">
       <span class="content-header">
-        <h2 class="ma0 mb4 tc f6 fw9 tracked ttu darken-3 inconsolata">
+        <h2 class="ma0 mb4 tc f6 fw9 tracked ttu lighten-2 inconsolata">
           Latest Photoset
         </h2>
       </span>
@@ -44,14 +44,14 @@
       <ul class="content-list fl w-100">
         <a href="{{ posts.url }}" class="content-link link">
           <li class="content-card pa2">
-            <div class="content-details">
-              <h6 class="content-year ma0 f6 fw1 inconsolata darken-3 pb2">
+            <div class="content-details tc">
+              <h6 class="content-year ma0 f6 fw1 inconsolata lighten-2 pb2">
                 {{ posts.year }}
               </h6>
-              <h2 class="content-title ma0 f5 fw9 noto-serif darken-3 pb2">
+              <h2 class="content-title ma0 f5 fw9 noto-serif lighten-2 pb2">
                 {{ posts.title }}
               </h2>
-              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-3">
+              <p class="content-excerpt ma0 f6 fw1 inconsolata lighten-2">
                 {{ posts.excerpt}}
               </p>
             </div>
@@ -64,18 +64,16 @@
 
 {% elsif page.url == '/projects/' %}
 
-  <section class="content-projects bg-mr-primary mt4 pa4 br1">
-    <div class="content-container cf">
+  <section class="center content-projects bg-mr-primary">
+    <div class="cf pa4">
       <span class="content-header">
-        <h2 class="ma0 mb4 tc f6 fw9 tracked ttu darken-3 inconsolata">
+        <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
           Latest Projects
         </h2>
       </span>
-    </div>
-    <div class="content-container cf">
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
-      {% for posts in sorted_projects limit:3 %}
-      <ul class="content-list fl w-100 w-third-m w-third-l">
+      {% for posts in sorted_projects limit:4 %}
+      <ul class="content-list fl w-100 w-25-l">
         <a href="{{ posts.url }}" class="content-link link">
           <li class="content-card pa2">
             <div class="content-details">
@@ -83,10 +81,10 @@
               <h6 class="content-year ma0 f6 fw1 inconsolata darken-3 pb2">
                 {{ posts.year }}
               </h6>
-              <h2 class="content-title ma0 f5 fw9 noto-serif darken-3 pb2">
+              <h2 class="content-title ma0 f5 fw9 noto-serif darken-2 pb2">
                 {{ posts.title }}
               </h2>
-              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-3">
+              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-2">
                 {{ posts.excerpt}}
               </p>
             </div>

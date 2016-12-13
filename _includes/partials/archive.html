@@ -1,14 +1,14 @@
 {% if page.url == "/projects/" %}
 
-  <section class="archives bg-darken-4 pa4">
-    <ul class="cf">
-      <h2 class="f6 fw9 tc ttu mr-primary inconsolata">
+  <section class="archives bg-mr-secondary pa4">
+    <ul class="cf w-100 w-50-ns center">
+      <h2 class="f6 fw9 tc ttu darken-2 inconsolata tracked">
         Archives
       </h2>
       {% assign sorted_projects = site.projects | sort: 'project-year' | reverse %}
       {% for posts in sorted_projects %}
-        <a href="{{posts.url}}" class="fl w-100 w-50-ns pa2 link">
-          <li class="mr-primary f6 fw9 inconsolata">
+        <a href="{{posts.url}}" class="fl w-100 pa2 link">
+          <li class="darken-3 f6 fw9 inconsolata">
             <span class="">{{ posts.year }}</span> | <span class="">{{ posts.title }}</span>
           </li>
         </a>
