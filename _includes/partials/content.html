@@ -1,16 +1,16 @@
 {% if page.url == '/' %}
-  <section class="content-projects bg-mr-primary ma4 pa4 br1">
-    <div class="content-container cf">
+  <section class="content-projects bg-mr-primary">
+    <div class="cf pa3">
       <span class="content-header">
         <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
           Latest Projects
         </h2>
       </span>
     </div>
-    <div class="content-container cf">
+    <div class="cf pa3">
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
-      {% for posts in sorted_projects limit:2 %}
-      <ul class="content-list fl w-100 w-50-m w-50-l">
+      {% for posts in sorted_projects limit:4 %}
+      <ul class="content-list fl w-100 w-25-m w-25-l">
         <a href="{{ posts.url }}" class="content-link link">
           <li class="content-card pa2">
             <div class="content-details">
@@ -32,15 +32,15 @@
     </div>
   </section>
 
-  <section class="content-projects bg-mr-secondary ma4 pa4 br1">
-    <div class="content-container cf">
+  <section class="content-projects bg-mr-secondary fl w-100 w-50-m">
+    <div class="cf pa3">
       <span class="content-header">
         <h2 class="ma0 mb4 tc f6 fw9 tracked ttu darken-3 inconsolata">
           Latest Photoset
         </h2>
       </span>
     </div>
-    <div class="content-container cf">
+    <div class="cf pa3">
       {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
       {% for posts in sorted_photos limit:1 %}
       <ul class="content-list fl w-100">

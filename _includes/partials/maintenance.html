@@ -1,16 +1,20 @@
 {% comment %}
 Status bar for updating visitors on the maintenance status of the site.
 Only appears during site revisions.
+
+/* would like to add the ability to dismiss the message? */
 {% endcomment %}
 
 {% if site.is-updating == true %}
-  <a class="db link ma4" href="{{ site.update-link }}" target="_blank">
+  <div class="fl w-100 w-25-ns">
+  <a class="link" href="{{ site.update-link }}" target="_blank">
     <div class="bg-alert tc br1 pa2">
-      <h6 class="f5 fw9 cf darken-3 inconsolata">
+      <h6 class="f6 fw9 cf darken-3 inconsolata">
         {{ site.update-message }}
       </h6>
     </div>
   </a>
+  </div>
 {% else %}
   {% comment %}
   display nothing if site.is-updating == false
