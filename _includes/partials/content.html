@@ -30,37 +30,40 @@
     </div>
   </section>
 
-  <section class="content-projects bg-mr-secondary fl w-100 w-50-m pv6">
-    <div class="cf pa4">
-      <span class="content-header">
-        <h2 class="ma0 mb4 tc f6 fw9 tracked ttu lighten-2 inconsolata">
-          Latest Photoset
-        </h2>
-      </span>
-    </div>
-    <div class="cf pa3">
+
       {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
       {% for posts in sorted_photos limit:1 %}
-      <ul class="content-list fl w-100">
+      <section class="content-projects bg-mr-secondary fl w-100 w-50-m pv6 relative" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
+        <div class="cf pa4 relative" style="z-index: 5;">
+          <span class="content-header">
+            <h2 class="ma0 mb4 tc f6 fw9 tracked ttu white inconsolata">
+              Latest Photoset
+            </h2>
+          </span>
+        </div>
+        <div class="cf pa3">
+      <ul class="content-list fl w-100 relative" style="z-index: 5;">
         <a href="{{ posts.url }}" class="content-link link">
           <li class="content-card pa2">
             <div class="content-details tc">
-              <h6 class="content-year ma0 f6 fw1 inconsolata lighten-2 pb2">
+              <h6 class="content-year ma0 f6 fw1 inconsolata white pb2">
                 {{ posts.year }}
               </h6>
-              <h2 class="content-title ma0 f5 fw9 noto-serif lighten-2 pb2">
+              <h2 class="content-title ma0 f5 fw9 noto-serif white pb2">
                 {{ posts.title }}
               </h2>
-              <p class="content-excerpt ma0 f6 fw1 inconsolata lighten-2">
+              <p class="content-excerpt ma0 f6 fw1 inconsolata white">
                 {{ posts.excerpt}}
               </p>
             </div>
           </li>
         </a>
       </ul>
+      <div class="overlay absolute top-0 bottom-0 right-0 left-0" style="background-color: RGBA(33, 37, 41, .90)"></div>
+          </div>
+        </section>
+
       {% endfor %}
-    </div>
-  </section>
 
 {% elsif page.url == '/projects/' %}
 
