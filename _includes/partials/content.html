@@ -1,18 +1,16 @@
 {% if page.url == '/' %}
-  <section class="content-projects bg-mr-primary">
-    <div class="cf pa3">
+  <section class="fl center content-projects bg-mr-primary">
+    <div class="cf pa4">
       <span class="content-header">
         <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
           Latest Projects
         </h2>
       </span>
-    </div>
-    <div class="cf pa3">
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
       {% for posts in sorted_projects limit:4 %}
-      <ul class="content-list fl w-100 w-25-m w-25-l">
+      <ul class="content-list fl w-100 w-100-m w-25-l">
         <a href="{{ posts.url }}" class="content-link link">
-          <li class="content-card pa2">
+          <li class="content-card pa3">
             <div class="content-details">
               <img class="br1 mb3" src="{{ posts.image }}">
               <h6 class="content-year ma0 f6 fw1 inconsolata darken-3 pb2">

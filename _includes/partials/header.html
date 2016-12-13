@@ -1,35 +1,26 @@
-<header class="ma4">
-  <div class="fl w-100 w-50-ns">
+<header class="pa4" style="background: url('{{ page.image}}') no-repeat center center; background-size: cover;">
+  <div class="w-100 w-50-ns w-75-m center cf">
+    <nav class="f6 fw6 ttu tracked">
+      <a class="link dim" href="/" title="Home">
+        <img src="{{ site.logo-image }}" class="dib mr3 w3 h3 br-100" alt="Site Name">
+      </a>
+      <a class="link dim white f6 dib mr3 inconsolata" href="/projects/" title="Projects">
+        Projects
+      </a>
+      <a class="link dim white f6 dib mr3 inconsolata" href="/photos/" title="Photos">
+        Photos
+      </a>
+      <a class="link dim white f6 dib mr3 inconsolata" href="/contact/" title="Contact">
+        Contact
+      </a>
+    </nav>
 
+    <section class="mt6">
+      <div class="cf">
+        <div class="introduction white measure-narrow-ns inconsolata">
+          {{ page.content | markdownify }}
+        </div>
+      </div>
+    </section>
   </div>
-  <nav class="fl w-100 w-25-ns f6 fw3 serif inconsolata ttu">
-    <a class="link dib darken-3" href="/">
-      <h1 class="ma0 f4 fw9 noto-serif">
-        Marcus Relacion
-      </h1>
-      <p class="ma0 f6 fw3 inconsolata">
-        Design &amp; Development
-      </p>
-    </a>
-    <a class="link dib mr2 darken-3" href="/projects/" title="Projects">
-      Projects
-    </a>
-    <a class="link dib mr2 darken-3" href="/photos/" title="Photos">
-      Photos
-    </a>
-    <a class="link dib mr2 darken-3" href="/contact/" title="Contact">
-      Contact
-    </a>
-  </nav>
 </header>
-
-<section class="pa4 mt3">
-  <div class="cf">
-    <div class="introduction fl w-50-ns w-50-m measure-narrow darken-2">
-      {{ page.content | markdownify }}
-    </div>
-    <div class="fl w-50-ns w-50-m center">
-      <img class="rounded" src="{{ page.image }}">
-    </div>
-  </div>
-</section>
