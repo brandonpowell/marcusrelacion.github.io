@@ -6,9 +6,9 @@ Only appears during site revisions.
 {% endcomment %}
 
 {% if site.is-updating == true %}
-  <a class="link" href="{{ site.update-link }}" target="_blank">
-    <div class="bg-alert tc pa3">
-      <h6 class="f6 fw9 cf darken-3 inconsolata">
+  <a class="db link" href="{{ site.update-link }}" target="_blank">
+    <div class="bg-warning pa2 tc">
+      <h6 class="f6 fw9 cf darken-2 inconsolata">
         {{ site.update-message }}
       </h6>
     </div>
