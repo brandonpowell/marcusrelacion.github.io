@@ -6,17 +6,15 @@ Only appears during site revisions.
 {% endcomment %}
 
 {% if site.is-updating == true %}
-  <div class="fl w-100 w-25-ns">
   <a class="link" href="{{ site.update-link }}" target="_blank">
-    <div class="bg-alert tc br1 pa2">
+    <div class="bg-alert tc pa2">
       <h6 class="f6 fw9 cf darken-3 inconsolata">
         {{ site.update-message }}
       </h6>
     </div>
   </a>
-  </div>
 {% else %}
   {% comment %}
-  display nothing if site.is-updating == false
+    display nothing if site.is-updating == false
   {% endcomment %}
 {% endif %}
