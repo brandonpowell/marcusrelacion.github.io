@@ -31,22 +31,27 @@
 
   {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
   {% for posts in sorted_photos limit:2 %}
-    <section class="debug content-projects br1 bg-mr-secondary relative pv5 fl w-50 w-50-l" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
+    <section class="content-projects br1 bg-mr-secondary relative pv5 fl w-50 w-50-l" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
       <div class="w-100 w-75-l center pa4 cf">
         <ul class="content-list relative" style="z-index: 5;">
           <a href="{{ posts.url }}" class="content-link link">
-            <li class="content-card pv3 pa2">
-              <div class="content-details measure-narrow">
-                <h6 class="content-year ma0 f6 fw1 inconsolata white pb2">
-                  {{ posts.year }}
-                </h6>
-                <h2 class="content-title ma0 f5 fw9 noto-serif white pb2">
-                  {{ posts.title }}
-                </h2>
-                <p class="content-excerpt ma0 f6 fw1 inconsolata white">
-                  {{ posts.excerpt}}
-                </p>
-              </div>
+            <li class="content-card pv3 pa2 relative">
+              <span>
+                <svg id="i-location" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+              <circle cx="16" cy="11" r="4" />
+              <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+          </svg>
+                <h6 class="dib f6 inconsolata">{{ posts.location }}</h6>
+              </span>
+              <h6 class="content-year ma0 f6 fw1 inconsolata white pb2">
+                {{ posts.year }}
+              </h6>
+              <h2 class="content-title ma0 f5 fw9 noto-serif white pb2">
+                {{ posts.title }}
+              </h2>
+              <p class="content-excerpt ma0 f6 fw1 inconsolata white">
+                {{ posts.excerpt}}
+              </p>
             </li>
           </a>
         </ul>
