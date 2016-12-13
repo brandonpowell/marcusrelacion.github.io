@@ -30,14 +30,9 @@
   </section>
 
   {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-  {% for posts in sorted_photos limit:1 %}
-    <section class="debug content-projects br1 bg-mr-secondary ma4 relative" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
+  {% for posts in sorted_photos limit:2 %}
+    <section class="debug content-projects br1 bg-mr-secondary relative pv5 fl w-50 w-50-l" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
       <div class="w-100 w-75-l center pa4 cf">
-        <span class="content-header">
-          <h2 class="ma0 mb4 tl f6 fw9 tracked ttu darken-1 inconsolata relative" style="z-index: 5;">
-            Latest Photoset
-          </h2>
-        </span>
         <ul class="content-list relative" style="z-index: 5;">
           <a href="{{ posts.url }}" class="content-link link">
             <li class="content-card pv3 pa2">
