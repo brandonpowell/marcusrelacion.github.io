@@ -76,6 +76,7 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+profile-image: "/uploads/mr-photo.jpg"
 logo-image: "/uploads/mr-white-logo.svg"
 is-updating: true
 update-message: "Currently, undergoing maintenance.  \U0001F6E0"
