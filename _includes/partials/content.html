@@ -1,5 +1,5 @@
 {% if page.url == '/' %}
-  <section class="center content-projects bg-mr-primary pa4">
+  <section class="debug center content-projects bg-mr-primary pa4">
     <div class="w-100 w-75-l center pa4 cf">
       <span class="content-header">
         <h2 class="ma0 mb4 tl f6 fw9 tracked ttu darken-3 inconsolata">
@@ -8,7 +8,7 @@
       </span>
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
       {% for posts in sorted_projects limit:4 %}
-      <ul class="content-list w-100 w-75-m w-50-l fl">
+      <ul class="content-list w-100 w-50-m w-50-l fl">
         <a href="{{ posts.url }}" class="content-link link">
           <li class="content-card pv3 pa3-ns pa3-m">
             <div class="content-details">
@@ -29,21 +29,19 @@
     </div>
   </section>
 
-  <div class="cf pa4 relative" style="z-index: 5;">
-    <span class="content-header">
-      <h2 class="ma0 mb4 f6 fw9 tracked ttu white inconsolata">
-        Latest Photoset // More >
-      </h2>
-    </span>
-  </div>
   {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
   {% for posts in sorted_photos limit:1 %}
-    <section class="debug content-projects bg-mr-secondary pa4 relative" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
-      <div class="cf pa4">
-        <ul class="content-list fl w-100 relative" style="z-index: 5;">
+    <section class="debug content-projects br1 bg-mr-secondary ma4 relative" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
+      <div class="w-100 w-75-l center pa4 cf">
+        <span class="content-header">
+          <h2 class="ma0 mb4 tl f6 fw9 tracked ttu darken-1 inconsolata relative" style="z-index: 5;">
+            Latest Photoset
+          </h2>
+        </span>
+        <ul class="content-list relative" style="z-index: 5;">
           <a href="{{ posts.url }}" class="content-link link">
-            <li class="content-card pa2">
-              <div class="content-details">
+            <li class="content-card pv3 pa2">
+              <div class="content-details measure-narrow">
                 <h6 class="content-year ma0 f6 fw1 inconsolata white pb2">
                   {{ posts.year }}
                 </h6>
@@ -57,7 +55,7 @@
             </li>
           </a>
         </ul>
-        <div class="overlay absolute top-0 bottom-0 right-0 left-0" style="background-color: RGBA(33, 37, 41, .90)"></div>
+        <div class="overlay absolute top-0 bottom-0 right-0 left-0" style="background-color: RGBA(33, 37, 41, .75)"></div>
       </div>
     </section>
   {% endfor %}
@@ -97,37 +95,31 @@
 
 {% elsif page.url == "/photos/" %}
 
-  <section class="content-projects bg-mr-secondary mt4 pa4 br1">
-    <div class="content-container cf">
-      <span class="content-header">
-        <h2 class="ma0 mb4 tc f6 fw9 tracked ttu darken-3 inconsolata">
-          Latest Photoset
-        </h2>
-      </span>
-    </div>
-    <div class="content-container cf">
-      {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-      {% for posts in sorted_photos limit:1 %}
-      <ul class="content-list fl w-100">
-        <a href="{{ posts.url }}" class="content-link link">
-          <li class="content-card pa2">
-            <div class="content-details">
-              <h6 class="content-year ma0 f6 fw1 inconsolata darken-3 pb2">
-                {{ posts.year }}
-              </h6>
-              <h2 class="content-title ma0 f5 fw9 noto-serif darken-3 pb2">
-                {{ posts.title }}
-              </h2>
-              <p class="content-excerpt ma0 f6 fw1 inconsolata darken-3">
-                {{ posts.excerpt}}
-              </p>
-            </div>
-          </li>
-        </a>
-      </ul>
-      {% endfor %}
-    </div>
-  </section>
+  {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
+  {% for posts in sorted_photos %}
+    <section class="content-projects br1 bg-mr-secondary ma4 relative" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
+      <div class="w-100 w-75-l center pa4 cf">
+        <ul class="content-list relative" style="z-index: 5;">
+          <a href="{{ posts.url }}" class="content-link link">
+            <li class="content-card pv3 pa2">
+              <div class="content-details measure-narrow">
+                <h6 class="content-year ma0 f6 fw1 inconsolata white pb2">
+                  {{ posts.year }}
+                </h6>
+                <h2 class="content-title ma0 f5 fw9 noto-serif white pb2">
+                  {{ posts.title }}
+                </h2>
+                <p class="content-excerpt ma0 f6 fw1 inconsolata white">
+                  {{ posts.excerpt}}
+                </p>
+              </div>
+            </li>
+          </a>
+        </ul>
+        <div class="overlay absolute top-0 bottom-0 right-0 left-0" style="background-color: RGBA(33, 37, 41, .75)"></div>
+      </div>
+    </section>
+  {% endfor %}
 
 {% elsif page.url == "/contact/" %}
 
