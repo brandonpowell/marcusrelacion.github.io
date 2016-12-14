@@ -103,13 +103,6 @@
       </ul>
       {% endfor %}
     </div>
-    <a class="link mb4 br1 cf" href="/projects/">
-      <div class="bg-darken-3 pa3 tc">
-        <h6 class="f6 fw9 cf lighten-1 inconsolata dim">
-          Check out more work 👉🏽
-        </h6>
-      </div>
-    </a>
   </section>
 
 {% elsif page.url == "/photos/" %}
@@ -117,7 +110,7 @@
   <section class="content-block bg-mr-secondary ma4 br1">
     <div class="cf pa4">
       <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
-        Latest Photosets
+        Featured Photosets
       </h2>
 
       {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
@@ -142,13 +135,6 @@
       </ul>
       {% endfor %}
     </div>
-    <a class="link mb4 br1 cf" href="/photos/">
-      <div class="bg-darken-3 pa3 tc">
-        <h6 class="f6 fw9 cf lighten-1 inconsolata dim">
-          Check out more photos 📸
-        </h6>
-      </div>
-    </a>
   </section>
 
 {% elsif page.url == "/contact/" %}
