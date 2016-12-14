@@ -1,6 +1,7 @@
 ---
 title: Chicago 2014
 date: 2016-12-13 22:37:00 -05:00
+published: false
 year: 2014
 image: "/uploads/chicago-13.jpg"
 main-content-text: |-
