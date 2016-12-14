@@ -73,32 +73,13 @@
       </a>
     </section>
 
-
-
-
-  {% assign sorted_photos = site.photos | sort: 'date' | reverse  %}
-  {% for posts in sorted_photos limit:1 %}
-    <section class="content-projects br1 bg-mr-secondary relative pv5 w-50 w-50-l fl pa4 cf" style="background: url('{{ posts.image}}') no-repeat center center; background-size: cover;">
-      <ul class="content-list relative cf" style="z-index: 5;">
-        <a href="{{ posts.url }}" class="content-link link">
-          <li class="content-card relative">
-            <h2 class="content-title ma0 f4 fw9 noto-serif white">
-              {{ posts.title }}
-            </h2>
-          </li>
-        </a>
-      </ul>
-      <div class="overlay absolute top-0 bottom-0 right-0 left-0" style="background-color: RGBA(33, 37, 41, .75)"></div>
-    </section>
-  {% endfor %}
-
 {% elsif page.url == '/projects/' %}
 
   <section class="center content-projects bg-mr-primary">
     <div class="cf pa4">
       <span class="content-header">
         <h2 class="ma0 mb2 tc f6 fw9 tracked ttu darken-3 inconsolata">
-          Latest Projects
+          Latest Photos
         </h2>
       </span>
       {% assign sorted_projects = site.projects | sort: 'date' | reverse  %}
