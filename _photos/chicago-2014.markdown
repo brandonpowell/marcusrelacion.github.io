@@ -2,7 +2,7 @@
 title: Chicago 2014
 date: 2016-12-13 22:37:00 -05:00
 year: 2014
-image: "/uploads/chicago-1.jpg"
+image: "/uploads/chicago-13.jpg"
 main-content-text: |-
   ![chicago-1.jpg](/uploads/chicago-1.jpg)
   ![chicago-2.jpg](/uploads/chicago-2.jpg)
