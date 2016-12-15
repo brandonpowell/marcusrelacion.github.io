@@ -1,26 +1,29 @@
-<header class="br1" style="background: url('{{ page.image}}') no-repeat center center; background-size: cover;">
-  <div class=" pa4">
-    <nav class="f6 fw6 ttu tracked">
-      <a class="link dim" href="/" title="Home">
-        <img src="{{ site.logo-image }}" class="dib mr3 w2 h2 br-100" alt="Site Name">
-      </a>
-      <a class="link dim white f6 dib mr3 inconsolata" href="/projects/" title="Projects">
+<header class="">
+  <nav class="dt w-100 border-box pa3">
+    <a class="dtc v-mid mid-gray link dim w-25 fw9 noto-serif f4" href="#" title="Home">
+      Marcus Relacion
+    </a>
+    <div class="dtc v-mid w-75 tr">
+      <a class="link dim white dib f5 inconsolata mr2" href="/projects/" title="About">
         Projects
       </a>
-      <a class="link dim white f6 dib mr3 inconsolata" href="/photos/" title="Photos">
+      <a class="link dim white dib f5 inconsolata mr2" href="/photos/" title="Store">
         Photos
       </a>
-      <a class="link dim white f6 dib mr3 inconsolata" href="/contact/" title="Contact">
+      <a class="link dim white dib f5 inconsolata mr2" href="/contact/" title="Contact">
         Contact
       </a>
-    </nav>
+      {% include partials/maintenance.html %}
+    </div>
+  </nav>
+</header>
 
-    <section>
+<header class=" br1" style="background: url('{{ page.image}}') no-repeat center center; background-size: cover;">
+    <section class="ph4 pv5">
       <div class="cf">
         <div class="introduction white measure-narrow inconsolata">
           {{ page.content | markdownify }}
         </div>
       </div>
     </section>
-  </div>
 </header>
