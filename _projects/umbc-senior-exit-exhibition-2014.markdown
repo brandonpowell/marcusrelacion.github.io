@@ -23,7 +23,7 @@ main-content-text: |-
     <div class="sm-col sm-col-12 md-col-6 p1"><img src="/assets/umbc-see-9.jpg"></div>
     <div class="sm-col sm-col-12 p1"><img src="/assets/umbc-see-7.jpg"></div>
   </div>
-image: "/uploads/umbc-see-header-2304b2.jpg"
+image: "/uploads/umbc-header.jpg"
 year: 2014
 excerpt: Exhibition design and branding for the 2014 UMBC Senior Exit Exhibition (UMBC
   SEE).

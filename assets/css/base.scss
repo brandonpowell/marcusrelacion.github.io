@@ -1,36 +1,13 @@
 ---
 ---
 
-/*
- * Bassplate
- * Boilerplate for Basscss with PostCSS
- * http://github.com/basscss/bassplate
- *
- * Remove or comment out unneeded modules and import your own files.
- * Adjust global media queries and custom properties below.
- *
- */
-
-/* Reset */
+/* reset */
 @import "mr-globals/reset";
 
-/* Basscss Modules */
-//@import "basscss/basscss-basic";
-//@import "basscss/basscss-align";
-//@import "basscss/basscss-background-images";
-//@import "basscss/basscss-border";
-//@import "basscss/basscss-btn";
-//@import "basscss/basscss-flexbox";
-//@import "basscss/basscss-forms";
-//@import "basscss/basscss-grid";
-//@import "basscss/basscss-layout";
-//@import "basscss/basscss-margin";
-//@import "basscss/basscss-padding";
-//@import "basscss/basscss-position";
-//@import "basscss/basscss-type-scale";
-//@import "basscss/basscss-typography";
+/* tachyons */
+@import "tachyons/tachyons";
 
-/* MR Modules */
+/* modules */
 @import "mr-globals/colors";
 @import "mr-globals/globals";
 @import "mr-globals/typography";

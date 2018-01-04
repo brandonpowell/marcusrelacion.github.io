@@ -1,10 +1,69 @@
 ---
 title: Big K.R.I.T
 date: 2015-11-29 23:13:00 -05:00
-image: "/uploads/big-krit-header.jpg"
 year: 2015
-excerpt: Cadillactica
+image: "/uploads/krit-59.jpg"
+main-content-text: |-
+  ![krit-1.jpg](/uploads/krit-1.jpg)
+  ![krit-2.jpg](/uploads/krit-2.jpg)
+  ![krit-3.jpg](/uploads/krit-3.jpg)
+  ![krit-4.jpg](/uploads/krit-4.jpg)
+  ![krit-5.jpg](/uploads/krit-5.jpg)
+  ![krit-6.jpg](/uploads/krit-6.jpg)
+  ![krit-7.jpg](/uploads/krit-7.jpg)
+  ![krit-8.jpg](/uploads/krit-8.jpg)
+  ![krit-9.jpg](/uploads/krit-9.jpg)
+  ![krit-10.jpg](/uploads/krit-10.jpg)
+  ![krit-11.jpg](/uploads/krit-11.jpg)
+  ![krit-12.jpg](/uploads/krit-12.jpg)
+  ![krit-13.jpg](/uploads/krit-13.jpg)
+  ![krit-14.jpg](/uploads/krit-14.jpg)
+  ![krit-15.jpg](/uploads/krit-15.jpg)
+  ![krit-16.jpg](/uploads/krit-16.jpg)
+  ![krit-17.jpg](/uploads/krit-17.jpg)
+  ![krit-18.jpg](/uploads/krit-18.jpg)
+  ![krit-19.jpg](/uploads/krit-19.jpg)
+  ![krit-20.jpg](/uploads/krit-20.jpg)
+  ![krit-21.jpg](/uploads/krit-21.jpg)
+  ![krit-22.jpg](/uploads/krit-22.jpg)
+  ![krit-23.jpg](/uploads/krit-23.jpg)
+  ![krit-24.jpg](/uploads/krit-24.jpg)
+  ![krit-25.jpg](/uploads/krit-25.jpg)
+  ![krit-26.jpg](/uploads/krit-26.jpg)
+  ![krit-27.jpg](/uploads/krit-27.jpg)
+  ![krit-28.jpg](/uploads/krit-28.jpg)
+  ![krit-29.jpg](/uploads/krit-29.jpg)
+  ![krit-30.jpg](/uploads/krit-30.jpg)
+  ![krit-31.jpg](/uploads/krit-31.jpg)
+  ![krit-32.jpg](/uploads/krit-32.jpg)
+  ![krit-33.jpg](/uploads/krit-33.jpg)
+  ![krit-34.jpg](/uploads/krit-34.jpg)
+  ![krit-35.jpg](/uploads/krit-35.jpg)
+  ![krit-36.jpg](/uploads/krit-36.jpg)
+  ![krit-37.jpg](/uploads/krit-37.jpg)
+  ![krit-38.jpg](/uploads/krit-38.jpg)
+  ![krit-39.jpg](/uploads/krit-39.jpg)
+  ![krit-40.jpg](/uploads/krit-40.jpg)
+  ![krit-41.jpg](/uploads/krit-41.jpg)
+  ![krit-42.jpg](/uploads/krit-42.jpg)
+  ![krit-43.jpg](/uploads/krit-43.jpg)
+  ![krit-44.jpg](/uploads/krit-44.jpg)
+  ![krit-45.jpg](/uploads/krit-45.jpg)
+  ![krit-46.jpg](/uploads/krit-46.jpg)
+  ![krit-47.jpg](/uploads/krit-47.jpg)
+  ![krit-48.jpg](/uploads/krit-48.jpg)
+  ![krit-49.jpg](/uploads/krit-49.jpg)
+  ![krit-50.jpg](/uploads/krit-50.jpg)
+  ![krit-51.jpg](/uploads/krit-51.jpg)
+  ![krit-52.jpg](/uploads/krit-52.jpg)
+  ![krit-53.jpg](/uploads/krit-53.jpg)
+  ![krit-54.jpg](/uploads/krit-54.jpg)
+  ![krit-55.jpg](/uploads/krit-55.jpg)
+  ![krit-56.jpg](/uploads/krit-56.jpg)
+  ![krit-57.jpg](/uploads/krit-57.jpg)
+  ![krit-58.jpg](/uploads/krit-58.jpg)
 location: The Howard Theater
+excerpt: 
 layout: single/photoset
 ---
 

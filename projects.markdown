@@ -2,10 +2,10 @@
 title: Projects
 date: 2016-08-14 21:58:00 -04:00
 position: 1
-background-image: "/uploads/work-header.jpg"
+image: "/uploads/work-header.jpg"
 layout: pages/page-projects
 ---
 
 # Projects   
 
-## Take a moment to view the projects I've had the opportunity to work on over the years.
+Take a moment to view the projects I've had the opportunity to work on over the years.

@@ -1,10 +1,11 @@
 ---
 title: Pittsburgh 2016
 date: 2016-08-22 21:40:00 -04:00
-image: "/uploads/pittsburgh-header.jpg"
+published: false
 year: 2016
-excerpt: New Set Coming.
+image: "/uploads/curry.gif"
 location: Pittsburgh, PA
+excerpt: 
 layout: single/photoset
 ---
 

@@ -1,7 +1,11 @@
-$mr-primary: rgba(105,229,191,1.00);
-$mr-secondary: rgba(208,192,253,1.00);
+$mr-primary: rgba(208,192,253,1.00);
+$mr-secondary: #ffe066;
 $white: #ffffff;
 $black: #000000;
+
+$alert: #ffec99;
+$warning: #ffc9c9;
+$success: #b2f2bb;
 
 $lighten-1: rgba(255,255,255,0.80);
 $lighten-2: rgba(255,255,255,0.60);
@@ -30,6 +34,9 @@ $darken-5: rgba(0,0,0,0.10);
 .lighten-3 { color: $lighten-3; }
 .lighten-4 { color: $lighten-4; }
 .lighten-5 { color: $lighten-5; }
+.alert { color: $alert; }
+.warning { color: $warning; };
+.success { color: $success; };
 
 /* background colors */
 .bg-mr-primary { background-color: $mr-primary; }
@@ -46,3 +53,6 @@ $darken-5: rgba(0,0,0,0.10);
 .bg-lighten-3 { background-color: $lighten-3; }
 .bg-lighten-4 { background-color: $lighten-4; }
 .bg-lighten-5 { background-color: $lighten-5; }
+.bg-alert { background-color: $alert; }
+.bg-warning { background-color: $warning; };
+.bg-success { background-color: $success; };

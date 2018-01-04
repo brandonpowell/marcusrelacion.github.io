@@ -44,11 +44,10 @@ defaults:
     type: projects
   values:
     layout: single/project
-    main-content-text: 
+    year: 
     image: 
     description: 
-    year: 
-    excerpt: 
+    main-content-text: 
     client: 
     role: 
     collaborators: []
@@ -58,11 +57,10 @@ defaults:
     type: photos
   values:
     layout: single/photoset
+    year: 
     image: 
     description: 
-    is-featured: 
-    year: 
-    excerpt: 
+    main-content-text: 
     location: 
 permalink: pretty
 exclude:
@@ -79,6 +77,8 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+profile-image: "/uploads/mr-photo.jpg"
 logo-image: "/uploads/mr-white-logo.svg"
 is-updating: true
-update-text: Currently undergoing maintenance. [Spot an issue?](https://github.com/marcusrelacion/marcusrelacion.github.io/issues)
+update-message: "Currently, undergoing maintenance.  \U0001F6E0"
+update-link: https://github.com/marcusrelacion/marcusrelacion.github.io/issues

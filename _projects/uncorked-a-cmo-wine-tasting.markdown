@@ -9,7 +9,7 @@ main-content-text: "With Uncorked, I was tasked with creating the identity, prom
   src=\"/assets/TrackMaven Uncorked: Social Graphic.jpg\">\n\n<img src=\"/assets/TrackMaven
   Uncorked: Pattern.jpg\">\n\n<img src=\"/assets/TrackMaven Uncorked: Login Page.jpg\">\n\n<img
   src=\"/assets/TrackMaven Uncorked: Sign Up Form.jpg\">"
-image: "/uploads/uncorked-header-88d4ae.jpg"
+image: "/uploads/tm-uncorked-header.jpg"
 year: 2015
 excerpt: Identity designed for TrackMaven's exclusive annual event held in Austin,
   TX during South by Southwest (SXSW).
