@@ -47,11 +47,11 @@
   {% else %}
   <div class="mw7 center flex flex-column flex-row-ns pa4-l">
     <div class="w-100 w-50-l flex-auto self-center pa3 pa0-l">
-      <h1 class="lh-title ma0 mb2 f3 f2-l fw9 noto-serif white">{{ site.introduction-header }}</h1>
-      <span class="lh-copy ma0 f5 f4-l fw4 source-sans-pro white-60 db">{{ site.introduction-subheader | markdownify }}</span>
+      <h1 class="lh-title ma0 mb2 f3 f2-l fw9 noto-serif white">{{ page.introduction-header }}</h1>
+      <span class="lh-copy ma0 f5 f4-l fw4 source-sans-pro white-60 db">{{ page.introduction-subheader | markdownify }}</span>
     </div>
     <div class="w-100 w-50-l flex-auto self-center">
-      <figure class="content-card-image ma0 pa0 br1 overflow-hidden pl4-l"><img class="v-mid db w-100" src="{{ site.introduction-image }}" alt="{{ site.introduction-image-alt }}"></figure>
+      <figure class="content-card-image ma0 pa0 br1 overflow-hidden pl4-l"><img class="v-mid db w-100" src="{{ page.introduction-image }}" alt="{{ page.introduction-image-alt }}"></figure>
     </div>
   </div>
   {% endif %}
