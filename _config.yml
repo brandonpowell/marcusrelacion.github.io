@@ -60,6 +60,7 @@ defaults:
     main-content-text: 
     location: 
 description: Marcus Relacion is a designer and developer located in Alexandria, VA.
+google-analytics: UA-111997703-1
 copyright: 2017 &amp; beyond, Marcus Relacion
 sass:
   sass_dir: _sass

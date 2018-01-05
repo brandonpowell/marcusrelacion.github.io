@@ -60,6 +60,19 @@
 	
 	 _gs('GSN-407027-K');
 	</script>
+
+	<!-- Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111997703-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', '{{ site.google-analytics }}');
+	</script>
+	<!-- End Google Analytics -->
+
 	
 	<script>
 		//This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
