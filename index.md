@@ -4,7 +4,6 @@ date: 2016-10-01 17:37:00 -04:00
 position: 0
 image: "/uploads/mr-header.jpg"
 layout: pages/home
-
 introduction-header: "Hello! \U0001F44B\U0001F3FE"
 introduction-subheader: "I'm Marcus Relacion, a designer and front-end developer from
   Washington, DC. \n\n<mark class=\"pa1 br1 bg-mr-primary white f5 f4-ns\">Currently
