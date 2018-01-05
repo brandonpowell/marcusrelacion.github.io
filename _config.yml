@@ -78,6 +78,6 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
 - jekyll-feed
 copyright: 2017 &amp; beyond, Marcus Relacion
