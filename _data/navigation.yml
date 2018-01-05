@@ -1,0 +1,19 @@
+# social media
+social-nav:
+  - title: "Github"
+    url: https://github.com/marcusrelacion
+  - title: "Twitter"
+    url: https://twitter.com/marcusrelacion
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/marcusrelacion
+  - title: "Dribbble"
+    url: https://dribbble.com/marcusrelacion
+  - title: "Instagram"
+    url: https://instagram.com/marcusrelacion
+
+# fun things
+#fun-nav:
+# - title: "Gaming"
+#   url: #
+# - title: "Cooking"
+#   url: #

@@ -1,0 +1,80 @@
+<head>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{ site.meta.description }}">
+	<link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+
+	<!-- manifest -->
+	<link rel="manifest" href="manifest.json">
+	
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Marcus Relacion">
+	<meta name="apple-mobile-web-app-title" content="Marcus Relacion">
+	<meta name="theme-color" content="#FD8B86">
+	<meta name="msapplication-navbutton-color" content="#FD8B86">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="msapplication-starturl" content="/https://marcusrelacion.com">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#FD8B86">
+	<meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+
+	<!-- title -->
+	<title>{{ site.title }}</title>
+	<!-- icons -->
+	<link rel='shortcut icon' type='image/x-icon' href='' />
+	<!-- styles -->
+	<link href="/assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Source+Sans+Pro:400,900" rel="stylesheet">
+	<!-- smart browser detection -->
+	<script type="text/javascript">
+		if ('visibilityState' in document) {
+			var doc = document.getElementsByTagName("html");
+			doc[0].className = 'modern-browser';
+		}
+	</script>
+	<!-- html5shiv -->
+	<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="/assets/js/smooth-scroll.polyfills.min.js"></script>
+	<script>
+		!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+		arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+		d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+		insertBefore(d,q)}(window,document,'script','_gs');
+	
+	 _gs('GSN-407027-K');
+	</script>
+	
+	<script>
+		//This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+
+		//Add this below content to your HTML page, or add the js file to your page at the very top to register sercie worker
+		if (navigator.serviceWorker.controller) {
+			console.log('[PWA Builder] active service worker found, no need to register')
+		} else {
+
+		//Register the ServiceWorker
+			navigator.serviceWorker.register('pwabuilder-sw.js', {
+				scope: './'
+			}).then(function(reg) {
+				console.log('Service worker has been registered for scope:'+ reg.scope);
+			});
+		}
+	</script>
+</head>

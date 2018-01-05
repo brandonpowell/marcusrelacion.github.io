@@ -1,0 +1,20 @@
+# services
+services:
+  - number: 1
+    skill: Pencil &amp; Paper
+    description: Junior UI Designer
+  - number: 2
+    skill: Wireframe
+    description: Junior Design Maven
+  - number: 3
+    skill: Prototype
+    description: Junior Exhibition Designer
+  - number: 4
+    skill: Test
+    description: Exhibition Design Intern
+  - number: 5
+    skill: Iterate
+    description: Exhibition Design Intern
+  - number: 6
+    skill: Repeat
+    description: Exhibition Design Intern

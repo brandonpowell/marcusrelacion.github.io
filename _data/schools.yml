@@ -1,0 +1,15 @@
+schools:
+  - years: 2008-2011
+    school: UMBC
+    location: Baltimore, MD
+    degree: |
+      B.F.A - Graphic Design,
+      
+      Minor - Printmaking
+  - years: 2011-2015
+    location: Rockville, MD
+    school: Montgomery College
+    degree: |
+      A.A.S - Graphic Design,
+
+      Certificate - Digital Tools

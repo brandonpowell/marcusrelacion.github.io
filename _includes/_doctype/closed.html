@@ -1,0 +1,50 @@
+</main>
+{% if page.url == "/projects/" %}
+<script type="text/javascript" src="/assets/js/jribbble.min.js"></script>
+
+<script>
+    $.jribbble.setToken('cff721f986563d2cf50f4257fe6fcdaf0499d8f7645fbf6a71f4d0720db797b8');
+
+    /*
+    Jribbble methods make ajax requests to the Dribbble API. When
+    the requests complete, a Promise is returned. Use `then` to take an action
+    on the response from the server.
+    */
+
+    $.jribbble.users('marcusrelacion').shots({
+        per_page: 36
+    }).then(function (shots) {
+        var html = [];
+
+        shots.forEach(function (shot) {
+            html.push('<li class="shots--shot">');
+            html.push('<a href="' + shot.html_url + '" target="_blank">');
+            html.push('<img src="' + shot.images.normal + '">');
+            html.push('</a></li>');
+        });
+
+        $('.shots').html(html.join(''));
+    });
+</script>
+{% endif %}
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	// Selectors
+	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+	header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+	// Speed & Easing
+	speed: 750, // Integer. How fast to complete the scroll in milliseconds
+	offset: 125, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+	easing: 'easeInOutQuad', // Easing pattern to use
+	customEasing: function (time) {}, // Function. Custom easing pattern
+
+	// Callback API
+	before: function () {}, // Callback to run before scroll
+	after: function () {} // Callback to run after scroll
+});
+</script>
+</body>
+
+</html>
