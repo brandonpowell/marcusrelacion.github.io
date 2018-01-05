@@ -1,7 +1,7 @@
 ---
 title: Home
 date: 2016-10-01 17:37:00 -04:00
-position: 0
+position: 1
 image: "/uploads/mr-header.jpg"
 layout: pages/home
 introduction-header: "Hello! \U0001F44B\U0001F3FE"
