@@ -1,5 +1,5 @@
 ---
-title: Marcus Relacion, Designer
+title: Marcus Relacion, Designer & Developer
 timezone: America/New_York
 collections:
   notes:
@@ -59,8 +59,14 @@ defaults:
     description: 
     main-content-text: 
     location: 
-description: Test
+description: Marcus Relacion is a designer and developer located in Alexandria, VA.
+copyright: 2017 &amp; beyond, Marcus Relacion
+sass:
+  sass_dir: _sass
+  style: compressed
 permalink: pretty
+plugins:
+- jekyll-feed
 exclude:
 - package.json
 - gulpfile.js
@@ -72,9 +78,3 @@ exclude:
 - ".sass-cache"
 - CNAME
 - ".DS_Store"
-sass:
-  sass_dir: _sass
-  style: compressed
-plugins:
-- jekyll-feed
-copyright: 2017 &amp; beyond, Marcus Relacion
