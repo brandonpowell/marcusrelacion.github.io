@@ -1,6 +1,5 @@
 ---
 title: Marcus Relacion, Designer
-description: Test
 timezone: America/New_York
 collections:
   case-studies:
@@ -63,6 +62,7 @@ defaults:
     description: 
     main-content-text: 
     location: 
+description: Test
 permalink: pretty
 exclude:
 - package.json
