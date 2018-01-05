@@ -1,29 +1,17 @@
 ---
-# hero
-date: 2015-10-27 00:00:00 -0500
-tags:
+title: One Month as a TrackMaven Intern
+date: 2015-10-27 01:00:00 -04:00
+permalink: "/notes/one-month-as-a-trackmaven-intern/"
 hero-header: One Month as a TrackMaven Intern
 hero-subheader: This is a test description and should be a simple sentence.
-hero-image: /assets/imgs/hero-work.jpg
-
-# seo
-title: "One Month as a TrackMaven Intern"
+hero-image: "/assets/imgs/hero-work.jpg"
 description: This is a test description and should be a simple sentence.
-og-image: /assets/imgs/hero-work.jpg
-
-# settings
+og-image: "/assets/imgs/hero-work.jpg"
 layout: single/notes
-permalink: /notes/one-month-as-a-trackmaven-intern/
-
-
-#  ++ content belowv ++ #
-
-
-# Images
 image-1: https://assets.marcusrelacion.com/notes/one-month-as-a-trackmaven-intern/tm-talks.jpeg
-image-1-caption:
+image-1-caption: 
 image-2: https://assets.marcusrelacion.com/notes/one-month-as-a-trackmaven-intern/tm-generic-movie.png
-image-2-caption:
+image-2-caption: 
 ---
 
 I have been working as a design intern at TrackMaven, a rapidly growing startup located in Washington, DC, for a little over a month.

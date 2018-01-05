@@ -1,9 +1,8 @@
 ---
+title: Color Coded Unhackathon
+date: 2016-12-28 14:44:39 -05:00
+permalink: "/notes/color-coded-unhackathon/"
 layout: single/notes
-title:  "Color Coded Unhackathon"
-date:   2016-12-28 14:44:39 -0500
-categories:
-permalink: /notes/color-coded-unhackathon/
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

@@ -1,11 +1,10 @@
 ---
-# post meta
-title: "Neutraface Research Book"
-description: Neutraface is a collection of essays compiled into a 120 page perfect hand-bound book.
-image:
+title: Neutraface Research Book
+permalink: "/work/neutraface-research-book/"
+description: Neutraface is a collection of essays compiled into a 120 page perfect
+  hand-bound book.
+image: 
 image-alt: Neutraface Header
-
-# project information
 field: undergrad
 client-header: Client
 client: UMBC
@@ -17,35 +16,30 @@ type: |
   </br>
   Bookbinding
 collaborators-header: Collaborators
-collaborators: |
-  N/A
+collaborators: 'N/A
 
-# filter information
+'
 client-value: undergrad
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/neutraface-book/neutra-1.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/neutraface-book/neutra-2.jpg
-image-2-caption:
-image-3: /assets/imgs/projects/neutraface-book/neutra-3.jpg
-image-3-caption:
-image-4: /assets/imgs/projects/neutraface-book/neutra-4.jpg
-image-4-caption:
-image-5: /assets/imgs/projects/neutraface-book/neutra-5.jpg
-image-5-caption:
-image-6: /assets/imgs/projects/neutraface-book/neutra-6.jpg
-image-6-caption:
-image-7: /assets/imgs/projects/neutraface-book/neutra-7.jpg
-image-7-caption:
-image-8: /assets/imgs/projects/neutraface-book/neutra-8.jpg
-image-8-caption:
-
-# post settings
+image-1: "/assets/imgs/projects/neutraface-book/neutra-1.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/neutraface-book/neutra-2.jpg"
+image-2-caption: 
+image-3: "/assets/imgs/projects/neutraface-book/neutra-3.jpg"
+image-3-caption: 
+image-4: "/assets/imgs/projects/neutraface-book/neutra-4.jpg"
+image-4-caption: 
+image-5: "/assets/imgs/projects/neutraface-book/neutra-5.jpg"
+image-5-caption: 
+image-6: "/assets/imgs/projects/neutraface-book/neutra-6.jpg"
+image-6-caption: 
+image-7: "/assets/imgs/projects/neutraface-book/neutra-7.jpg"
+image-7-caption: 
+image-8: "/assets/imgs/projects/neutraface-book/neutra-8.jpg"
+image-8-caption: 
 layout: single/projects
-permalink: /work/neutraface-research-book/
 ---
+
 # Neutraface is a collection of essays compiled into a 120 page perfect hand-bound book.
 
 For this project, I was responsible for researching and writing the text of the book, the design and layout of the pages, and, finally, the bookbinding.

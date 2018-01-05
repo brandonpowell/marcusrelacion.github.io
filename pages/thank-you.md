@@ -1,8 +1,7 @@
 ---
-title: "Thank You"
-description:
-
-# settings
+title: Thank You
+permalink: "/thank-you/"
+description: 
 layout: pages/thank-you
-permalink: /thank-you/
 ---
+

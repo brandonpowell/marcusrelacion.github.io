@@ -1,11 +1,10 @@
 ---
-# post meta
-title: "2017 DC Design Week"
+title: 2017 DC Design Week
+date: 2018-01-04 23:51:45.531000000 -05:00
+permalink: "/work/2017-dc-design-week/"
 description: This is a test description and should be a simple sentence.
-image: /assets/imgs/projects/pagoda-goods/hero-pagoda-goods.jpg
+image: "/assets/imgs/projects/pagoda-goods/hero-pagoda-goods.jpg"
 image-alt: Pagoda Goods logo
-
-# project information
 client-header: Client
 client: AIGA DC
 year-header: Year
@@ -16,18 +15,11 @@ collaborators-header: Collaborators
 collaborators: |
   Greg Fisk, Design
   Charlie Michael, Owner
-
-# filter information
 client-value: freelance
 skill-value: development
-
-# content
-image-1:
-image-1-caption:
-
-# post settings
+image-1: 
+image-1-caption: 
 layout: single/projects
-permalink: /work/2017-dc-design-week/
 ---
 
   With Uncorked, I created the identity, promotional materials, custom printed invitations, illustrations and landing page.

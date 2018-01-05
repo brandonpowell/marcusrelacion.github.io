@@ -1,9 +1,7 @@
 ---
-# post meta
-title: "Projects"
-description:
-
-# settings
+title: Projects
+permalink: "/projects/"
+description: 
 layout: pages/projects
-permalink: /projects/
 ---
+

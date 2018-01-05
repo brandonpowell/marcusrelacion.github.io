@@ -1,9 +1,8 @@
 ---
-title: "Home Page"
-description:
-
-# settings
+title: Home Page
+permalink: "/"
+description: 
 layout: pages/home
-permalink: /
 show-resume-button: false
 ---
+

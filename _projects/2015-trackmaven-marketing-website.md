@@ -1,11 +1,9 @@
 ---
-# post meta
-title: "TrackMaven Marketing Site"
+title: TrackMaven Marketing Site
+permalink: "/work/trackmaven-marketing-website/"
 description: Collection of projects I contributed to the TrackMaven Marketing Site.
-image:
+image: 
 image-alt: TrackMaven logo
-
-# project information
 field: in-house
 client-header: Client
 client: TrackMaven
@@ -18,27 +16,21 @@ collaborators: |
   Laura McGuigan
   </br>
   Wade Hammes
-
-# filter information
 client-value: in-house
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/trackmaven-marketing-website/tm-header.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/trackmaven-marketing-website/tm-roi-1.jpg
-image-2-caption:
-image-3: /assets/imgs/projects/trackmaven-marketing-website/tm-roi-2.jpg
-image-3-caption:
-image-4: /assets/imgs/projects/trackmaven-marketing-website/tm-website-1.jpg
-image-4-caption:
-image-5: /assets/imgs/projects/trackmaven-marketing-website/tm-website-2.jpg
-image-5-caption:
-
-# post settings
+image-1: "/assets/imgs/projects/trackmaven-marketing-website/tm-header.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/trackmaven-marketing-website/tm-roi-1.jpg"
+image-2-caption: 
+image-3: "/assets/imgs/projects/trackmaven-marketing-website/tm-roi-2.jpg"
+image-3-caption: 
+image-4: "/assets/imgs/projects/trackmaven-marketing-website/tm-website-1.jpg"
+image-4-caption: 
+image-5: "/assets/imgs/projects/trackmaven-marketing-website/tm-website-2.jpg"
+image-5-caption: 
 layout: single/projects
-permalink: /work/trackmaven-marketing-website/
 ---
+
 # During my tenure with TrackMaven I had the opportunity to design and develop features and additions to the marketing site
 
 ## ROI of TrackMaven

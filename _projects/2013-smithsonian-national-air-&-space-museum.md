@@ -1,11 +1,10 @@
 ---
-# post meta
-title: "Smithsonian National Air & Space Museum"
-description: Collection of work completed during my internship with the popular Smithsonian museum.
-image:
+title: Smithsonian National Air & Space Museum
+permalink: "/work/smithsonian-national-air-&-space-museum/"
+description: Collection of work completed during my internship with the popular Smithsonian
+  museum.
+image: 
 image-alt: NASM Header
-
-# project information
 field: internship
 client-header: Client
 client: Smithsonian National Air & Space Museum
@@ -25,47 +24,41 @@ collaborators: |
   Jennifer Carlton, Exhibition Designer
   </br>
   Ashley Hornish, Exhibition Designer
-
-# filter information
 client-value: undergrad
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/nasm-internship/nasm-hawaii-1.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/nasm-internship/nasm-hawaii-2.jpg
-image-2-caption:
-image-3: /assets/imgs/projects/nasm-internship/nasm-hawaii-3.jpg
-image-3-caption:
-image-4: /assets/imgs/projects/nasm-internship/nasm-hawaii-4.jpg
-image-4-caption:
-image-5: /assets/imgs/projects/nasm-internship/nasm-hawaii-5.jpg
-image-5-caption:
-image-6: /assets/imgs/projects/nasm-internship/nasm-hawaii-6.jpg
-image-6-caption:
-image-7: /assets/imgs/projects/nasm-internship/nasm-hawaii-7.jpg
-image-7-caption:
-image-8: /assets/imgs/projects/nasm-internship/nasm-hawaii-8.jpg
-image-8-caption:
-image-9: /assets/imgs/projects/nasm-internship/nasm-hawaii-9.jpg
-image-9-caption:
-image-10: /assets/imgs/projects/nasm-internship/nasm-hawaii-10.jpg
-image-10-caption:
-image-11: /assets/imgs/projects/nasm-internship/nasm-voting-1.gif
-image-11-caption:
-image-12: /assets/imgs/projects/nasm-internship/nasm-voting-2.gif
-image-12-caption:
-image-13: /assets/imgs/projects/nasm-internship/nasm-voting-3.gif
-image-13-caption:
-image-14: /assets/imgs/projects/nasm-internship/nasm-voting-4.gif
-image-14-caption:
-image-15: /assets/imgs/projects/nasm-internship/nasm-voting-5.jpg
-image-15-caption:
-
-# post settings
+image-1: "/assets/imgs/projects/nasm-internship/nasm-hawaii-1.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/nasm-internship/nasm-hawaii-2.jpg"
+image-2-caption: 
+image-3: "/assets/imgs/projects/nasm-internship/nasm-hawaii-3.jpg"
+image-3-caption: 
+image-4: "/assets/imgs/projects/nasm-internship/nasm-hawaii-4.jpg"
+image-4-caption: 
+image-5: "/assets/imgs/projects/nasm-internship/nasm-hawaii-5.jpg"
+image-5-caption: 
+image-6: "/assets/imgs/projects/nasm-internship/nasm-hawaii-6.jpg"
+image-6-caption: 
+image-7: "/assets/imgs/projects/nasm-internship/nasm-hawaii-7.jpg"
+image-7-caption: 
+image-8: "/assets/imgs/projects/nasm-internship/nasm-hawaii-8.jpg"
+image-8-caption: 
+image-9: "/assets/imgs/projects/nasm-internship/nasm-hawaii-9.jpg"
+image-9-caption: 
+image-10: "/assets/imgs/projects/nasm-internship/nasm-hawaii-10.jpg"
+image-10-caption: 
+image-11: "/assets/imgs/projects/nasm-internship/nasm-voting-1.gif"
+image-11-caption: 
+image-12: "/assets/imgs/projects/nasm-internship/nasm-voting-2.gif"
+image-12-caption: 
+image-13: "/assets/imgs/projects/nasm-internship/nasm-voting-3.gif"
+image-13-caption: 
+image-14: "/assets/imgs/projects/nasm-internship/nasm-voting-4.gif"
+image-14-caption: 
+image-15: "/assets/imgs/projects/nasm-internship/nasm-voting-5.jpg"
+image-15-caption: 
 layout: single/projects
-permalink: /work/smithsonian-national-air-&-space-museum/
 ---
+
 # In the Summer of 2013, I was selected from a broad pool of applicants to become an intern with the Smithsonian National Air and Space Museum.
 
 Over the course of my 3 month internship with the museum, I was tasked with completing a variety of design projects that ranged from page layouts, iconography and illustration, wayfinding and navigation, and fabrication.

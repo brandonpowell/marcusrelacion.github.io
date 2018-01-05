@@ -1,11 +1,10 @@
 ---
-# post meta
-title: "2014 UMBC Senior Exit Exhibition"
-description: The UMBC Senior Exit Exhibition is the annual exhibition that showcases and highlights the work of graduating seniors from the Visual Arts Program at UMBC.
-image:
-image-alt: 2014 UMBC SEE 
-
-# project information
+title: 2014 UMBC Senior Exit Exhibition
+permalink: "/work/2014-umbc-see/"
+description: The UMBC Senior Exit Exhibition is the annual exhibition that showcases
+  and highlights the work of graduating seniors from the Visual Arts Program at UMBC.
+image: 
+image-alt: 2014 UMBC SEE
 field: undergrad
 client-header: Client
 client: UMBC
@@ -25,29 +24,23 @@ collaborators: |
   Michael Muccioli,
   </br>
   Mattson Gallagher
-
-# filter information
 client-value: undergrad
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/umbc-see/umbc-1.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/umbc-see/umbc-2.jpg
-image-2-caption:
-image-3: /assets/imgs/projects/umbc-see/umbc-3.jpg
-image-3-caption:
-image-4: /assets/imgs/projects/umbc-see/umbc-4.jpg
-image-4-caption:
-image-5: /assets/imgs/projects/umbc-see/umbc-5.jpg
-image-5-caption:
-image-6: /assets/imgs/projects/umbc-see/umbc-6.jpg
-image-6-caption:
-
-# post settings
+image-1: "/assets/imgs/projects/umbc-see/umbc-1.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/umbc-see/umbc-2.jpg"
+image-2-caption: 
+image-3: "/assets/imgs/projects/umbc-see/umbc-3.jpg"
+image-3-caption: 
+image-4: "/assets/imgs/projects/umbc-see/umbc-4.jpg"
+image-4-caption: 
+image-5: "/assets/imgs/projects/umbc-see/umbc-5.jpg"
+image-5-caption: 
+image-6: "/assets/imgs/projects/umbc-see/umbc-6.jpg"
+image-6-caption: 
 layout: single/projects
-permalink: /work/2014-umbc-see/
 ---
+
 # The UMBC Senior Exit Exhibition is the annual exhibition that showcases the work of graduating seniors from the Visual Arts Program.
 
 In preparation for the 2014 exhibition, I was selected by the Visual Art Dept. Faculty to design a poster advertising the show across the Fine Arts Building and UMBC Campus.

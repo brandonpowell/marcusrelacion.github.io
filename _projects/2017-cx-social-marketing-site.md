@@ -1,11 +1,9 @@
 ---
-# post meta
-title: "CX Social Marketing Site"
+title: CX Social Marketing Site
+permalink: "/work/cx-social-marketing-site/"
 description: Collection of projects I contributed to the CX Social marrketing site.
-image:
+image: 
 image-alt: CX Social logo
-
-# project information
 field: in-house
 client-header: Client
 client: Clarabridge
@@ -14,18 +12,12 @@ year: 2017
 type-header: Type
 type: Front-End Development
 collaborators-header: Collaborators
-collaborators: |
-
-# filter information
+collaborators: ''
 client-value: in-house
 skill-value: development
-
-# content
-image-1:
-image-1-caption:
-
-# post settings
+image-1: 
+image-1-caption: 
 layout: single/projects
-permalink: /work/cx-social-marketing-site/
 coming-soon: true
 ---
+

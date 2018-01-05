@@ -1,11 +1,9 @@
 ---
-# post meta
-title: "Clarabridge Email System"
+title: Clarabridge Email System
+permalink: "/work/clarabridge-email-system/"
 description: Marketo theme development for all outgoing Marketing communications.
-image:
+image: 
 image-alt: Clarabridge logo
-
-# project information
 field: in-house
 client-header: Client
 client: Clarabridge
@@ -14,19 +12,12 @@ year: 2017
 type-header: Type
 type: Front-End Development
 collaborators-header: Collaborators
-collaborators: |
-
-# filter information
+collaborators: ''
 client-value: in-house
 skill-value: development
-
-# content
-image-1:
-image-1-caption:
-
-# post settings
+image-1: 
+image-1-caption: 
 layout: single/projects
-permalink: /work/clarabridge-email-system/
 coming-soon: true
 ---
 

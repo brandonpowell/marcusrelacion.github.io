@@ -1,11 +1,10 @@
 ---
-# post meta
-title: "Maryland Historical Society"
-description: The Maryland Historical Society is Maryland's premier museum for artifacts pertaining to the history of the state.
-image:
+title: Maryland Historical Society
+permalink: "/work/maryland-historical-society/"
+description: The Maryland Historical Society is Maryland's premier museum for artifacts
+  pertaining to the history of the state.
+image: 
 image-alt: Maryland historical Society Header
-
-# project information
 client-header: Client
 client: UMBC
 year-header: Year
@@ -20,42 +19,36 @@ type: |
   </br>
   Bookbinding
 collaborators-header: Collaborators
-collaborators: |
-  N/A
+collaborators: 'N/A
 
-# filter information
+'
 client-value: undergrad
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/mdhs/mdhs-1.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/mdhs/mdhs-2.jpg
+image-1: "/assets/imgs/projects/mdhs/mdhs-1.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/mdhs/mdhs-2.jpg"
 image-2-caption: 
-image-3: /assets/imgs/projects/mdhs/mdhs-3.gif
+image-3: "/assets/imgs/projects/mdhs/mdhs-3.gif"
 image-3-caption: 
-image-4: /assets/imgs/projects/mdhs/mdhs-4.jpg
+image-4: "/assets/imgs/projects/mdhs/mdhs-4.jpg"
 image-4-caption: 
-image-5: /assets/imgs/projects/mdhs/mdhs-5.jpg
+image-5: "/assets/imgs/projects/mdhs/mdhs-5.jpg"
 image-5-caption: 
-image-6: /assets/imgs/projects/mdhs/mdhs-6.jpg
+image-6: "/assets/imgs/projects/mdhs/mdhs-6.jpg"
 image-6-caption: 
-image-7: /assets/imgs/projects/mdhs/mdhs-7.jpg
+image-7: "/assets/imgs/projects/mdhs/mdhs-7.jpg"
 image-7-caption: 
-image-8: /assets/imgs/projects/mdhs/mdhs-8.jpg
+image-8: "/assets/imgs/projects/mdhs/mdhs-8.jpg"
 image-8-caption: 
-image-9: /assets/imgs/projects/mdhs/mdhs-9.jpg
+image-9: "/assets/imgs/projects/mdhs/mdhs-9.jpg"
 image-9-caption: 
-image-10: /assets/imgs/projects/mdhs/mdhs-10.jpg
+image-10: "/assets/imgs/projects/mdhs/mdhs-10.jpg"
 image-10-caption: 
-image-11: /assets/imgs/projects/mdhs/mdhs-11.jpg
+image-11: "/assets/imgs/projects/mdhs/mdhs-11.jpg"
 image-11-caption: 
-image-12: /assets/imgs/projects/mdhs/mdhs-12.jpg
+image-12: "/assets/imgs/projects/mdhs/mdhs-12.jpg"
 image-12-caption: 
-
-# post settings
 layout: single/projects
-permalink: /work/maryland-historical-society/
 ---
 
 # The Maryland Historical Society is Maryland's premier museum for artifacts pertaining to the history of the state.

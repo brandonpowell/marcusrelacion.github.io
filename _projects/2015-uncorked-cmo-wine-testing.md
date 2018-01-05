@@ -1,11 +1,9 @@
 ---
-# post meta
-title: "TrackMaven Uncorked"
+title: TrackMaven Uncorked
+permalink: "/work/trackmaven-uncorked/"
 description: Branding and microsite for Uncorked; TrackMaven's annual event at SXSW.
-image:
+image: 
 image-alt: TrackMaven Uncorked logo
-
-# project information
 field: in-house
 client-header: Client
 client: TrackMaven
@@ -14,33 +12,28 @@ year: 2015
 type-header: Type
 type: Front-End Development
 collaborators-header: Collaborators
-collaborators: |
-  Laura McGuigan
+collaborators: 'Laura McGuigan
 
-# filter information
+'
 client-value: in-house
 skill-value: development
-
-# content
-image-1: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-1.jpg
-image-1-caption:
-image-2: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-2.jpg
-image-2-caption:
-image-3: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-3.jpg
-image-3-caption:
-image-4: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-4.jpg
-image-4-caption:
-image-5: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-5.jpg
-image-5-caption:
-image-6: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-6.jpg
-image-6-caption:
-image-7: /assets/imgs/projects/trackmaven-uncorked/tm-uncorked-7.jpg
-image-7-caption:
-
-# post settings
+image-1: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-1.jpg"
+image-1-caption: 
+image-2: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-2.jpg"
+image-2-caption: 
+image-3: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-3.jpg"
+image-3-caption: 
+image-4: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-4.jpg"
+image-4-caption: 
+image-5: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-5.jpg"
+image-5-caption: 
+image-6: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-6.jpg"
+image-6-caption: 
+image-7: "/assets/imgs/projects/trackmaven-uncorked/tm-uncorked-7.jpg"
+image-7-caption: 
 layout: single/projects
-permalink: /work/trackmaven-uncorked/
 ---
+
 # Uncorked: A CMO Wine Tasting was TrackMaven’s exclusive annual event held at SXSW in Austin, TX from 2015-2016.
 
 For the Uncorked project, it was my responsibility to establish the following:
