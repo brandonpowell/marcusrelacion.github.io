@@ -59,6 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (= 3.7.0)
   jekyll-feed (~> 0.6)
   liquid
 

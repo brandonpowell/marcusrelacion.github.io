@@ -3,4 +3,5 @@ source 'http://rubygems.org'
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"
     gem 'liquid'
+    gem "jekyll", "3.7.0"
 end
