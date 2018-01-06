@@ -4,31 +4,15 @@ jobs:
     company: Clarabridge
     title: Junior UI Designer
     location: Reston, VA
-    link: clarabridge
   - years: Jan 2015 - Apr 2016
     company: TrackMaven
     title: Design Intern + Junior Design Maven
-    description: | 
-      _From January to June 2015 I was an intern with the design team, before being hired as a full-time designer._
-
-      As a junior designer, and former design intern, at TrackMaven, my involvement and responsibilities included Collaborating with the marketing team to deliver illustrated blog graphics, trade show booths, printed materials, social media graphics and templates, case studies, and industry reports. 
-      
-      Teaming up with the front-end developer to manage and update the TrackMaven website and affiliated microsites. 
-      
-      Duties included building out new features for the site, as well as identifying and fixing bugs that hampered the site’s overall quality.
     location: Washington, DC
-    link: trackmaven-1
   - years: Sep 2012 - Jan 2015
     company: Center for Art Design and Visual Culture
     title: Junior Exhibition Designer
-    description: |
-      Working alongside the Lead Exhibition Designer, Program Director and Business Manager of the CADVC, I have worked on various design projects involving  book design, layouts, 3D modeling, branding and fabrication related to the CADVC’s current and upcoming exhibitions. I have also assisted in the maintenance and upkeep of the gallery space.
     location: Baltimore, MD
-    link: cadvc
   - years: Jun 2013 - August 2013
     company: Smithsonian National Air and Space Museum
     title: Exhibition Design Intern
-    description: |
-      As a member of the Exhibition Design Department, I worked on numerous design projects involving layouts, iconography, branding, way finding and fabrication related to the Museum’s current and upcoming exhibitions.
     location: Washington, DC
-    link: nasm

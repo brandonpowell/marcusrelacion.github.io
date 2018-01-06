@@ -5,7 +5,7 @@
       <h2 class="lh-title ma0 mb1 f4 f3-ns fw9 noto-serif white db">{{ page.about-header }}</h2>
       <span class="lh-copy ma0 f5 f4-l fw4 source-sans-pro white-60 db">{{ page.about-subheader | markdownify }}</span>
       {% if show-resume-button == "true" %}
-      <a class="btn btn--primary source-sans-pro shadow-1 dib mt4 f5" href="{{ page.about-resume }}">Download Resume</a>
+        <a class="btn btn--primary source-sans-pro shadow-1 dib mt4 f5" href="{{ page.about-resume }}">Download Resume</a>
       {% endif %}
     </div>
   </div>
@@ -19,14 +19,14 @@
         <h2 class="lh-title ma0 mb3 f7 f6-ns fw9 ttu noto-serif mr-secondary db">Experience</h2>
         <ul class="work-experience content-card-list list pl0 ma0 bt bw1 black-10 pt3">
           {% for job in site.data.resume.jobs %}
-          <li>
-            <div class="content-card-details relative mb4">
-              <h6 class="content-card-date ma0 mb3 mr2 f6 fw7 source-sans-pro white bg-mr-primary pa1 dib br1">{{ job.years }}</h6>
-              <p class="content-card-type ma0 f6 fw4 source-sans-pro black-40 dn dib-l">{{ job.location }}</p>
-              <h2 class="content-card-title ma0 mb1 f5 f4-ns fw9 lh-title mr-secondary noto-serif pr3-l">{{ job.company }}</h2>
-              <p class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ job.title }}</p>
-            </div>
-          </li>
+            <li>
+              <div class="content-card-details relative mb4">
+                <h6 class="content-card-date ma0 mb3 mr2 f6 fw7 source-sans-pro white bg-mr-primary pa1 dib br1">{{ job.years }}</h6>
+                <p class="content-card-type ma0 f6 fw4 source-sans-pro black-40 dn dib-l">{{ job.location }}</p>
+                <h2 class="content-card-title ma0 mb1 f5 f4-ns fw9 lh-title mr-secondary noto-serif pr3-l">{{ job.company }}</h2>
+                <p class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ job.title }}</p>
+              </div>
+            </li>
           {% endfor %}
         </ul>
       </div>
@@ -37,14 +37,14 @@
           <h2 class="lh-title ma0 mb3 f7 f6-ns fw9 ttu noto-serif mr-secondary db">Education</h2>
           <ul class="education content-card-list list pl0 ma0 mb4 bt bw1 black-10 pt3">
             {% for school in site.data.schools.schools %}
-            <li class="mb4">
-              <div class="content-card-details">
-                <h6 class="content-card-date ma0 mb3 mr2 f6 fw7 source-sans-pro white bg-mr-primary pa1 dib br1">{{ school.years }}</h6>
-                <p class="content-card-type ma0 f6 fw4 source-sans-pro black-40 dn dib-l">{{ school.location }}</p>
-                <h2 class="content-card-title ma0 mb1 f5 f4-ns fw9 lh-title mr-secondary noto-serif pr3-l">{{ school.school }}</h2>
-                <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ school.degree | markdownify }}</span>
-              </div>
-            </li>
+              <li class="mb4">
+                <div class="content-card-details">
+                  <h6 class="content-card-date ma0 mb3 mr2 f6 fw7 source-sans-pro white bg-mr-primary pa1 dib br1">{{ school.years }}</h6>
+                  <p class="content-card-type ma0 f6 fw4 source-sans-pro black-40 dn dib-l">{{ school.location }}</p>
+                  <h2 class="content-card-title ma0 mb1 f5 f4-ns fw9 lh-title mr-secondary noto-serif pr3-l">{{ school.school }}</h2>
+                  <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ school.degree | markdownify }}</span>
+                </div>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -54,12 +54,12 @@
           <h2 class="lh-title ma0 mv3 f7 f6-ns fw9 ttu noto-serif mr-secondary db">Skills</h2>
           <ul class="skills content-card-list list pl0 ma0 bt bw1 black-10 pt3">
             {% for skill in site.data.skills.skills %}
-            <li>
-              <div class="content-card-details">
-                <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ skill.design | markdownify }}</span>
-                <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ skill.development | markdownify }}</span>
-              </div>
-            </li>
+              <li>
+                <div class="content-card-details">
+                  <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ skill.design | markdownify }}</span>
+                  <span class="content-card-date ma0 f6 f5-ns fw4 lh-copy black-50 source-sans-pro">{{ skill.development | markdownify }}</span>
+                </div>
+              </li>
             {% endfor %}
           </ul>
         </div>

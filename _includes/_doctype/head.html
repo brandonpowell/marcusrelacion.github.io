@@ -36,30 +36,30 @@
 
 	<!-- title -->
 	<title>{{ site.title }}</title>
+
 	<!-- icons -->
 	<link rel='shortcut icon' type='image/x-icon' href='' />
+
 	<!-- styles -->
 	<link href="/assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
+
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Source+Sans+Pro:400,900" rel="stylesheet">
-	<!-- smart browser detection -->
+
+	<!-- Smart Browser Detection -->
 	<script type="text/javascript">
 		if ('visibilityState' in document) {
 			var doc = document.getElementsByTagName("html");
 			doc[0].className = 'modern-browser';
 		}
 	</script>
+	<!-- End Smart Browser Detection -->
+
 	<!-- html5shiv -->
 	<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+
+	<!-- Smoothscroll -->
 	<script src="/assets/js/smooth-scroll.polyfills.min.js"></script>
-	<script>
-		!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-		arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-		d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-		insertBefore(d,q)}(window,document,'script','_gs');
-	
-	 _gs('GSN-407027-K');
-	</script>
 
 	<!-- Google Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,7 +73,7 @@
 	</script>
 	<!-- End Google Analytics -->
 
-	
+	<!-- Service Worker -->
 	<script>
 		//This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
 
@@ -90,4 +90,5 @@
 			});
 		}
 	</script>
+	<!-- End Service Worker -->
 </head>
