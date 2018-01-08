@@ -20,6 +20,20 @@
 					<li class="dib mb2">
 						<a data-scroll href="#contact" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Contact</a>
 					</li>
+				{% elsif page.url == "/photos/" %}
+					<li class="dib mb2">
+						<a href="/" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Back to Home</a>
+					</li>
+					<li class="dib mb2">
+						<a data-scroll href="#contact" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Contact</a>
+					</li>
+				{% elsif page.layout == "single/photos" %}
+					<li class="dib mb2">
+						<a href="/photos/" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Back to Photos</a>
+					</li>
+					<li class="dib mb2">
+						<a data-scroll href="#contact" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Contact</a>
+					</li>
 				{% elsif page.url == "/thank-you/" or page.url == "/404.html" or page.url == "/offline.html" %}
 					<li class="dib mb2">
 						<a href="/" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Back to Home</a>
@@ -27,6 +41,9 @@
 				{% else %}
 					<li class="dib mb2">
 						<a data-scroll href="#projects" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Projects</a>
+					</li>
+					<li class="dib mb2">
+						<a data-scroll href="#photos" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">Photos</a>
 					</li>
 					<li class="dib mb2">
 						<a data-scroll href="#about" class="dib ma0 ml2 mr3-l pa2 pa3-l link dim white-60 f6 f5-l fw4 source-sans-pro">About</a>

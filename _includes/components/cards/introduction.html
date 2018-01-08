@@ -44,6 +44,18 @@
     </div>
     {% endif %}
   </div>
+  {% elsif page.layout == "single/photos" %}
+  <div class="mw7 center flex flex-column flex-row-ns pa4-l">
+    <div class="w-100 w-50-l self-center pa3 pa0-l">
+      <h1 class="lh-title ma0 mb2 f3 f2-l fw9 noto-serif white">{{ page.title }}</h1>
+      <span class="lh-copy ma0 f5 f4-l fw4 source-sans-pro white-60 db">{{ page.description | markdownify }}</span>
+    </div>
+    {% if page.image %}
+    <div class="w-100 w-50-l flex-auto self-center">
+      <figure class="content-card-image ma0 pa0 br1 overflow-hidden pl4-l"><img class="v-mid db w-100" src="{{ page.image }}" alt="{{ page.image-alt }}"></figure>
+    </div>
+    {% endif %}
+  </div>
   {% else %}
   <div class="mw7 center flex flex-column flex-row-ns pa4-l">
     <div class="w-100 w-50-l flex-auto self-center pa3 pa0-l">

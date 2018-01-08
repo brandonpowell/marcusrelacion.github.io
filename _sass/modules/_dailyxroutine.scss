@@ -1,0 +1,45 @@
+.microblog_timeline {
+    max-width: 64rem;
+    margin: 4rem auto;
+}
+
+.microblog_post {
+    display: inline-block;
+    max-width: 49%;
+    padding: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .microblog_post {
+        max-width: 24%;
+    }
+}
+
+.microblog_text p:first-child {
+    display: none;
+}
+
+.microblog_text p {
+    margin: 0;
+    padding: 0;
+}
+
+.microblog_time {
+    display: none;
+}
+
+.microblog_text img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    display: block;
+    border-radius: 4px;
+    filter: grayscale(100%);
+    transition: 250ms ease-out;
+}
+
+.microblog_text img:hover {
+    filter: grayscale(0%);
+}
