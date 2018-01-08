@@ -26,7 +26,7 @@
         <ul class="pl0 ma0">
           {% for link in site.data.navigation.social-nav %}
             <li class="dib mb2">
-              <a href="{{ site.url }}{{ link.url }}" class="link dim white-50 f6 fw4 source-sans-pro" target="_blank">{{ link.title }}</a>
+              <a rel="me" href="{{ site.url }}{{ link.url }}" class="link dim white-50 f6 fw4 source-sans-pro" target="_blank">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
