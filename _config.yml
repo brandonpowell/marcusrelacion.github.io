@@ -2,17 +2,8 @@
 title: Marcus Relacion, Designer & Developer
 timezone: America/New_York
 collections:
-  notes:
-    title: Notes
-    output: false
-  photos:
-    title: Photos
-    output: true
   posts:
     title: Posts
-    output: true
-  projects:
-    title: Projects
     output: true
   uploads:
     title: Uploads
@@ -29,47 +20,12 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-    path: ''
-    type: jobs
-  values:
-    is-current: 
-    job-duration: 
-    job-title: 
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: single/project
-    year: 
-    image: 
-    description: 
-    main-content-text: 
-    client: 
-    role: 
-    collaborators: []
-    skills: []
-- scope:
-    path: ''
-    type: photos
-  values:
-    layout: single/photo
-    year: 
-    image: 
-    description: 
-    main-content-text: 
-    client: 
-    role: 
-    collaborators: []
-    skills: []
-description: Marcus Relacion is a designer and developer located in Alexandria, VA.
-google-analytics: UA-111997703-1
-copyright: 2017 &amp; beyond, Marcus Relacion
+copyright: 2018 &amp; beyond, Marcus Relacion
 sass:
   sass_dir: _sass
   style: compressed
 permalink: pretty
-plugins:
+plugins_dir:
 - jekyll-feed
 exclude:
 - package.json
