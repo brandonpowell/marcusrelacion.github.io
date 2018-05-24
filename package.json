@@ -1,5 +1,5 @@
 {
-  "name": "2016.marcusrelacion.com-v2",
+  "name": "marcusrelacion.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcusrelacion/2016.marcusrelacion.com-v2.git"
+    "url": "git+https://github.com/marcusrelacion/marcusrelacion.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcusrelacion/2016.marcusrelacion.com-v2/issues"
+    "url": "https://github.com/marcusrelacion/marcusrelacion.github.io/issues"
   },
-  "homepage": "https://github.com/marcusrelacion/2016.marcusrelacion.com-v2#readme",
+  "homepage": "https://github.com/marcusrelacion/marcusrelacion.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
