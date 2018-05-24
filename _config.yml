@@ -20,7 +20,6 @@ defaults:
     type: pages
   values:
     layout: page
-copyright: 2018 &amp; beyond, Marcus Relacion
 sass:
   sass_dir: _sass
   style: compressed
