@@ -1,5 +1,3 @@
 # marcusrelacion.com
 
----
-
 Currently updating 👌
