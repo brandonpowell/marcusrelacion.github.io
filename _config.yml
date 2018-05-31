@@ -41,7 +41,7 @@ logo:
 description: Marcus Relacion is an East Coast based UI Designer currently living in
   Alexandria, VA.
 url: https://marcusrelacion.com
-baseurl: ''
+baseurl: 
 repo: https://github.com/marcusrelacion/marcusrelacion.github.io
 email: hello@marcusrelacion.com
 navigation_header: 
