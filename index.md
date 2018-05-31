@@ -12,6 +12,7 @@ introduction-body: Currently, I'm a UI Designer at <a href="https://clarabridge.
   white">shooting photographs</a> and improving my <a href="https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/zenyatta.jpg"
   target="_blank" class="fw9 white">discord callouts</a>.
 background-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/mr-portrait-blossoms-opti.jpg
+layout: default
 ---
 
 <h1 class="ma0 mb2 white lh-title">
