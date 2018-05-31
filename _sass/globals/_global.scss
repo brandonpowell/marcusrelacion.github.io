@@ -1,93 +1,19 @@
-.mr-primary {
-  color: $mr-primary;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 90vh;
 }
 
-.mr-primary-light {
-  color: $mr-primary-light;
-}
-
-.mr-secondary {
-  color: $mr-secondary;
-}
-
-.bg-mr-primary {
-  background-color: $mr-primary;
-}
-
-.bg-mr-primary-light {
-  background-color: $mr-primary-light;
-}
-
-.bg-mr-secondary {
-  background-color: $mr-secondary;
-}
-
-.header--fixed {
-  z-index: 9999;
-}
-
-.slant-left-right {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-  z-index: 999;
-  position: relative;
-  padding-bottom: 75px;
-  margin-bottom: -100px;
-}
-
-.slant-right-left {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
-  z-index: 999;
-  position: relative;
-  padding-bottom: 75px;
-  margin-bottom: -100px;
-}
-
-.btn {
-  cursor: pointer;
-  transition: all 100ms ease-out;
-  font-size: 16px;
-  padding: 16px 24px;
-  text-decoration: none;
-  font-weight: 600;
-  &--primary {
-    background-color: $mr-primary;
-    border-radius: 2px;
-    color: #ffffff;
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
-  &--primary:hover {
-    background-color: $mr-primary-light;
-  }
-  &--primary:active {
-    transform: translateY(3px);
-  }
-}
 
-.coming-soon::after {
-  content: "Coming Soon! 👀";
-  position: absolute;
-  background-color: $mr-secondary;
-  font-family: $source-sans-pro;
-  font-weight: 900;
-  text-align: center;
-  color: #ffffff;
-  padding: 40px 0;
-  top: 5%;
-  bottom: 5%;
-  left: 5%;
-  right: 5%;
-  opacity: 0.9;
-  margin: 0;
-  cursor: not-allowed;
-}
-
-@media screen and (min-width:768px) {
-  .coming-soon::after {
-    padding: 32px;
-    top: 20%;
-    bottom: 20%;
-    left: 20%;
-    right: 20%;
+  .grid-item {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 }

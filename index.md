@@ -1,33 +1,30 @@
 ---
 title: Home
 date: 2016-10-01 17:37:00 -04:00
-position: 1
-image: ''
-introduction-header: "Hello! \U0001F44B\U0001F3FE"
-introduction-subheader: "I'm Marcus Relacion, a designer and front-end developer from
-  Washington, DC. \n\n<mark class=\"pa1 br1 bg-mr-primary white f5 f4-ns\">Currently
-  a UI Designer at <a class=\"white\" href=\"http://www.clarabridge.com\" target=\"_blank\">Clarabridge</a>.</mark>\n"
-introduction-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/mr-portrait.jpg
-introduction-image-alt: Portrait of Marcus Relacion, designer and developer from Washington,
-  DC
-projects-header: Projects
-projects-subheader: Take a moment to view some of the projects I’ve had the opportunity
-  to work on over the years.
-projects-archive-link: "/projects/"
-projects-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/hero-work.jpg
-photos-header: Photos
-photos-subheader: 
-photos-archive-link: "/photos/"
-photos-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/hero-notes.jpg
-about-header: About
-about-subheader: "I'm currently living in Washington, DC and working as a UI Designer
-  at Clarabridge. Previously, I worked as a Designer at TrackMaven. \n\nOutside of
-  work, I spend the bulk of my time taking photographs, spending time with friends
-  and family and gaming.\n"
-about-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/hero-about.jpg
-about-image-alt: Portrait of Marcus Relacion, designer and developer from Washington,
-  DC
-about-resume: 
-layout: pages/home
+introduction-header: Marcus Relacion
+introduction-subheader: I'm a designer, gamer and photographer based in Alexandria,
+  VA.
+introduction-body: Currently, I'm a UI Designer at <a href="https://clarabridge.com"
+  target="_blank" class="fw9 white">Clarabridge</a>, where I'm focusing on finding
+  a balance between design and development. When I'm not designing or developing,
+  I can often be found spending time with my friends and family, trying new cooking
+  recipes, <a href="https://instagram.com/marcusrelacion" target="_blank" class="fw9
+  white">shooting photographs</a> and improving my <a href="https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/zenyatta.jpg"
+  target="_blank" class="fw9 white">discord callouts</a>.
+background-image: https://marcusrelacion.nyc3.digitaloceanspaces.com/branding/mr-portrait-blossoms-opti.jpg
 ---
 
+<h1 class="ma0 mb2 white lh-title">
+  {{ page.introduction-header }}
+</h1>
+<p class="ma0 mb4 white lh-copy">
+  {{ page.introduction-subheader }}
+</p>
+
+<p class="ma0 mb4 white lh-copy">
+  {{ page.introduction-body }}
+</p>
+
+<a href="https://twitter.com/marcusrelacion" target="_blank" class="dib white fw9 pr3">Twitter</a>
+<a href="https://github.com/marcusrelacion/" target="_blank" class="dib white fw9 pr3">Github</a>
+<a href="mailto:hello@marcusrelacion.com" class="dib white fw9 pr3">Email</a>
