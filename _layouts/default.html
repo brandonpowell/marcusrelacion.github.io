@@ -2,5 +2,16 @@
     <body class="vh-100 pa4 sans-serif" style="background-color: salmon; background-image: url('{{ page.background-image }} '); background-size: cover; background-position: center center; background-repeat: no-repeat;">
         {{ content }}
         <script type="text/javascript" src="/assets/js/app.js"></script>
+        <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
     </body>
 {% include doctype-closed.html %}
