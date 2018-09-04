@@ -15,16 +15,16 @@ defaults:
     image: 
 exclude:
 - package.json
-- gulpfile.js
 - node_modules
 - README.md
 - Gemfile
 - Gemfile.lock
 - ".jekyll-metadata"
 - ".sass-cache"
-- CNAME
 - ".DS_Store"
-plugins_dir:
+- package-lock.json
+- package.json
+plugins:
 - jekyll-feed
 sass:
   sass_dir: _sass
@@ -33,12 +33,8 @@ permalink: pretty
 encoding: utf-8
 lang: en-US
 logo: 
-description: Marcus Relacion is an East Coast based UI Designer currently living in
-  Alexandria, VA.
+description:
 url: https://marcusrelacion.com
 baseurl: 
 repo: https://github.com/marcusrelacion/marcusrelacion.github.io
 email: hello@marcusrelacion.com
-navigation_header: 
-navigation_footer: 
-social_links: 

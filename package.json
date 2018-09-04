@@ -16,13 +16,6 @@
     "url": "https://github.com/marcusrelacion/marcusrelacion.github.io/issues"
   },
   "homepage": "https://github.com/marcusrelacion/marcusrelacion.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.1"
-  },
   "dependencies": {
     "jekyll": ">=3.0.0-beta1"
   }

@@ -1,9 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-ruby ">=2.2.5"
+gem 'jekyll'
 
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.6"
-    gem 'liquid'
+  gem 'jekyll-feed'
 end
