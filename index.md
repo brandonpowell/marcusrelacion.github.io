@@ -1,13 +1,11 @@
 ---
 title: Home
 description: 
-
 image: "/assets/images/us.jpg"
 image-alt: Photo of Us
-
-#settings
 layout: default
 ---
+
 <img src="{{ page.image }}" alt="{{ page.image-alt }}">
 
 # Hi, I'm Marcus Relacion 👋🏾
