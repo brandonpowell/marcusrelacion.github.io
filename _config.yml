@@ -1,18 +1,14 @@
----
-title: Marcus Relacion, Designer & Developer
-timezone: America/New_York
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-  values:
-    image: 
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
+
+# 1. Files excluded from Jekyll builds
 exclude:
 - package.json
 - node_modules
@@ -24,17 +20,63 @@ exclude:
 - ".DS_Store"
 - package-lock.json
 - package.json
+- config.codekit3
+
+# 2. Installed Gems
 plugins:
-- jekyll-feed
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 3. Gem settings
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: marcusrelacion # jekyll-seo-tag > Owners twitter username
+author: Marcus Relacion # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: Marcus Relacion # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/marcusrelacion
+    - https://www.linkedin.com/in/marcusrelacion
+    - https://github.com/marcusrelacion
+    - https://www.instagram/marcusrelacion
+
+    # 4. Jekyll settings
 sass:
   sass_dir: _sass
-  style: compressed
-permalink: pretty
-encoding: utf-8
-lang: en-US
-logo: 
-description: 
-url: https://marcusrelacion.com
-baseurl: 
-repo: https://github.com/marcusrelacion/marcusrelacion.github.io
-email: hello@marcusrelacion.com
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+timezone: America/New_York # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "Notes" # The post list page content
+  uploads:
+    title: Uploads
+    output: true
+
+    # 6. Jekyll collections settings
+defaults:
+- scope:
+    path: ''
+  values:
+    image: # Default image for sharing
+
+    # 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
+title: "Marcus Relacion, Designer & Developer" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "Marcus Relacion is a UI designer and front-end developer from Washington, DC. He can often be found taking pictures, playing video games and trying new cooking recipes." # Site description and default description, also used in jekyll-seo-tag
+url: "https://marcusrelacion.com" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+repo: "https://github.com/marcusrelacion/marcusrelacion.github.io"
+email: "hello@marcusrelacion.com"
+avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+# 8. Site navigation

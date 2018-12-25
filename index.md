@@ -1,6 +1,6 @@
 ---
 title: Home
-description: 
+description:
 image: "/assets/images/us.jpg"
 image-alt: Photo of Us
 layout: default
